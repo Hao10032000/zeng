@@ -51,19 +51,6 @@ function themesflat_setup() {
      */
 
     add_theme_support( 'post-thumbnails' ); 
-    // 366
-    add_image_size( 'themesflat-blog', 976, 549, true );
-    // 320
-    add_image_size( 'themesflat-blog-grid', 639, 480, true );  
-    // 700  
-    add_image_size( 'themesflat-blog-single', 1800, 720, true );  
-    // 674
-    add_image_size( 'themesflat-blog-single-2', 1350, 1012, true );    
-    // 277
-    add_image_size( 'themesflat-blog-style1', 555, 415, true );  
-    add_image_size( 'themesflat-blog-style2', 480, 270, true );   
-    // 220
-    add_image_size( 'themesflat-blog-style3', 588, 330, true );   
 
     //Get thumbnail url
     function themesflat_thumbnail_url($size){
@@ -184,34 +171,46 @@ add_action( 'widgets_init', 'themesflat_widgets_init' );
  * Enqueue scripts and styles.
  */
 
-function themesflat_scripts() {    
-    // Theme stylesheet.    
+function themesflat_scripts() {
+
+    // Load CSS
     wp_enqueue_style( 'icon-zeng', THEMESFLAT_LINK . 'css/icon-zeng.css' );
-    wp_enqueue_style( 'icon-zeng-extend', THEMESFLAT_LINK . 'css/icon-zeng-extend.css' );
     wp_enqueue_style( 'themesflat-style', THEMESFLAT_LINK . 'css/style.css' );
-    wp_enqueue_style( 'themesflat-inline-css', THEMESFLAT_LINK . 'css/inline-css.css' );    
-    wp_enqueue_style( 'swiper-theme', THEMESFLAT_LINK . 'css/swiper-bundle.min.css' );   
-    
-    wp_enqueue_script( 'jquery-mb-ytplayer', THEMESFLAT_LINK . 'js/jquery.mb.YTPlayer.js', array('jquery'),'3.2.8',true);     
-    wp_enqueue_script( 'swiper-theme', THEMESFLAT_LINK . 'js/swiper-bundle.min.js' );   
-    
+    wp_enqueue_style( 'themesflat-inline-css', THEMESFLAT_LINK . 'css/inline-css.css' );
+    wp_enqueue_style( 'swiper-theme', THEMESFLAT_LINK . 'css/swiper-bundle.min.css' );
+    wp_enqueue_style( 'animate-text', THEMESFLAT_LINK . 'css/animateText.css' );
+    wp_enqueue_style( 'fancybox', THEMESFLAT_LINK . 'css/jquery.fancybox.min.css' );
+    wp_enqueue_style( 'odometer', THEMESFLAT_LINK . 'css/odometer.min.css' );
+
+    // Load JS
+    wp_enqueue_script( 'swiper-theme', THEMESFLAT_LINK . 'js/swiper-bundle.min.js', array(), '1.0.0', true );
+
     if ( themesflat_get_opt('enable_smooth_scroll') == 1 ) {
-        wp_enqueue_script( 'smoothscroll', THEMESFLAT_LINK . 'js/smoothscroll.js', array(),'1.2.1',true);
+        wp_enqueue_script( 'smoothscroll', THEMESFLAT_LINK . 'js/smoothscroll.js', array(), '1.2.1', true );
     }
-    
+
     if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-        wp_enqueue_script( 'comment-reply', array(),'2.0.4',true );
-    }    
-    
-    // Load the main js    
-    wp_enqueue_script( 'themesflat-main', THEMESFLAT_LINK . 'js/main.js', array(),'2.0.4',true);
+        wp_enqueue_script( 'comment-reply' );
+    }
 
-    wp_enqueue_script( 'splitting', THEMESFLAT_LINK . 'js/splitting.min.js' );
-    wp_enqueue_script( 'bootstrap-js', THEMESFLAT_LINK . 'js/bootstrap.min.js' );
-    
+    // Main JS scripts
+    wp_enqueue_script( 'bootstrap-js', THEMESFLAT_LINK . 'js/bootstrap.min.js', array('jquery'), '1.0.0', true );
+    wp_enqueue_script( 'ScrollTrigger', THEMESFLAT_LINK . 'js/ScrollTrigger.min.js', array('gsap'), '1.0.0', true );
+    wp_enqueue_script( 'gsap', THEMESFLAT_LINK . 'js/gsap.min.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'handleGsap', THEMESFLAT_LINK . 'js/handleGsap.js', array('gsap'), '1.0.0', true );
+    wp_enqueue_script( 'fancybox', THEMESFLAT_LINK . 'js/jquery.fancybox.js', array('jquery'), '1.0.0', true );
+    wp_enqueue_script( 'lazysize', THEMESFLAT_LINK . 'js/lazysize.min.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'odometer', THEMESFLAT_LINK . 'js/odometer.min.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'counter', THEMESFLAT_LINK . 'js/counter.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'ScrollSmooth', THEMESFLAT_LINK . 'js/ScrollSmooth.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'SplitText', THEMESFLAT_LINK . 'js/SplitText.min.js', array('gsap'), '1.0.0', true );
+    wp_enqueue_script( 'splitting', THEMESFLAT_LINK . 'js/splitting.min.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'textanimation', THEMESFLAT_LINK . 'js/textanimation.js', array('splitting'), '1.0.0', true );
+    wp_enqueue_script( 'carousel', THEMESFLAT_LINK . 'js/carousel.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'themesflat-main', THEMESFLAT_LINK . 'js/main.js', array('jquery'), '1.0.0', true );
 }
-
 add_action( 'wp_enqueue_scripts', 'themesflat_scripts' );
+
 
 
 /**
@@ -284,97 +283,6 @@ function themesflat_load_admin_style() {
 }
 add_action( 'admin_enqueue_scripts', 'themesflat_load_admin_style', 999 );
 
-// Add custom user profile fields to wp-admin user edit page
-function add_custom_user_profile_fields($user) {
-    ?>
-    <h2>Profile Information</h2>
-    <table class="form-table">
-        <tr>
-            <th><label for="full_name">Full Name</label></th>
-            <td>
-                <input type="text" name="full_name" id="full_name" value="<?php echo esc_attr(get_the_author_meta('full_name', $user->ID)); ?>" class="regular-text" />
-            </td>
-        </tr>
-        <tr>
-            <th><label for="job_title">Job Title / Current Occupation</label></th>
-            <td>
-                <input type="text" name="job_title" id="job_title" value="<?php echo esc_attr(get_the_author_meta('job_title', $user->ID)); ?>" class="regular-text" />
-            </td>
-        </tr>
-        <tr>
-            <th><label for="address">Address</label></th>
-            <td>
-                <input type="text" name="address" id="address" value="<?php echo esc_attr(get_the_author_meta('address', $user->ID)); ?>" class="regular-text" />
-            </td>
-        </tr>
-        <tr>
-            <th><label for="cv_link">View My CV (URL)</label></th>
-            <td>
-                <input type="url" name="cv_link" id="cv_link" value="<?php echo esc_attr(get_the_author_meta('cv_link', $user->ID)); ?>" class="regular-text" />
-            </td>
-        </tr>
-        <tr>
-            <th><label for="contact_link">Contact Link</label></th>
-            <td>
-                <input type="url" name="contact_link" id="contact_link" value="<?php echo esc_attr(get_the_author_meta('contact_link', $user->ID)); ?>" class="regular-text" />
-            </td>
-        </tr>
-
-        <?php
-        // List of social media platforms (required and optional)
-        $socials = [
-            'linkedin' => 'LinkedIn',
-            'github' => 'GitHub',
-            'twitter' => 'X (Twitter)',
-            'dribbble' => 'Dribbble',
-            'facebook' => 'Facebook',
-            'instagram' => 'Instagram',
-            'tiktok' => 'TikTok',
-            'youtube' => 'YouTube',
-            'behance' => 'Behance',
-            'medium' => 'Medium',
-        ];
-
-        foreach ($socials as $key => $label) {
-            ?>
-            <tr>
-                <th><label for="<?php echo $key; ?>"><?php echo $label; ?> URL</label></th>
-                <td>
-                    <input type="url" name="<?php echo $key; ?>" id="<?php echo $key; ?>" value="<?php echo esc_attr(get_the_author_meta($key, $user->ID)); ?>" class="regular-text" />
-                </td>
-            </tr>
-            <?php
-        }
-        ?>
-    </table>
-    <?php
-}
-// Hook into user profile display actions
-add_action('show_user_profile', 'add_custom_user_profile_fields');
-add_action('edit_user_profile', 'add_custom_user_profile_fields');
-
-// Save custom user profile fields
-function save_custom_user_profile_fields($user_id) {
-    // Check permission
-    if (!current_user_can('edit_user', $user_id)) return false;
-
-    // List of all fields to save
-    $fields = [
-        'full_name', 'job_title', 'address', 'cv_link', 'contact_link',
-        'linkedin', 'github', 'twitter', 'dribbble',
-        'facebook', 'instagram', 'tiktok', 'youtube', 'behance', 'medium',
-    ];
-
-    // Save each field if submitted
-    foreach ($fields as $field) {
-        if (isset($_POST[$field])) {
-            update_user_meta($user_id, $field, esc_url_raw($_POST[$field]));
-        }
-    }
-}
-// Hook into user profile save actions
-add_action('personal_options_update', 'save_custom_user_profile_fields');
-add_action('edit_user_profile_update', 'save_custom_user_profile_fields');
 
 
 

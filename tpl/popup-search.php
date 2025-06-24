@@ -58,14 +58,6 @@
                                                 echo '<li>';   
                                                     echo get_the_date();
                                                 echo '</li>';
-                                                echo '<li>';
-                                                    printf(
-                                                        ' <a class="link" href="%s" title="%s" rel="author">%s</a>',
-                                                        esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) )),
-                                                        esc_attr( sprintf( __( '%s', 'zeng' ), get_user_full_name($author_id) )),
-                                                        get_user_full_name($author_id)
-                                                    );
-                                                echo '</li>';
                                             ?>
                                         </ul>
                                     <?php the_title( sprintf( '<h6 class="title"><a href="%s" class="link line-clamp-2" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h6>' ); ?>                        

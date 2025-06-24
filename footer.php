@@ -11,7 +11,6 @@ if (themesflat_get_opt_elementor('style_footer') != '') {
     $style_footer = themesflat_get_opt_elementor('style_footer');
 }
 ?>        
-        </div><!-- #content -->
     </div><!-- #main-content -->
 
 

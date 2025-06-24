@@ -138,7 +138,7 @@ function themesflat_customize_default($key) {
 		'footer_heading_menu_2' => 'Categories',
 		'footer_heading_menu_3' => 'Useful Links',
 		'typography_bottom_copyright' => array(
-			'family' => 'Rethink Sans',
+			'family' => 'Epilogue',
 			'style'  => '400',
 			'size'   => '14',
 			'line_height'=>'22px',

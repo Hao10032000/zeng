@@ -393,25 +393,16 @@ add_action( 'wp_head', 'themesflat_pingback_header' );
 
 function themesflat_preload_hook(){
 
-    if ( themesflat_get_opt('header_search_box') == 1 ) {
-        get_template_part( 'tpl/popup-search');
-    }
 
-    get_template_part( 'tpl/header/menu-mobile');
+    // if ( themesflat_get_opt( 'go_top') == 1 ) {
+    //     echo '<div class="progress-wrap active-progress">
+    //         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+    //             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 0;">
+    //             </path>
+    //         </svg>
+    //     </div>';
+    // }
 
-    if ( themesflat_get_opt( 'go_top') == 1 ) {
-        echo '<div class="progress-wrap active-progress">
-            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 0;">
-                </path>
-            </svg>
-        </div>';
-    }
-
-    if ( themesflat_get_opt( 'enable_freelancer') == 1 ) {
-        get_template_part( 'tpl/popup-freelancer');
-    }
-    
 }
 add_action( 'wp_body_open', 'themesflat_preload_hook' );
 
@@ -720,266 +711,128 @@ add_filter('nav_menu_submenu_css_class', 'custom_submenu_ul_class', 10, 3);
 // Remove tag br in contactform
 add_filter('wpcf7_autop_or_not', '__return_false'); 
 
-function get_reading_time( $post_id = null ) {
-    if ( ! $post_id ) $post_id = get_the_ID();
-    $content = get_post_field( 'post_content', $post_id );
-    $word_count = str_word_count( wp_strip_all_tags( $content ) );
-    $minutes = ceil( $word_count / 200 ); // 200 wpm
-    return $minutes . ' min read';
-}
-
-add_filter('wp_list_categories', 'remove_category_count_parentheses');
-function remove_category_count_parentheses($output) {
-    $output = preg_replace('/\((\d+)\)/','<span class="count">$1</span>', $output);
-    return $output;
-}
-
-function enqueue_user_media_uploader($hook) {
-    if ($hook === 'user-edit.php' || $hook === 'profile.php') {
-        wp_enqueue_media(); 
+function zeng_enqueue_media_uploader($hook) {
+    // Only load on user profile/edit pages
+    if ($hook === 'profile.php' || $hook === 'user-edit.php') {
+        wp_enqueue_media(); // Load WordPress media uploader
     }
 }
-add_action('admin_enqueue_scripts', 'enqueue_user_media_uploader');
+add_action('admin_enqueue_scripts', 'zeng_enqueue_media_uploader');
 
-function my_custom_user_profile_fields($user) {
+// Add custom user profile fields to wp-admin user edit page
+function add_custom_user_profile_fields($user) {
     ?>
-    <h2> <?php esc_html_e('Additional information', 'zeng') ?> </h2>
+    <h2><?php esc_html_e('Profile Information', 'zeng'); ?></h2>
     <table class="form-table">
+        <!-- Avatar -->
         <tr>
-            <th><label for="address"><?php esc_html_e('Address', 'zeng') ?></label></th>
+            <th><label for="custom_avatar"><?php esc_html_e('Custom Avatar', 'zeng'); ?></label></th>
             <td>
-                <input type="text" name="address" id="address" value="<?php echo esc_attr(get_the_author_meta('address', $user->ID)); ?>" class="regular-text" />
+                <?php $avatar_url = esc_url(get_the_author_meta('custom_avatar', $user->ID)); ?>
+                <?php if ($avatar_url): ?>
+                    <img src="<?php echo $avatar_url; ?>" alt="<?php esc_attr_e('User Avatar', 'zeng'); ?>" style="max-width:100px; display:block; margin-bottom:10px; border-radius:50%;">
+                <?php endif; ?>
+                <input type="text" name="custom_avatar" id="custom_avatar" value="<?php echo $avatar_url; ?>" class="regular-text" />
+                <br />
+                <button class="button" id="upload_avatar_button"><?php esc_html_e('Upload Image', 'zeng'); ?></button>
+                <p class="description"><?php esc_html_e('Paste an image URL or use the media uploader.', 'zeng'); ?></p>
             </td>
         </tr>
+
+        <!-- Other fields -->
         <tr>
-            <th><label for="avatar"><?php esc_html_e('Avatar (Media URL)', 'zeng') ?></label></th>
-            <td>
-                <input type="text" name="custom_avatar" id="custom_avatar" value="<?php echo esc_attr(get_the_author_meta('custom_avatar', $user->ID)); ?>" class="regular-text" />
-                <br>
-                <button class="button" id="upload_avatar_button"><?php esc_html_e('Select/Upload', 'zeng') ?></button>
-                <script>
-                    jQuery(document).ready(function($){
-                        $('#upload_avatar_button').on('click', function(e){
-                            e.preventDefault();
-                            var mediaUploader;
-                            if (mediaUploader) {
-                                mediaUploader.open();
-                                return;
-                            }
-                            mediaUploader = wp.media.frames.file_frame = wp.media({
-                                title: 'Select avatar',
-                                button: {
-                                    text: 'Using this image'
-                                },
-                                multiple: false
-                            });
-                            mediaUploader.on('select', function() {
-                                var attachment = mediaUploader.state().get('selection').first().toJSON();
-                                $('#custom_avatar').val(attachment.url);
-                            });
-                            mediaUploader.open();
-                        });
-                    });
-                </script>
-            </td>
+            <th><label for="full_name"><?php esc_html_e('Full Name', 'zeng'); ?></label></th>
+            <td><input type="text" name="full_name" id="full_name" value="<?php echo esc_attr(get_the_author_meta('full_name', $user->ID)); ?>" class="regular-text" /></td>
         </tr>
         <tr>
-            <th><label for="facebook"><?php esc_html_e('Facebook', 'zeng') ?></label></th>
-            <td>
-                <input type="text" name="facebook" id="facebook" value="<?php echo esc_attr(get_the_author_meta('facebook', $user->ID)); ?>" class="regular-text" />
-            </td>
+            <th><label for="job_title"><?php esc_html_e('Job Title / Current Occupation', 'zeng'); ?></label></th>
+            <td><input type="text" name="job_title" id="job_title" value="<?php echo esc_attr(get_the_author_meta('job_title', $user->ID)); ?>" class="regular-text" /></td>
         </tr>
         <tr>
-            <th><label for="twitter"><?php esc_html_e('Twitter', 'zeng') ?></label></th>
-            <td>
-                <input type="text" name="twitter" id="twitter" value="<?php echo esc_attr(get_the_author_meta('twitter', $user->ID)); ?>" class="regular-text" />
-            </td>
+            <th><label for="address"><?php esc_html_e('Address', 'zeng'); ?></label></th>
+            <td><input type="text" name="address" id="address" value="<?php echo esc_attr(get_the_author_meta('address', $user->ID)); ?>" class="regular-text" /></td>
         </tr>
         <tr>
-            <th><label for="pinterest"><?php esc_html_e('Pinterest', 'zeng') ?></label></th>
-            <td>
-                <input type="text" name="pinterest" id="pinterest" value="<?php echo esc_attr(get_the_author_meta('pinterest', $user->ID)); ?>" class="regular-text" />
-            </td>
+            <th><label for="cv_link"><?php esc_html_e('View My CV (URL)', 'zeng'); ?></label></th>
+            <td><input type="url" name="cv_link" id="cv_link" value="<?php echo esc_attr(get_the_author_meta('cv_link', $user->ID)); ?>" class="regular-text" /></td>
         </tr>
         <tr>
-            <th><label for="instagram"><?php esc_html_e('Instagram', 'zeng') ?></label></th>
-            <td>
-                <input type="text" name="instagram" id="instagram" value="<?php echo esc_attr(get_the_author_meta('instagram', $user->ID)); ?>" class="regular-text" />
-            </td>
+            <th><label for="contact_link"><?php esc_html_e('Contact Link', 'zeng'); ?></label></th>
+            <td><input type="url" name="contact_link" id="contact_link" value="<?php echo esc_attr(get_the_author_meta('contact_link', $user->ID)); ?>" class="regular-text" /></td>
         </tr>
+
+        <?php
+        $socials = [
+            'linkedin' => __('LinkedIn', 'zeng'),
+            'github' => __('GitHub', 'zeng'),
+            'twitter' => __('X (Twitter)', 'zeng'),
+            'dribbble' => __('Dribbble', 'zeng'),
+            'facebook' => __('Facebook', 'zeng'),
+            'instagram' => __('Instagram', 'zeng'),
+            'tiktok' => __('TikTok', 'zeng'),
+            'youtube' => __('YouTube', 'zeng'),
+            'behance' => __('Behance', 'zeng'),
+            'medium' => __('Medium', 'zeng'),
+        ];
+
+        foreach ($socials as $key => $label) {
+            ?>
+            <tr>
+                <th><label for="<?php echo esc_attr($key); ?>"><?php echo esc_html($label); ?> <?php esc_html_e('URL', 'zeng'); ?></label></th>
+                <td>
+                    <input type="url" name="<?php echo esc_attr($key); ?>" id="<?php echo esc_attr($key); ?>" value="<?php echo esc_attr(get_the_author_meta($key, $user->ID)); ?>" class="regular-text" />
+                </td>
+            </tr>
+            <?php
+        }
+        ?>
     </table>
-    <?php
-}
-add_action('show_user_profile', 'my_custom_user_profile_fields');
-add_action('edit_user_profile', 'my_custom_user_profile_fields');
 
-function my_save_custom_user_profile_fields($user_id) {
-    if (!current_user_can('edit_user', $user_id)) return false;
-
-    update_user_meta($user_id, 'address', sanitize_text_field($_POST['address']));
-    update_user_meta($user_id, 'custom_avatar', esc_url_raw($_POST['custom_avatar']));
-    update_user_meta($user_id, 'facebook', esc_url_raw($_POST['facebook']));
-    update_user_meta($user_id, 'twitter', esc_url_raw($_POST['twitter']));
-    update_user_meta($user_id, 'pinterest', esc_url_raw($_POST['pinterest']));
-    update_user_meta($user_id, 'instagram', esc_url_raw($_POST['instagram']));
-}
-add_action('personal_options_update', 'my_save_custom_user_profile_fields');
-add_action('edit_user_profile_update', 'my_save_custom_user_profile_fields');
-
-
-function my_custom_user_avatar($avatar, $id_or_email, $size, $default, $alt) {
-    $user = false;
-
-    if (is_numeric($id_or_email)) {
-        $user = get_user_by('id', (int) $id_or_email);
-    } elseif (is_object($id_or_email)) {
-        if (!empty($id_or_email->user_id)) {
-            $user = get_user_by('id', (int) $id_or_email->user_id);
-        }
-    } else {
-        $user = get_user_by('email', $id_or_email);
-    }
-
-    if ($user && is_object($user)) {
-        $custom_avatar = get_user_meta($user->ID, 'custom_avatar', true);
-        if ($custom_avatar) {
-            return "<img alt='" . esc_attr($alt) . "' src='" . esc_url($custom_avatar) . "' class='avatar avatar-{$size} photo' height='{$size}' width='{$size}' />";
-        }
-    }
-
-    return $avatar;
-}
-add_filter('get_avatar', 'my_custom_user_avatar', 10, 5);
-
-function get_user_full_name($user_id = null, $order = 'first_last') {
-    if (!$user_id) {
-        $user_id = get_current_user_id();
-    }
-
-    if (!$user_id) return '';
-
-    $user = get_userdata($user_id);
-    if (!$user) return '';
-
-    $first = trim($user->first_name);
-    $last  = trim($user->last_name);
-
-    if ($first || $last) {
-        return ($order === 'last_first')
-            ? trim($last . ' ' . $first)
-            : trim($first . ' ' . $last);
-    }
-
-    return $user->nickname ? $user->nickname : $user->display_name;
-}
-
-function start_session_if_not_started() {
-    if (!session_id()) {
-        session_start();
-    }
-}
-add_action('init', 'start_session_if_not_started');
-
-function update_post_views($postID) {
-    $session_key = 'post_viewed_' . $postID;
-
-    if (empty($_SESSION[$session_key])) {
-        $views = get_post_meta($postID, 'post_views', true);
-        $views = (empty($views)) ? 0 : intval($views);
-        $views++;
-
-        update_post_meta($postID, 'post_views', $views);
-
-        $_SESSION[$session_key] = true;
-    }
-}
-
-function track_post_views() {
-    if (is_single() && !is_admin()) {
-        $postID = get_the_ID();
-        if ($postID) {
-            update_post_views($postID);
-        }
-    }
-}
-add_action('wp_head', 'track_post_views');
-
-function get_post_views($postID) {
-    $views = get_post_meta($postID, 'post_views', true);
-    return $views ? $views : '0';
-}
-
-
-
-add_action('category_add_form_fields', 'add_category_image_field');
-function add_category_image_field() {
-    ?>
-    <div class="form-field">
-        <label for="term_image"><?php esc_html_e('Category Image', 'zeng'); ?></label>
-        <input type="text" name="term_image" id="term_image" value="" />
-        <button class="upload_image_button button"><?php esc_html_e('Upload Image', 'zeng'); ?></button>
-    </div>
-    <?php
-}
-
-
-add_action('category_edit_form_fields', 'edit_category_image_field');
-function edit_category_image_field($term) {
-    $image_url = get_term_meta($term->term_id, 'term_image', true);
-    ?>
-    <tr class="form-field">
-        <th scope="row"><label for="term_image"><?php esc_html_e('Category Image', 'zeng'); ?></label></th>
-        <td>
-            <input type="text" name="term_image" id="term_image" value="<?php echo esc_attr($image_url); ?>" />
-            <button class="upload_image_button button"><?php esc_html_e('Upload Image', 'zeng'); ?></button><br/>
-            <?php if ($image_url): ?>
-                <img src="<?php echo esc_url($image_url); ?>" style="max-width: 150px; margin-top: 10px;" />
-            <?php endif; ?>
-        </td>
-    </tr>
-    <?php
-}
-
-add_action('created_category', 'save_category_image_field');
-add_action('edited_category', 'save_category_image_field');
-function save_category_image_field($term_id) {
-    if (isset($_POST['term_image'])) {
-        update_term_meta($term_id, 'term_image', esc_url_raw($_POST['term_image']));
-    }
-}
-
-add_action('admin_enqueue_scripts', 'enqueue_wp_media_script');
-function enqueue_wp_media_script($hook) {
-
-    if (in_array($hook, ['edit-tags.php', 'term.php'])) {
-        wp_enqueue_media();
-        wp_add_inline_script('jquery', <<<EOD
-            jQuery(document).ready(function($){
-                function open_media_uploader(button, input) {
-                    var media_uploader;
-                    button.on('click', function(e) {
-                        e.preventDefault();
-                        if (media_uploader) {
-                            media_uploader.open();
-                            return;
-                        }
-                        media_uploader = wp.media({
-                            title: 'Select Image',
-                            button: { text: 'Use this image' },
-                            multiple: false
-                        });
-                        media_uploader.on('select', function() {
-                            var attachment = media_uploader.state().get('selection').first().toJSON();
-                            input.val(attachment.url);
-                        });
-                        media_uploader.open();
-                    });
-                }
-
-                open_media_uploader($('.upload_image_button'), $('#term_image'));
+    <script>
+        jQuery(document).ready(function($){
+            $('#upload_avatar_button').on('click', function(e){
+                e.preventDefault();
+                var image = wp.media({
+                    title: '<?php echo esc_js(__('Upload Avatar', 'zeng')); ?>',
+                    multiple: false
+                }).open().on('select', function(){
+                    var uploaded_image = image.state().get('selection').first();
+                    var image_url = uploaded_image.toJSON().url;
+                    $('#custom_avatar').val(image_url);
+                });
             });
-        EOD);
-    }
+        });
+    </script>
+    <?php
 }
 
+// Hook into user profile display actions
+add_action('show_user_profile', 'add_custom_user_profile_fields');
+add_action('edit_user_profile', 'add_custom_user_profile_fields');
 
+function save_custom_user_profile_fields($user_id) {
+    if (!current_user_can('edit_user', $user_id)) return;
+
+    $url_fields = [
+        'custom_avatar', 'cv_link', 'contact_link',
+        'linkedin', 'github', 'twitter', 'dribbble',
+        'facebook', 'instagram', 'tiktok', 'youtube', 'behance', 'medium',
+    ];
+
+    $text_fields = [
+        'full_name', 'job_title', 'address', 'public_email',
+    ];
+
+    foreach ($url_fields as $field) {
+        if (isset($_POST[$field])) {
+            update_user_meta($user_id, $field, esc_url_raw($_POST[$field]));
+        }
+    }
+    foreach ($text_fields as $field) {
+        if (isset($_POST[$field])) {
+            update_user_meta($user_id, $field, sanitize_text_field($_POST[$field]));
+        }
+    }
+}
+add_action('personal_options_update', 'save_custom_user_profile_fields');
+add_action('edit_user_profile_update', 'save_custom_user_profile_fields');
