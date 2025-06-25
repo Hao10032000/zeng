@@ -1356,6 +1356,9 @@ a:hover, a:focus {
 }
 .header-sidebar .box .avatar {
   border-radius: 50%;
+  width: 68px;
+  height: 68px;
+  object-fit: cover;
   overflow: hidden;
 }
 .header-sidebar .nav-menu {
@@ -3780,7 +3783,7 @@ ANIMATION AREA CSS
 }
 
 .portfolio-item {
-  background-image: url(../images/item/bg-portfolio-dark.png);
+  background-image: url(https://zen-g-seven.vercel.app/images/item/bg-portfolio-dark.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 28px 15px;
