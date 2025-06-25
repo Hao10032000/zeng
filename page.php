@@ -12,31 +12,19 @@
 
 get_header();
 ?>	
-<div class="container">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="wrap-content-area">
-				<div id="primary" class="content-area">	
-					<main id="main" class="main-content" role="main">
-						<?php while ( have_posts() ) : the_post(); ?>
-							<?php get_template_part( 'content', 'page' ); ?>
 
-							<?php
-								// If comments are open or we have at least one comment, load up the comment template
-								if ( comments_open() || get_comments_number() ) :
-									comments_template();
-								endif;
-							?>
-						<?php endwhile; // end of the loop. ?>
-					</main><!-- #main -->
-				</div><!-- #primary -->
-				<?php 
-				if ( themesflat_get_opt_elementor( 'page_sidebar_layout' ) == 'sidebar-left' || themesflat_get_opt_elementor( 'page_sidebar_layout' ) == 'sidebar-right' ) :
-					get_sidebar();
-				endif;
+<div class="main-content style-fullwidth section-onepage">
+    <div class="tf-container w-6">
+			<?php while ( have_posts() ) : the_post(); ?>
+				<?php get_template_part( 'content', 'page' ); ?>
+				<?php
+					// If comments are open or we have at least one comment, load up the comment template
+					if ( comments_open() || get_comments_number() ) :
+						comments_template();
+					endif;
 				?>
-			</div>
-		</div>
-	</div>
+			<?php endwhile; // end of the loop. ?>
+    </div>
 </div>
+
 <?php get_footer(); ?>
