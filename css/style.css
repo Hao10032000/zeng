@@ -1637,7 +1637,7 @@ a:hover, a:focus {
  ------------------------------------------------------------------------------ */
 /*--------- Abstracts variable ---------- */
 .tab-slide {
-  max-width: 335px;
+  max-width: fit-content;
   padding: 4px;
   background: var(--Bg-linear-2);
   border-radius: 52px;
@@ -3895,6 +3895,27 @@ ANIMATION AREA CSS
 .pricing-item.style-1 .list-check {
   flex: 50.8%;
 }
+.pricing-item li {
+    font-family: "Inter", sans-serif;
+    color: var(--Text-light);
+    font-size: 16px;
+    line-height: 28px;
+}
+.pricing-item ul {
+    gap: 8px;
+    display: grid
+;
+}
+.pricing-item.style-1 li::before {
+      content: "\e90f";
+    font-size: 24px;
+    color: var(--Primary);
+    font-family: 'icomoon';
+    vertical-align: sub;
+    left: -8px;
+    position: relative;
+
+}
 @media (min-width: 1441px) {
   .pricing-item .title {
     margin-bottom: 23px;
@@ -4260,6 +4281,10 @@ ANIMATION AREA CSS
   z-index: 2;
   right: 40px;
   bottom: 40px;
+}
+.style-1 .section-testimonial .wrap-sw-button {
+    right: 0;
+    top: -60px;
 }
 .section-testimonial.style-1 .wrap-sw-button {
   position: unset;
