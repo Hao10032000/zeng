@@ -6,7 +6,6 @@
  *
  * @package zeng
  */
-$blog_layout_sidebar = isset($_GET['sidebar_layout']) ? $_GET['sidebar_layout'] : themesflat_blog_layout();
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
