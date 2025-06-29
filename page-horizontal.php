@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Page Vertical
+ * Template Name: Page Horizontal
  * @package zeng
  */
 
@@ -627,15 +627,14 @@ $header_button_url = themesflat_get_opt('header_button_url');
     </div>
 
 
-	<div id="main-content" class="main-content">
+	<div id="main-content">
 
         <div class="tf-container">
             <!-- main-content -->
 
             <div class="d-md-none pt_24">
-                <div class="header-sidebar style-horizontal  bs-light-mode">
+                <div class="header-sidebar style-horizontal bs-light-mode">
                     <div class="box">
-
                         <?php if ($website_info['custom_avatar']): ?>
                             <div class="avatar">
                                 <img src="<?php echo esc_url($website_info['custom_avatar']); ?>" width="68" height="68" alt="avatar">
@@ -646,7 +645,6 @@ $header_button_url = themesflat_get_opt('header_button_url');
                             </div>
                         <?php endif; ?>
                         <div class="info">
-                            <div class="info">
                                 <?php if ($website_info['full_name']): ?>
                                     <h6 class="font-4 mb_4"><?php echo esc_html($website_info['full_name']); ?></h6>
                                 <?php else: ?>
@@ -657,7 +655,6 @@ $header_button_url = themesflat_get_opt('header_button_url');
                                     <?php echo esc_html($website_info['job_title']); ?>
                                 </div>
                                 <?php endif; ?>     
-                            </div>
                         </div>
                     </div>
 
@@ -677,9 +674,90 @@ $header_button_url = themesflat_get_opt('header_button_url');
 
             <!-- user-bar -->
 
-            <div class="user-bar text-center bs-light-mode">
+        <div class="header header-fixed  style-1">
+            <div class="tf-container">
+                <div class="row">
+                    <div class="offset-xxl-4 col-xxl-7 offset-xl-4 col-xl-7">
+                        <div class="header-sidebar style-horizontal bs-light-mode">
+                            <div class="box ">
+                        <?php if ($website_info['custom_avatar']): ?>
+                            <div class="avatar">
+                                <img src="<?php echo esc_url($website_info['custom_avatar']); ?>" width="68" height="68" alt="avatar">
+                            </div>
+                        <?php else: ?>
+                            <div class="avatar">
+                                <img src="<?php echo  THEMESFLAT_LINK . '/images/avatar.png'; ?>" alt="avatar">
+                            </div>
+                        <?php endif; ?>
+                        <div class="info">
+                                <?php if ($website_info['full_name']): ?>
+                                    <h6 class="font-4 mb_4"><?php echo esc_html($website_info['full_name']); ?></h6>
+                                <?php else: ?>
+                                    <h6 class="font-4 mb_4"><?php echo _e('ZenG', 'zeng'); ?></h6>
+                                <?php endif; ?>     
+                                <?php if ($website_info['job_title']): ?>
+                                <div class="text-label text-uppercase fw-6 text_primary-color font-3  letter-spacing-1">
+                                    <?php echo esc_html($website_info['job_title']); ?>
+                                </div>
+                                <?php endif; ?>     
+                        </div>
+                            </div>
+                    <ul class="nav-menu style-2 list-icon ">
+                        <?php get_template_part( 'tpl/header/navigator-with-icon'); ?>
+                    </ul>
+                            <a class="menu-button show-menu-mobile  d-sm-none link-no-action" data-target="#menu-1"
+                                href="#"><i class="icon-CirclesFour"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popup-menu-mobile" id="menu-1">
+                <?php get_template_part( 'tpl/header/navigator-2'); ?>
+            </div>
+        </div>
 
-                <div class="box-author mb_12">
+        <div class="tf-container w-2">
+
+            <div class="row">
+
+                <div class="offset-xxl-4 col-xxl-7 offset-xl-4 col-xl-7 ">
+
+                    <div class="main-content section-onepage">
+
+                        <div class="header-sidebar style-horizontal bs-light-mode">
+                            <div class="box">
+                        <?php if ($website_info['custom_avatar']): ?>
+                            <div class="avatar">
+                                <img src="<?php echo esc_url($website_info['custom_avatar']); ?>" width="68" height="68" alt="avatar">
+                            </div>
+                        <?php else: ?>
+                            <div class="avatar">
+                                <img src="<?php echo  THEMESFLAT_LINK . '/images/avatar.png'; ?>" alt="avatar">
+                            </div>
+                        <?php endif; ?>
+                            <div class="info">
+                                <?php if ($website_info['full_name']): ?>
+                                    <h6 class="font-4 mb_4"><?php echo esc_html($website_info['full_name']); ?></h6>
+                                <?php endif; ?>     
+                                <?php if ($website_info['job_title']): ?>
+                                <div class="text-label text-uppercase fw-6 text_primary-color font-3  letter-spacing-1">
+                                    <?php echo esc_html($website_info['job_title']); ?>
+                                </div>
+                                <?php endif; ?>     
+                            </div>
+                            </div>
+                                    <?php get_template_part( 'tpl/header/navigator-with-icon'); ?>
+                            <a class="menu-button show-menu-mobile  d-sm-none link-no-action" data-target="#menu-2"
+                                href="#"><i class="icon-CirclesFour"></i></a>
+                            <div id="menu-2" class="popup-menu-mobile">
+                                <?php get_template_part( 'tpl/header/navigator-2'); ?>
+                            </div>
+                        </div>
+
+
+                        <div class="user-bar text-center">
+
+                                            <div class="box-author mb_12">
                     <div class="img-style mb_16">
 
                         <?php if ($website_info['custom_avatar']): ?>
@@ -718,64 +796,57 @@ $header_button_url = themesflat_get_opt('header_button_url');
                     </div>
                 </div>
 
-                <ul class="list-icon d-flex justify-content-center mb_28">
-                    <?php if ($website_info['social_linkedin']): ?>
-                        <li><a href="<?php echo esc_attr($website_info['social_linkedin']); ?>" class="icon-LinkedIn"></a></li>
-                    <?php endif; ?>   
-                    <?php if ($website_info['social_github']): ?>
-                        <li> <a href="<?php echo esc_attr($website_info['social_github']); ?>" class="icon-GitHub"></a></li>
-                    <?php endif; ?>  
-                    <?php if ($website_info['social_twitter']): ?>
-                        <li><a href="<?php echo esc_attr($website_info['social_twitter']); ?>" class="icon-X"></a></li>
-                    <?php endif; ?>  
-                    <?php if ($website_info['social_dribbble']): ?>
-                        <li><a href="<?php echo esc_attr($website_info['social_dribbble']); ?>" class="icon-dribbble"></a></li>
-                    <?php endif; ?> 
-                    <?php if ($website_info['social_facebook']): ?>
-                        <li><a href="<?php echo esc_attr($website_info['social_facebook']); ?>" class="icon-facebook"></a></li>
-                    <?php endif; ?> 
-                    <?php if ($website_info['social_instagram']): ?>
-                        <li><a href="<?php echo esc_attr($website_info['social_instagram']); ?>" class="icon-instagram"></a></li>
-                    <?php endif; ?> 
-                    <?php if ($website_info['social_tiktok']): ?>
-                        <li><a href="<?php echo esc_attr($website_info['social_tiktok']); ?>" class="icon-tiktok"></a></li>
-                    <?php endif; ?> 
-                    <?php if ($website_info['social_youtube']): ?>
-                        <li><a href="<?php echo esc_attr($website_info['social_youtube']); ?>" class="icon-youtube"></a></li>
-                    <?php endif; ?> 
-                    <?php if ($website_info['social_behance']): ?>
-                        <li><a href="<?php echo esc_attr($website_info['social_behance']); ?>" class="icon-behance"></a></li>
-                    <?php endif; ?> 
-                    <?php if ($website_info['social_medium']): ?>
-                        <li><a href="<?php echo esc_attr($website_info['social_medium']); ?>" class="icon-medium"></a></li>
-                    <?php endif; ?> 
-                </ul>
+                            <ul class="list-icon d-flex justify-content-center mb_28">
+                                <?php if ($website_info['social_linkedin']): ?>
+                                    <li><a href="<?php echo esc_attr($website_info['social_linkedin']); ?>" class="icon-LinkedIn"></a></li>
+                                <?php endif; ?>   
+                                <?php if ($website_info['social_github']): ?>
+                                    <li> <a href="<?php echo esc_attr($website_info['social_github']); ?>" class="icon-GitHub"></a></li>
+                                <?php endif; ?>  
+                                <?php if ($website_info['social_twitter']): ?>
+                                    <li><a href="<?php echo esc_attr($website_info['social_twitter']); ?>" class="icon-X"></a></li>
+                                <?php endif; ?>  
+                                <?php if ($website_info['social_dribbble']): ?>
+                                    <li><a href="<?php echo esc_attr($website_info['social_dribbble']); ?>" class="icon-dribbble"></a></li>
+                                <?php endif; ?> 
+                                <?php if ($website_info['social_facebook']): ?>
+                                    <li><a href="<?php echo esc_attr($website_info['social_facebook']); ?>" class="icon-facebook"></a></li>
+                                <?php endif; ?> 
+                                <?php if ($website_info['social_instagram']): ?>
+                                    <li><a href="<?php echo esc_attr($website_info['social_instagram']); ?>" class="icon-instagram"></a></li>
+                                <?php endif; ?> 
+                                <?php if ($website_info['social_tiktok']): ?>
+                                    <li><a href="<?php echo esc_attr($website_info['social_tiktok']); ?>" class="icon-tiktok"></a></li>
+                                <?php endif; ?> 
+                                <?php if ($website_info['social_youtube']): ?>
+                                    <li><a href="<?php echo esc_attr($website_info['social_youtube']); ?>" class="icon-youtube"></a></li>
+                                <?php endif; ?> 
+                                <?php if ($website_info['social_behance']): ?>
+                                    <li><a href="<?php echo esc_attr($website_info['social_behance']); ?>" class="icon-behance"></a></li>
+                                <?php endif; ?> 
+                                <?php if ($website_info['social_medium']): ?>
+                                    <li><a href="<?php echo esc_attr($website_info['social_medium']); ?>" class="icon-medium"></a></li>
+                                <?php endif; ?> 
+                            </ul>
 
-                <?php if ($website_info['cv_link']): ?>
-                    <a href="<?php echo esc_attr($website_info['cv_link']); ?>" class="tf-btn btn-w-full style-border mb_20">
-                        <span class="bg_btn"></span>
-                        <span class="title"><i class="icon-ReadCvLogo"></i><?php echo _e('View My CV', 'zeng'); ?></span>
-                        <span class="effect-shine"></span>
-                    </a>
-                <?php endif; ?> 
+                                <?php if ($website_info['cv_link']): ?>
+                                    <a href="<?php echo esc_attr($website_info['cv_link']); ?>" class="tf-btn btn-w-full style-border mb_20">
+                                        <span class="bg_btn"></span>
+                                        <span class="title"><i class="icon-ReadCvLogo"></i><?php echo _e('View My CV', 'zeng'); ?></span>
+                                        <span class="effect-shine"></span>
+                                    </a>
+                                <?php endif; ?> 
+                                
+                                <?php if ($website_info['contact_link']): ?>
+                                <a href="<?php echo esc_attr($website_info['contact_link']); ?>" class="tf-btn style-1 animate-hover-btn btn-w-full">
+                                    <i class="icon-EnvelopeSimple"></i><span><?php echo _e('Contact Me', 'zeng'); ?></span>
+                                </a>
+                                <?php endif; ?> 
 
-                <?php if ($website_info['contact_link']): ?>
-                <a href="<?php echo esc_attr($website_info['contact_link']); ?>" class="tf-btn style-1 animate-hover-btn btn-w-full">
-                    <i class="icon-EnvelopeSimple"></i><span><?php echo _e('Contact Me', 'zeng'); ?></span>
-                </a>
-                <?php endif; ?> 
-
-                <div class="item-shape">
-                    <img src="<?php echo  THEMESFLAT_LINK . '/images/small-comet.png'; ?>" alt="avatar">
-                </div>
-
-            </div>
-
-            <!-- End user-bar -->
-
-            <div class="row">
-                <div class="offset-xxl-4 col-xxl-7 offset-xl-4 col-xl-7 col-md-11">
-                    <div class="main-content section-onepage">
+                            <div class="item-shape">
+                                <img src="<?php echo  THEMESFLAT_LINK . '/images/small-comet.png'; ?>" alt="shape">
+                            </div>
+                        </div>
 
                         <?php while ( have_posts() ) : the_post(); ?>
 			            	<?php get_template_part( 'content', 'page' ); ?>
@@ -783,32 +854,17 @@ $header_button_url = themesflat_get_opt('header_button_url');
 
                     </div>
 
-
-                </div>
-                <div class="col-md-1 ">
-
-                    <!-- right-bar -->
-                    <div class="right-bar d-flex flex-column align-items-center">
-                        <div class="nav-right area-effect md-hide">
-                            <ul class="nav-menu list-icon d-flex flex-column">
-                                <?php get_template_part( 'tpl/header/navigator-with-icon'); ?>
-                            </ul>
-                            <div class="wrap">
-                                <div class="item-shape spotlight">
-                                    <img src="<?php echo  THEMESFLAT_LINK . '/images/small-comet.png'; ?>" alt="shape">
-                                </div>
-                            </div>
-                        </div>
-                        <ul class="list-icon menu-option  d-flex flex-column gap_8 ">
-                            <li><a href="#" class="link-no-action show-sidebar md-hide"><i
-                                        class="icon-CirclesFour"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- End right-bar  -->
+                    
 
                 </div>
             </div>
+            <div class="right-bar style-1 d-flex flex-column align-items-center">
+                <ul class="list-icon menu-option d-flex flex-column gap_8">
+                    <li><a href="#" class="link-no-action show-sidebar"><i class="icon-CirclesFour"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
 
         </div>
@@ -828,7 +884,6 @@ $header_button_url = themesflat_get_opt('header_button_url');
                         </div>
                     <?php endif; ?>
                         <div class="info">
-                            <div class="info">
                                 <?php if ($website_info['full_name']): ?>
                                     <h6 class="font-4 mb_4"><?php echo esc_html($website_info['full_name']); ?></h6>
                                 <?php else: ?>
@@ -839,17 +894,16 @@ $header_button_url = themesflat_get_opt('header_button_url');
                                     <?php echo esc_html($website_info['job_title']); ?>
                                 </div>
                                 <?php endif; ?>     
-                            </div>
                         </div>
                 </div>
                 <?php get_template_part( 'tpl/header/navigator'); ?>
                 <div class="d-flex gap_12 align-items-center">
                         <?php if ($header_button_show == 1): ?>
-                    <a href="<?php echo esc_url(themesflat_get_opt('header_button_url')); ?>" class="tf-btn style-1 btn-switch-text">
-                        <span>
-                            <span class="btn-double-text" data-text="<?php echo wp_kses($header_button_text, themesflat_kses_allowed_html()); ?>"><?php echo wp_kses($header_button_text, themesflat_kses_allowed_html()); ?></span>
-                        </span>
-                    </a>
+                            <a href="<?php echo esc_url(themesflat_get_opt('header_button_url')); ?>" class="tf-btn style-1 btn-switch-text">
+                                <span>
+                                    <span class="btn-double-text" data-text="<?php echo wp_kses($header_button_text, themesflat_kses_allowed_html()); ?>"><?php echo wp_kses($header_button_text, themesflat_kses_allowed_html()); ?></span>
+                                </span>
+                            </a>
                         <?php endif; ?>   
                 </div>
             </div>
