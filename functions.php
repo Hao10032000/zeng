@@ -185,10 +185,6 @@ function themesflat_scripts() {
     // Load JS
     wp_enqueue_script( 'swiper-theme', THEMESFLAT_LINK . 'js/swiper-bundle.min.js', array(), '1.0.0', true );
 
-    if ( themesflat_get_opt('enable_smooth_scroll') == 1 ) {
-        wp_enqueue_script( 'smoothscroll', THEMESFLAT_LINK . 'js/smoothscroll.js', array(), '1.2.1', true );
-    }
-
     if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
         wp_enqueue_script( 'comment-reply' );
     }

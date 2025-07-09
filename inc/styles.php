@@ -33,11 +33,8 @@ function themesflat_custom_styles( $custom ) {
     	if ( themesflat_get_opt('primary_color') !='' || themesflat_get_opt('body_text_color') !='' || themesflat_get_opt('header1_background') !=''  || themesflat_get_opt('header2_background') !='') {
 
 			// Root Primary Color
-			$custom .= ' :root { --On-surface:' . esc_attr(themesflat_get_opt('primary_color')) . " }"."\n";
-			$custom .= ' :root { --Secondary:' . esc_attr(themesflat_get_opt('body_text_color')) . " }"."\n";
-			$custom .= ' :root { --Line:' . esc_attr(themesflat_get_opt('border_color')) . " }"."\n";
-			$custom .= ' :root { --bg-header:' . esc_attr(themesflat_get_opt('header1_background')) . " }"."\n";
-			$custom .= ' :root { --bg-header2:' . esc_attr(themesflat_get_opt('header2_background')) . " }"."\n";
+			$custom .= ' :root { --Primary:' . esc_attr(themesflat_get_opt('primary_color')) . " }"."\n";
+			$custom .= ' :root { --body-text:' . esc_attr(themesflat_get_opt('body_text_color')) . " }"."\n";
 
 		} 	
 

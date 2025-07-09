@@ -2,6 +2,7 @@
 
 .main-content {
     padding-top: 50px;
+    min-height: 100vh;
     @include res(xxl, min) {
         margin-right: 77px;
     }

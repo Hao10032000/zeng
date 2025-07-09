@@ -12,6 +12,7 @@
 
 
 </div><!-- /#boxed -->
+
 <?php wp_footer(); ?>
 </body>
 </html>

@@ -862,6 +862,10 @@ $header_button_url = themesflat_get_opt('header_button_url');
                 <ul class="list-icon menu-option d-flex flex-column gap_8">
                     <li><a href="#" class="link-no-action show-sidebar"><i class="icon-CirclesFour"></i></a>
                     </li>
+                    <li>
+                        <div class="toggle-switch-mode"><i class="icon-Sun"></i></div>
+                    </li>
+                    <li><a data-bs-toggle="offcanvas" href="#setting-menu" role="button" aria-controls="setting-menu"><i class="icon-GearSix"></i></a></li>
                 </ul>
             </div>
         </div>
