@@ -3,9 +3,7 @@
 .main-content {
     padding-top: 50px;
     min-height: 100vh;
-    @include res(xxl, min) {
-        margin-right: 77px;
-    }
+    position: relative;
     @include res(md) {
         padding-top: 25px;
     }
@@ -13,6 +11,19 @@
         @include res(md, min) {
             margin-right: 0;
             padding-top: 100px;
+        }
+    }
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    & .row {
+        margin-left: -15px;
+        margin-right: -15px;
+        & >* {
+                padding-right: 15px;
+    padding-left: 15px;
         }
     }
 }

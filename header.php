@@ -23,6 +23,7 @@
 <?php wp_body_open(); ?>
 <div id="wrapper" class="themesflat-boxed counter-scroll bg_dark">	
 
+    <?php if (themesflat_get_opt('style_background') == 'page-background'): ?>
 	<div class="body-overlay d-block">
         <svg width="1920" height="1081" viewBox="0 0 1920 1081" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g opacity="0.2">
@@ -617,6 +618,46 @@
                 </defs>
         </svg>
     </div>
+    <?php else: ?>
+
+    <?php 
+        $video_data = '';
+        $base_url = 'https://micare.vithemes.com/wp-content/demo/video/';
+        $video_option = themesflat_get_opt('video_background');
+
+        if ($video_option === 'video-1') {
+            $video_data = $base_url . 'video1.mp4';
+        } elseif ($video_option === 'video-2') {
+            $video_data = $base_url . 'video2.mp4';
+        } elseif ($video_option === 'video-3') {
+            $video_data = $base_url . 'video3.mp4';
+        } elseif ($video_option === 'video-4') {
+            $video_data = $base_url . 'video4.mp4';
+        } elseif ($video_option === 'video-5') {
+            $video_data = $base_url . 'video5.mp4';
+        } elseif ($video_option === 'video-6') {
+            $video_data = $base_url . 'video6.mp4';
+        } elseif ($video_option === 'video-7') {
+            $video_data = $base_url . 'video7.mp4';
+        } elseif ($video_option === 'video-8') {
+            $video_data = $base_url . 'video8.mp4';
+        } elseif ($video_option === 'video-9') {
+            $video_data = $base_url . 'video9.mp4';
+        } elseif ($video_option === 'video-10') {
+            $video_data = $base_url . 'video10.mp4';
+        } elseif ($video_option === 'video-11') {
+            $video_data = $base_url . 'video11.mp4';
+        }
+    ?>
+    <video class="body-overlay" muted autoplay loop playsinline>
+        <source src="<?php echo esc_url($video_data); ?>" type="video/mp4">
+    </video>
+
+
+
+    <?php endif; ?>
+
+
 
 	<?php
 		get_template_part( 'tpl/site-header');        		

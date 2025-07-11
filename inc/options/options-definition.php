@@ -14,6 +14,9 @@ function themesflat_customize_default($key) {
 
 		'social_header' => 1,
 
+		'style_background' => '',
+		'video_background' => 'video-1',
+
 		'style_header'	=> 'header-default',	
 		'header_backgroundcolor'=>'#24283E',
 		'header_background_bottom_color'=>'',
