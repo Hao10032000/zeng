@@ -31,46 +31,46 @@
   --Bg-dark: #111111;
   --Line: #e5e7eb;
   --Bg-linear: linear-gradient(
-      123.51deg,
-      rgba(204, 235, 235, 0.01) -61.8%,
-      rgba(215, 237, 237, 0.1) 100%
+    123.51deg,
+    rgba(204, 235, 235, 0.01) -61.8%,
+    rgba(215, 237, 237, 0.1) 100%
   );
   --Bg-linear-2: linear-gradient(
-      123.51deg,
-      rgba(215, 237, 237, 0.1) -61.8%,
-      rgba(204, 235, 235, 0.01) 100%
+    123.51deg,
+    rgba(215, 237, 237, 0.1) -61.8%,
+    rgba(204, 235, 235, 0.01) 100%
   );
 }
 
-[data-color-primary=color-primary-1] {
+[data-color-primary="color-primary-1"] {
   --Primary: #45e77b;
 }
 
-[data-color-primary=color-primary-2] {
+[data-color-primary="color-primary-2"] {
   --Primary: #f8c736;
 }
 
-[data-color-primary=color-primary-3] {
+[data-color-primary="color-primary-3"] {
   --Primary: #f5772e;
 }
 
-[data-color-primary=color-primary-4] {
+[data-color-primary="color-primary-4"] {
   --Primary: #2ac6f8;
 }
 
-[data-color-primary=color-primary-5] {
+[data-color-primary="color-primary-5"] {
   --Primary: #8dca37;
 }
 
-[data-color-primary=color-primary-6] {
+[data-color-primary="color-primary-6"] {
   --Primary: #6c34fa;
 }
 
-[data-color-primary=color-primary-7] {
+[data-color-primary="color-primary-7"] {
   --Primary: #f14444;
 }
 
-[data-color-primary=color-primary-8] {
+[data-color-primary="color-primary-8"] {
   --Primary: #e14392;
 }
 
@@ -533,22 +533,22 @@ textarea {
   /* Improves readability and alignment in all browsers */
 }
 
-input[type=checkbox] {
+input[type="checkbox"] {
   display: inline;
 }
 
 button,
-input[type=button],
-input[type=reset],
-input[type=submit] {
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   line-height: 1;
   cursor: pointer;
   -webkit-appearance: button;
   border: 0;
 }
 
-input[type=checkbox],
-input[type=radio] {
+input[type="checkbox"],
+input[type="radio"] {
   padding: 0;
   width: 20px;
   height: 20px;
@@ -559,12 +559,12 @@ input[type=radio] {
   /* Addresses excess padding in IE8/9 */
 }
 
-input[type=search] {
+input[type="search"] {
   -webkit-appearance: textfield;
   /* Addresses appearance set to searchfield in S5, Chrome */
 }
 
-input[type=search]::-webkit-search-decoration {
+input[type="search"]::-webkit-search-decoration {
   /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
   -webkit-appearance: none;
 }
@@ -581,14 +581,14 @@ input:-webkit-autofill {
 }
 
 /* Reset search styling */
-input[type=search] {
+input[type="search"] {
   outline: 0;
 }
 
-input[type=search]::-webkit-search-decoration,
-input[type=search]::-webkit-search-cancel-button,
-input[type=search]::-webkit-search-results-button,
-input[type=search]::-webkit-search-results-decoration {
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
@@ -872,7 +872,8 @@ a {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: var(--Primary);
   outline: 0;
   -webkit-transition: all 0.3s ease;
@@ -1247,7 +1248,11 @@ a:hover, a:focus {
   border-radius: 50%;
   font-size: 24px;
   color: var(--Text-light);
-  background: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) -61.8%, rgba(204, 235, 235, 0.01) 100%);
+  background: linear-gradient(
+    123.51deg,
+    rgba(215, 237, 237, 0.1) -61.8%,
+    rgba(204, 235, 235, 0.01) 100%
+  );
 }
 .list-icon li:hover > * {
   background-color: var(--Text-light);
@@ -1333,7 +1338,7 @@ a:hover, a:focus {
 .logged-in-as a,
 blockquote em a,
 blockquote em {
-  color: #1C1C1E;
+  color: #1c1c1e;
 }
 
 blockquote code {
@@ -1525,7 +1530,7 @@ object {
   max-width: 100%;
 }
 
-.wp-caption img[class*=wp-image-] {
+.wp-caption img[class*="wp-image-"] {
   display: block;
   margin: 0 auto;
 }
@@ -1548,7 +1553,7 @@ object {
 }
 
 .wp-block-button__link:hover {
-  background: #1C1C1E;
+  background: #1c1c1e;
   color: var(--White);
 }
 
@@ -1573,14 +1578,14 @@ object {
   border-radius: 0px;
 }
 
-.post-password-form button[type=submit],
-.post-password-form input[type=submit] {
+.post-password-form button[type="submit"],
+.post-password-form input[type="submit"] {
   margin-left: 15px;
   border-radius: 0px;
   padding: 22px 57px 22px 57px;
 }
 
-.post-password-form input[type=password] {
+.post-password-form input[type="password"] {
   min-width: 300px;
   border-radius: 0px;
   border-color: var(--Line);
@@ -1613,16 +1618,26 @@ object {
 .wp-block-categories:not(.alignwide):not(.alignfull),
 .wp-block-code,
 .wp-block-columns:not(.alignwide):not(.alignfull),
-.wp-block-cover:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.aligncenter),
-.wp-block-embed:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.aligncenter),
-.wp-block-gallery:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.aligncenter),
+.wp-block-cover:not(.alignwide):not(.alignfull):not(.alignleft):not(
+    .alignright
+  ):not(.aligncenter),
+.wp-block-embed:not(.alignwide):not(.alignfull):not(.alignleft):not(
+    .alignright
+  ):not(.aligncenter),
+.wp-block-gallery:not(.alignwide):not(.alignfull):not(.alignleft):not(
+    .alignright
+  ):not(.aligncenter),
 .wp-block-group:not(.has-background):not(.alignwide):not(.alignfull),
-.wp-block-image:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.aligncenter),
+.wp-block-image:not(.alignwide):not(.alignfull):not(.alignleft):not(
+    .alignright
+  ):not(.aligncenter),
 .wp-block-latest-comments:not(.aligncenter):not(.alignleft):not(.alignright),
 .wp-block-latest-posts:not(.aligncenter):not(.alignleft):not(.alignright),
 .wp-block-media-text:not(.alignwide):not(.alignfull),
 .wp-block-preformatted,
-.wp-block-pullquote:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright),
+.wp-block-pullquote:not(.alignwide):not(.alignfull):not(.alignleft):not(
+    .alignright
+  ),
 .wp-block-quote,
 .wp-block-quote.is-large,
 .wp-block-quote.is-style-large,
@@ -1720,7 +1735,11 @@ ol.wp-block-latest-comments li {
   align-items: center;
   position: relative;
   z-index: 999;
-  background: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) -61.8%, rgba(204, 235, 235, 0.01) 100%);
+  background: linear-gradient(
+    123.51deg,
+    rgba(215, 237, 237, 0.1) -61.8%,
+    rgba(204, 235, 235, 0.01) 100%
+  );
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 160px;
   padding: 12px 20px 12px 12px;
@@ -1849,7 +1868,11 @@ ol.wp-block-latest-comments li {
 @media (max-width: 767px) {
   .nav-right {
     padding: 6px;
-    background: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) -61.8%, rgba(204, 235, 235, 0.01) 100%);
+    background: linear-gradient(
+      123.51deg,
+      rgba(215, 237, 237, 0.1) -61.8%,
+      rgba(204, 235, 235, 0.01) 100%
+    );
     backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.1019607843);
   }
@@ -2040,7 +2063,11 @@ ol.wp-block-latest-comments li {
 }
 .menu-tab .item-slide-effect {
   border: 1px solid rgba(255, 255, 255, 0.1019607843);
-  background: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) -61.8%, rgba(204, 235, 235, 0.01) 100%);
+  background: linear-gradient(
+    123.51deg,
+    rgba(215, 237, 237, 0.1) -61.8%,
+    rgba(204, 235, 235, 0.01) 100%
+  );
   position: absolute;
   height: 100%;
   border-radius: 44px;
@@ -2176,7 +2203,12 @@ ol.wp-block-latest-comments li {
   opacity: 0;
 }
 .tf-btn.style-border .effect-shine {
-  background-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  background-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
   left: 150%;
   position: absolute;
   top: 0;
@@ -2227,7 +2259,12 @@ ol.wp-block-latest-comments li {
   transition: all 0.3s ease;
 }
 .animate-hover-btn:after {
-  background-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.7), transparent);
+  background-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.7),
+    transparent
+  );
   content: "";
   left: 150%;
   position: absolute;
@@ -2276,20 +2313,20 @@ form {
   z-index: 30;
 }
 form textarea,
-form input[type=text],
-form input[type=password],
-form input[type=datetime],
-form input[type=datetime-local],
-form input[type=date],
-form input[type=month],
-form input[type=time],
-form input[type=week],
-form input[type=number],
-form input[type=email],
-form input[type=url],
-form input[type=search],
-form input[type=tel],
-form input[type=color] {
+form input[type="text"],
+form input[type="password"],
+form input[type="datetime"],
+form input[type="datetime-local"],
+form input[type="date"],
+form input[type="month"],
+form input[type="time"],
+form input[type="week"],
+form input[type="number"],
+form input[type="email"],
+form input[type="url"],
+form input[type="search"],
+form input[type="tel"],
+form input[type="color"] {
   outline: 0;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -2308,43 +2345,43 @@ form input[type=color] {
   font-family: "Inter", sans-serif;
 }
 form textarea::placeholder,
-form input[type=text]::placeholder,
-form input[type=password]::placeholder,
-form input[type=datetime]::placeholder,
-form input[type=datetime-local]::placeholder,
-form input[type=date]::placeholder,
-form input[type=month]::placeholder,
-form input[type=time]::placeholder,
-form input[type=week]::placeholder,
-form input[type=number]::placeholder,
-form input[type=email]::placeholder,
-form input[type=url]::placeholder,
-form input[type=search]::placeholder,
-form input[type=tel]::placeholder,
-form input[type=color]::placeholder {
+form input[type="text"]::placeholder,
+form input[type="password"]::placeholder,
+form input[type="datetime"]::placeholder,
+form input[type="datetime-local"]::placeholder,
+form input[type="date"]::placeholder,
+form input[type="month"]::placeholder,
+form input[type="time"]::placeholder,
+form input[type="week"]::placeholder,
+form input[type="number"]::placeholder,
+form input[type="email"]::placeholder,
+form input[type="url"]::placeholder,
+form input[type="search"]::placeholder,
+form input[type="tel"]::placeholder,
+form input[type="color"]::placeholder {
   color: var(--Text-secondary);
 }
 form textarea:focus,
-form input[type=text]:focus,
-form input[type=password]:focus,
-form input[type=datetime]:focus,
-form input[type=datetime-local]:focus,
-form input[type=date]:focus,
-form input[type=month]:focus,
-form input[type=time]:focus,
-form input[type=week]:focus,
-form input[type=number]:focus,
-form input[type=email]:focus,
-form input[type=url]:focus,
-form input[type=search]:focus,
-form input[type=tel]:focus,
-form input[type=color]:focus {
+form input[type="text"]:focus,
+form input[type="password"]:focus,
+form input[type="datetime"]:focus,
+form input[type="datetime-local"]:focus,
+form input[type="date"]:focus,
+form input[type="month"]:focus,
+form input[type="time"]:focus,
+form input[type="week"]:focus,
+form input[type="number"]:focus,
+form input[type="email"]:focus,
+form input[type="url"]:focus,
+form input[type="search"]:focus,
+form input[type="tel"]:focus,
+form input[type="color"]:focus {
   border-color: var(--Text-light);
 }
 form button,
-form input[type=button],
-form input[type=reset],
-form input[type=submit] {
+form input[type="button"],
+form input[type="reset"],
+form input[type="submit"] {
   background-color: transparent;
   overflow: hidden;
   padding: 0;
@@ -2379,7 +2416,11 @@ form textarea {
   padding: 12px 24px;
   border-radius: 40px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  background: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) -61.8%, rgba(204, 235, 235, 0.01) 100%);
+  background: linear-gradient(
+    123.51deg,
+    rgba(215, 237, 237, 0.1) -61.8%,
+    rgba(204, 235, 235, 0.01) 100%
+  );
 }
 .form-contact .item-shape {
   position: absolute;
@@ -2434,7 +2475,11 @@ form textarea {
   border-top: 1px solid transparent;
 }
 .sw-button.swiper-button-disabled {
-  background: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) -61.8%, rgba(204, 235, 235, 0.01) 100%);
+  background: linear-gradient(
+    123.51deg,
+    rgba(215, 237, 237, 0.1) -61.8%,
+    rgba(204, 235, 235, 0.01) 100%
+  );
   border-color: rgba(255, 255, 255, 0.1);
   color: var(--Text-light);
 }
@@ -2466,7 +2511,8 @@ form textarea {
     * Responsive
  ------------------------------------------------------------------------------ */
 /*--------- Abstracts variable ---------- */
-.offcanvas-backdrop, .overlay-popup {
+.offcanvas-backdrop,
+.overlay-popup {
   top: 0;
   left: 0;
   width: 100%;
@@ -2483,7 +2529,8 @@ form textarea {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.offcanvas-backdrop.show, .overlay-popup.show {
+.offcanvas-backdrop.show,
+.overlay-popup.show {
   opacity: 1;
   visibility: visible;
   z-index: 998;
@@ -2555,7 +2602,8 @@ form textarea {
 .tf-sidebar-menu .sidebar-nav a .icon {
   font-size: 24px;
 }
-.tf-sidebar-menu .sidebar-nav a.active, .tf-sidebar-menu .sidebar-nav a:hover {
+.tf-sidebar-menu .sidebar-nav a.active,
+.tf-sidebar-menu .sidebar-nav a:hover {
   color: var(--Primary);
 }
 .tf-sidebar-menu .sidebar-social .heading {
@@ -2573,7 +2621,11 @@ form textarea {
   z-index: 9999;
 }
 .popup-show-bar .header-sidebar {
-  background: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) -61.8%, rgba(204, 235, 235, 0.01) 100%);
+  background: linear-gradient(
+    123.51deg,
+    rgba(215, 237, 237, 0.1) -61.8%,
+    rgba(204, 235, 235, 0.01) 100%
+  );
   backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.1019607843);
 }
@@ -2714,7 +2766,8 @@ form textarea {
 .tf-setting-color .settings-themes a {
   color: var(--Text-light);
 }
-.tf-setting-color .settings-themes a:hover, .tf-setting-color .settings-themes a.active {
+.tf-setting-color .settings-themes a:hover,
+.tf-setting-color .settings-themes a.active {
   color: var(--Primary);
 }
 @media (min-width: 768px) {
@@ -2857,7 +2910,8 @@ form textarea {
   background-size: 100% var(--underline-height);
 }
 .hover-underline-link:hover {
-  animation: qode-inline-underline-initial-hover 0.8s cubic-bezier(0.57, 0.39, 0, 0.86) 1 forwards;
+  animation: qode-inline-underline-initial-hover 0.8s
+    cubic-bezier(0.57, 0.39, 0, 0.86) 1 forwards;
 }
 @keyframes qode-inline-underline-initial-hover {
   0% {
@@ -2902,8 +2956,18 @@ form textarea {
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(currentColor), color-stop(98%, currentColor));
-  background-image: linear-gradient(to bottom, currentColor 0%, currentColor 98%);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(currentColor),
+    color-stop(98%, currentColor)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    currentColor 0%,
+    currentColor 98%
+  );
   background-size: 0 2px;
   background-repeat: no-repeat;
   background-position: left 100%;
@@ -3021,7 +3085,8 @@ form textarea {
 .dark-mode .header-sidebar .nav-menu li > * {
   border: unset;
 }
-.dark-mode .header-sidebar .nav-menu li .nav_link.active, .dark-mode .header-sidebar .nav-menu li:hover a {
+.dark-mode .header-sidebar .nav-menu li .nav_link.active,
+.dark-mode .header-sidebar .nav-menu li:hover a {
   --Text-primary: #121212;
   background: #f8f7f4;
 }
@@ -3268,7 +3333,11 @@ form textarea {
 
 .home-box {
   padding: 24px;
-  background: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) -61.8%, rgba(204, 235, 235, 0.01) 100%);
+  background: linear-gradient(
+    123.51deg,
+    rgba(215, 237, 237, 0.1) -61.8%,
+    rgba(204, 235, 235, 0.01) 100%
+  );
   border: 1px solid rgba(255, 255, 255, 0.1019607843);
   border-radius: 20px;
   text-align: center;
@@ -3287,7 +3356,11 @@ form textarea {
 .home-box .thumbs::after {
   position: absolute;
   content: "";
-  background: linear-gradient(180deg, rgba(12, 8, 44, 0) 0%, var(--Primary) 200%);
+  background: linear-gradient(
+    180deg,
+    rgba(12, 8, 44, 0) 0%,
+    var(--Primary) 200%
+  );
   width: 100%;
   height: 0;
   bottom: 0;
@@ -3325,7 +3398,11 @@ form textarea {
   display: flex;
   padding: 60px 60px 58px;
   border-radius: 60px;
-  background: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) -61.8%, rgba(204, 235, 235, 0.01) 100%);
+  background: linear-gradient(
+    123.51deg,
+    rgba(215, 237, 237, 0.1) -61.8%,
+    rgba(204, 235, 235, 0.01) 100%
+  );
   border: 1px solid rgba(255, 255, 255, 0.1019607843);
   z-index: 1;
   position: relative;
@@ -3396,7 +3473,11 @@ form textarea {
   align-items: center;
   border: 1px solid transparent;
   border-top: 1px solid;
-  border-image-source: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) -61.8%, rgba(204, 235, 235, 0.01) 100%);
+  border-image-source: linear-gradient(
+    123.51deg,
+    rgba(215, 237, 237, 0.1) -61.8%,
+    rgba(204, 235, 235, 0.01) 100%
+  );
   background: var(--Bg-linear-2);
   border-radius: 100px;
   overflow: hidden;
@@ -4032,7 +4113,10 @@ ANIMATION AREA CSS
   }
 }
 
-.effect-line-hover .wrap-education-item:hover:not(:first-child) .point::after, .effect-line-hover .wrap-education-item:has(~ .wrap-education-item:hover):not(:first-child) .point::after {
+.effect-line-hover .wrap-education-item:hover:not(:first-child) .point::after,
+.effect-line-hover
+  .wrap-education-item:has(~ .wrap-education-item:hover):not(:first-child)
+  .point::after {
   opacity: 1;
 }
 
@@ -4269,6 +4353,24 @@ ANIMATION AREA CSS
 .pricing-item.style-1 .list-check {
   flex: 50.8%;
 }
+.list-check ul li {
+  color: var(--Text-light);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  position: relative;
+}
+.list-check ul li::before {
+  font-size: 24px;
+  margin-right: 8px;
+  color: var(--Primary);
+  content: "\e90f";
+  font-family: "icomoon";
+  vertical-align: sub;
+}
+.list-check ul li:not(:last-child) {
+  margin-bottom: 8px;
+}
 @media (min-width: 1441px) {
   .pricing-item .title {
     margin-bottom: 23px;
@@ -4482,7 +4584,8 @@ ANIMATION AREA CSS
 }
 .text-menu .toggle .text {
   grid-area: 1/1;
-  transition: opacity 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95), transform 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: opacity 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95),
+    transform 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 .text-menu .toggle .text .word {
   white-space: nowrap;
@@ -4702,6 +4805,55 @@ ANIMATION AREA CSS
   .wrap-section .row {
     gap: 40px;
   }
+}
+
+.custom-radio {
+     display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+.custom-radio span {
+  margin: 0;
+}
+
+.custom-radio input[type="radio"] {
+  display: none;
+}
+
+.custom-radio label > span {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--Text-light);
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 12px 24px;
+  border-radius: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(
+    123.51deg,
+    rgba(215, 237, 237, 0.1) -61.8%,
+    rgba(204, 235, 235, 0.01) 100%
+  );
+}
+
+.custom-radio input[type="radio"]:checked + span {
+  background: rgba(255, 255, 255, 0.15);
+  color: #00ffcc;
+}
+.button-submit .tf-btn.style-1 {
+   height: 56px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 40px;
+    width: max-content;
 }
 
 /*# sourceMappingURL=style.css.map */
