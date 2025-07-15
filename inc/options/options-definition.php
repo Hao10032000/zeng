@@ -153,7 +153,7 @@ function themesflat_customize_default($key) {
 		'bottom_text_color_hover'   => '',		
 		'bottom_menu'   => 1,		
 		'layout_version'			=> 'wide',		
-		'footer_copyright'			=> 'Copyright © 2025 zeng By <a href="https://themeforest.net/user/themesflat/portfolio">Themesflat </a> All rights reserved',
+		'footer_copyright'			=> '© 2025 ZenG. All Rights Reserved.',
 		'enable_smooth_scroll'	=> 0,
 		'page_title_styles' => 'default',
 		'page_title_alignment' => 'left',

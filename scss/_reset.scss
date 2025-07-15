@@ -219,6 +219,7 @@ p {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
+    color: var(--Text-muted);
 }
 
 strong,
@@ -1206,7 +1207,7 @@ a {
 .logged-in-as a,
 blockquote em a,
 blockquote em {
-  color: #1C1C1E;
+  color: var(--Primary);
 }
 
 blockquote code {
@@ -1421,7 +1422,7 @@ object {
 }
 
 .wp-block-button__link:hover {
-  background: #1C1C1E;
+  background: var(--Primary);
   color: var(--White);
 }
 

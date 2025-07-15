@@ -8,46 +8,45 @@
  */
 
 get_header(); ?>
-<div class="container">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="wrap-content-area clearfix">
-				<div id="primary" class="content-area" >
-					<main id="main" class="post-wrap" role="main">
-					<?php if ( have_posts() ) : ?>
-					<div class="wrap-blog-article has-post-content">
-						<?php /* Start the Loop */ ?>
-						<?php while ( have_posts() ) : the_post(); ?>
+	<div class="main-content tf-container">
+		<div class="row">
+						<div class="col-md-12">
+				<?php get_template_part( 'tpl/page-title'); ?>
+			</div>
+			<div class="col-md-9">
+				<div class="wrap-content-area clearfix">
+					<div id="primary" class="content-area">
+						<main id="main" class="post-wrap" role="main">
+							<?php if ( have_posts() ) : ?>
+							<div class="wrap-blog-article has-post-content">
+								<?php while ( have_posts() ) : the_post(); ?>
 
-							<?php
-								/* Include the Post-Format-specific template for the content.
-								 * If you want to override this in a child theme, then include a file
-								 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-								 */
-								get_template_part( 'content', get_post_type() );
-							?>
+									<?php
+										get_template_part( 'content', get_post_type() );
+									?>
 
-						<?php endwhile; ?>		
-					</div>	
-					<?php else : ?>
+								<?php endwhile; ?>		
+							</div>	
+							<?php else : ?>
 
-						<?php get_template_part( 'content', 'none' ); ?>
+								<?php get_template_part( 'content', 'none' ); ?>
 
-					<?php endif; ?>
-					</main><!-- #main -->
-					<div class="clearfix">
-					<?php	        
-						get_template_part( 'tpl/pagination' );				
+							<?php endif; ?>
+						</main><!-- #main -->
+						<div class="clearfix">
+						<?php
+							get_template_part( 'tpl/pagination' );
+						?>			
+						</div>
+					</div><!-- #primary -->
+
+				</div><!-- /.wrap-content-area -->
+			</div>
+			<div class="col-md-3">
+					<?php 
+						get_sidebar();
 					?>
-					</div>
-				</div><!-- #primary -->
-				<?php 
-				if ( $blog_layout_sidebar == 'sidebar-left' || $blog_layout_sidebar == 'sidebar-right' ) :
-					get_sidebar();
-				endif;
-				?>
-			</div><!-- /.wrap-content-area -->
-		</div><!-- /.col-md-12 -->
-	</div><!-- /.row -->
-</div>
+			</div>
+
+
 <?php get_footer(); ?>

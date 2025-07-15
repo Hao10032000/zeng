@@ -10,6 +10,10 @@
 ?>        
     </div><!-- #main-content -->
 
+    <footer>
+        <p class="font-3 text_secondary-color text-center"><?php echo wp_kses(themesflat_get_opt( 'footer_copyright'), themesflat_kses_allowed_html()); ?></p>
+    </footer>
+
 
 </div><!-- /#boxed -->
 
@@ -646,6 +650,8 @@
 
 
     <?php endif; ?>
+
+
 
 <?php wp_footer(); ?>
 </body>
