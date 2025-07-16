@@ -15,7 +15,10 @@
         }
     }
 }
-
+#main-content > .elementor {
+    z-index: 1;
+    position: relative;
+}
 .container {
     padding-right: 15px;
     padding-left: 15px;

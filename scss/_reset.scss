@@ -904,8 +904,8 @@ a {
 }
 
 @include res(lg, min) {
-    .tf-grid-layout {
-        --spacing: 20px;
+       .tf-grid-layout {
+        --spacing: 26px 44px;
         gap: var(--spacing);
         &.lg-col-2 {
             grid-template-columns: repeat(2, 1fr);
@@ -1156,6 +1156,7 @@ a {
     width: 100%;
     height: 100%;
     opacity: 0.3;
+    z-index: 0;
     svg {
         width: 100%;
         rect {

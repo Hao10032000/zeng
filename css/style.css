@@ -17,6 +17,8 @@
     * Responsive
  ------------------------------------------------------------------------------ */
 /*--------- Abstracts variable ---------- */
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nasalization&display=swap");
 :root {
   --Black: #000000;
   --White: #ffffff;
@@ -1001,7 +1003,7 @@ a:hover, a:focus {
 }
 @media (min-width: 992px) {
   .tf-grid-layout {
-    --spacing: 20px;
+    --spacing: 26px 44px;
     gap: var(--spacing);
   }
   .tf-grid-layout.lg-col-2 {
@@ -1283,6 +1285,7 @@ a:hover, a:focus {
   width: 100%;
   height: 100%;
   opacity: 0.3;
+  z-index: 0;
 }
 .body-overlay svg {
   width: 100%;
@@ -1759,7 +1762,7 @@ ol.wp-block-latest-comments li {
 }
 .header-sidebar.style-1 .nav-menu {
   display: flex;
-  gap: 40px;
+  gap: 45px;
 }
 @media (max-width: 1199px) {
   .header-sidebar.style-horizontal {
@@ -2395,6 +2398,50 @@ form textarea {
   .form-contact .list-tag a {
     padding: 8px 12px;
   }
+}
+.form-contact .custom-radio-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+.form-contact .custom-radio {
+  position: relative;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.form-contact .custom-radio input[type=radio] {
+  display: none;
+}
+.form-contact .custom-radio label > span {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) -61.8%, rgba(204, 235, 235, 0.01) 100%);
+  color: var(--White);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+.form-contact .custom-radio input[type=radio]:checked + span {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 0 2px var(--Primary);
+  color: var(--Primary);
+}
+.form-contact .tf-btn.style-1 {
+  height: 56px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-contact .wpcf7-list-item {
+  margin: 0 0 0 0em;
 }
 
 /*------------ slider ---------------- */
@@ -4158,7 +4205,7 @@ ANIMATION AREA CSS
 }
 
 .portfolio-item {
-  background-image: url(../images/item/bg-portfolio-dark.png);
+  background-image: url(../img/bg-portfolio-dark.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 28px 15px;
@@ -4177,6 +4224,8 @@ ANIMATION AREA CSS
 }
 .portfolio-item .img-style img {
   width: 100%;
+  height: 388px;
+  object-fit: cover;
 }
 .portfolio-item .tag {
   display: flex;
@@ -4239,6 +4288,23 @@ ANIMATION AREA CSS
 .pricing-item .list-check i {
   font-size: 24px;
   color: var(--Primary);
+}
+.pricing-item .list-check li {
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--Text-light);
+  font-family: "Inter", sans-serif;
+}
+.pricing-item .list-check li::before {
+  content: "\e90f";
+  font-size: 24px;
+  color: var(--Primary);
+  font-family: "icomoon";
+  margin-right: 5px;
+  vertical-align: sub;
+}
+.pricing-item .list-check li:not(:last-child) {
+  margin-bottom: 8px;
 }
 .pricing-item .item-shape {
   position: absolute;
@@ -4551,6 +4617,11 @@ ANIMATION AREA CSS
     margin-right: 0;
     padding-top: 100px;
   }
+}
+
+#main-content > .elementor {
+  z-index: 1;
+  position: relative;
 }
 
 .container {
