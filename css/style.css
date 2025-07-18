@@ -19,6 +19,12 @@
 /*--------- Abstracts variable ---------- */
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nasalization&display=swap");
+@font-face {
+  font-family: "Nasalization";
+  src: url("../fonts/nasalization.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 :root {
   --Black: #000000;
   --White: #ffffff;
@@ -1002,8 +1008,11 @@ a:hover, a:focus {
   }
 }
 @media (min-width: 992px) {
+  .tabs-content-wrap.tf-grid-layout {
+    --spacing: 23px 43px;
+  }
   .tf-grid-layout {
-    --spacing: 26px 44px;
+    --spacing: 26px 20px;
     gap: var(--spacing);
   }
   .tf-grid-layout.lg-col-2 {
@@ -2362,7 +2371,7 @@ form textarea {
   background: var(--Bg-linear-2);
   position: relative;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 40px;
+  padding: 40px 62px 14px 62px;
   border-radius: 40px;
   overflow: hidden;
   margin-bottom: 44px;
@@ -2442,6 +2451,9 @@ form textarea {
 }
 .form-contact .wpcf7-list-item {
   margin: 0 0 0 0em;
+}
+.form-contact .button-submit {
+  margin-top: 34px;
 }
 
 /*------------ slider ---------------- */
@@ -3796,6 +3808,7 @@ ANIMATION AREA CSS
 }
 .user-bar .name {
   margin-bottom: 1px;
+  margin-bottom: 6px;
 }
 .user-bar .img-style {
   max-width: 314px;
@@ -4655,6 +4668,14 @@ ANIMATION AREA CSS
   }
 }
 
+footer {
+  padding-bottom: 40px;
+}
+
+.style3 .title-border-shape {
+  padding: 0px;
+}
+
 .title-border-shape {
   position: relative;
   max-width: max-content;
@@ -4775,6 +4796,87 @@ ANIMATION AREA CSS
   .wrap-section .row {
     gap: 40px;
   }
+}
+
+.blog-post {
+  margin-bottom: 50px;
+}
+
+.blog-post .title {
+  font-family: Epilogue;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.blog-post .post-content {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Inter;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.blog-post .featured-post {
+  margin-bottom: 30px;
+}
+
+.blog-post .content .meta-feature li {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.breadcrumb-trail {
+  margin-bottom: 25px;
+  padding: 30px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.trail-item {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+}
+
+.breadcrumb-trail .sep {
+  font-size: 16px;
+  color: #fff;
+  margin: 0px 10px;
+}
+
+.page-numbers {
+  width: 60px;
+  height: 60px;
+  border-radius: 99px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.page-numbers.current,
+.page-numbers:hover {
+  background: #40E377;
+  color: #121212;
+}
+
+.wrap-content-area {
+  padding-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

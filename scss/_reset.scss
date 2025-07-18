@@ -904,8 +904,11 @@ a {
 }
 
 @include res(lg, min) {
+        .tabs-content-wrap.tf-grid-layout {
+        --spacing: 23px 43px;
+        }
        .tf-grid-layout {
-        --spacing: 26px 44px;
+               --spacing: 26px 20px;
         gap: var(--spacing);
         &.lg-col-2 {
             grid-template-columns: repeat(2, 1fr);
