@@ -394,7 +394,7 @@ class Custom_Icon_Menu_Walker extends Walker_Nav_Menu {
         } else {
             // Fallback icon if no custom field is set, or remove this if not needed.
             // You could map specific menu item titles to icons here.
-            $item_output .= '<i class="icon icon-GearSix"></i>'; // Replace 'icon-Default' with a suitable default
+            $item_output .= '<i class="icon icon-User"></i>'; // Replace 'icon-Default' with a suitable default
         }
 
         $item_output .= '<span class="tooltip text-caption-1">' . $title . '</span>';

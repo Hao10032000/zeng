@@ -415,6 +415,9 @@
   border-radius: 40px 40px 0 0;
   position: relative;
   min-height: 100%;
+  &.element:not(:last-child){
+    margin-bottom: 27px;
+}
   .img-style {
     width: 100%;
 

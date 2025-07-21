@@ -234,11 +234,11 @@ footer {
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
-    color: #fff;
+    color: var(--White);
 }
 .breadcrumb-trail .sep {
     font-size: 16px;
-    color: #fff;
+    color: var(--White);
     margin: 0px 10px;
 }
 .page-numbers {
@@ -255,13 +255,59 @@ footer {
     align-items: center;
     justify-content: center;
     margin-right: 10px;
-    color: #fff;
+    color: var(--White);
 }
 .page-numbers.current,
 .page-numbers:hover {
-    background: #40E377;
+    background: var( --Primary);
     color: #121212;
 }
 .wrap-content-area {
     padding-bottom: 50px;
+}
+.sidebar .widget {
+    margin-bottom: 40px;
+}
+.sidebar .widget .widget-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.wp-block-categories li.cat-item {
+    font-family: Epilogue;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: var(--White);
+}
+.wp-block-categories li.cat-item a,
+.wp-block-tag-cloud a{
+    color: var(--Text-primary);
+}
+.wp-block-categories li.cat-item a{
+    color: var(--White);
+}
+.wp-block-categories li.cat-item a:hover{
+    color: var(--Primary);
+}
+
+.wp-block-tag-cloud a:hover{
+    color: var(--Text-primary);
+}
+.wp-block-tag-cloud a:hover{
+    color: var(--Text-primary);
+}
+.wp-block-tag-cloud a {
+       display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 1px 10px;
+    background: var(--Primary);
+    border-radius: 5px;
+}
+.wp-block-tag-cloud a:hover {
+    background: var(--White);
+}
+.wp-block-categories {
+    margin-top: 0px !important;
 }
