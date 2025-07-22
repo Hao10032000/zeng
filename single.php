@@ -25,9 +25,7 @@ get_header(); ?>
 		</div>
 		<div class="col-md-3">
 			<?php 
-			if ( themesflat_get_opt( 'sidebar_layout' ) == 'sidebar-left' || themesflat_get_opt( 'sidebar_layout' ) == 'sidebar-right' ) :
 				get_sidebar();
-			endif;
 			?>
 		</div>
 	</div><!-- /.row -->

@@ -50,39 +50,11 @@ if( $query->have_posts() ) {
                     <div class="img-style mb_26">
                             <a href="<?php the_permalink(); ?>" class="overlay-link"></a>
                             <?php echo get_the_post_thumbnail(get_the_ID(), 'themesflat-blog-grid'); ?>
-                                    <?php
-                                $meta_elements = themesflat_layout_draganddrop(themesflat_get_opt('meta_elements'));
-
-                                foreach ($meta_elements as $meta_element) {
-                                    if ($meta_element === 'category') {
-                                        $categories = get_the_category();
-                                    
-                                        if (!empty($categories)) {
-                                            echo '<span class="post-category">';
-                                            foreach ($categories as $category) {
-                                                $category_link = esc_url(get_category_link($category->term_id));
-                                                $category_name = esc_html($category->name);
-                                            
-                                                echo '<a href="' . $category_link . '" class="tag categories text-caption-2 text_white">' . $category_name . '</a> ';
-                                            }
-                                            echo '</span>';
-                                        }
-                                    }
-                                }
-                                ?>
                     </div>
                     <div class="content">
                         <?php 
-                        echo '<div class="meta-feature fw-7 d-flex text-caption-2 text-uppercase mb_11">';
-                            $meta_elements = themesflat_layout_draganddrop(themesflat_get_opt( 'meta_elements' ));
-                            $author_id = get_post_field('post_author', get_the_ID());
-                            foreach ( $meta_elements as $meta_element ) :
-                                if ( 'date' == $meta_element ) {
-                                    echo '<li>';   
-                                        echo get_the_date();
-                                    echo '</li>';
-                                } 
-                            endforeach;
+                        echo '<div class="meta-feature">';
+                            echo get_the_date();
                         echo '</div>';
                         the_title( sprintf( '<h5 class="title"><a href="%s" class="link line-clamp-2" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h5>' );
                         ?>

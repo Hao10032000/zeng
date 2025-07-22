@@ -135,30 +135,6 @@ function themesflat_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'themesflat_excerpt_length', 999 );
 
-/**
- * Blog layout
- */
-function themesflat_blog_layout() {  
-
-    switch (get_post_type()) {
-        case 'page':
-            $layout = themesflat_get_opt_elementor('page_sidebar_layout');   
-            break;
-        case 'post':
-            $layout = themesflat_get_opt('sidebar_layout');
-            break;
-        default:
-            $layout = themesflat_get_opt('page_sidebar_layout');
-            break;
-    }
-
-    if (is_search()) {
-        $layout = themesflat_get_opt('sidebar_layout');
-    }
-
-    return $layout;
-}
-
 if ( version_compare( $GLOBALS['wp_version'], '4.1', '<' ) ) :
     /**
      * Filters wp_title to print a neat <title> tag based on what is being viewed.

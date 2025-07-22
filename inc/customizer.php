@@ -73,13 +73,6 @@ function themesflat_customize_register( $wp_customize ) {
     ));
     require THEMESFLAT_DIR . "inc/customizer/color.php"; 
 
-    //___HEADER___//   
-    $wp_customize->add_panel('header_panel',array(
-        'title'         => 'Header',
-        'priority'      => 143,
-    ));
-    require THEMESFLAT_DIR . "inc/customizer/header.php";
-
     //___PAGETITLE___//   
     $wp_customize->add_panel('page_title_panel',array(
         'title'         => 'Page Title',

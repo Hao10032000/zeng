@@ -3,14 +3,8 @@
 
     jQuery(document).ready(function(){
         //Header
-        elementor.settings.page.addChangeCallback( 'style_header', handleReloadPreview );
-        elementor.settings.page.addChangeCallback( 'style_footer', handleReloadPreview );
-        elementor.settings.page.addChangeCallback( 'show_category_list', handleReloadPreview );
-        elementor.settings.page.addChangeCallback( 'style_blog_single', handleReloadPreview );
-        elementor.settings.page.addChangeCallback( 'style_category_list', handleReloadPreview );
-        //Page
-        elementor.settings.page.addChangeCallback( 'sidebar_layout', handleReloadPreview );
-        
+        elementor.settings.page.addChangeCallback( 'style_background', handleReloadPreview );
+        elementor.settings.page.addChangeCallback( 'video_background', handleReloadPreview );
     });
 
     function handleReloadPreview ( newValue ) {

@@ -3,12 +3,9 @@
  * @package zeng
  */
     
- $blog_style_layout = isset($_GET['blog_style_layout']) ? $_GET['blog_style_layout'] : themesflat_get_opt('blog_style_layout');
- $paste_class = $blog_style_layout == 'style-grid' ? 'style-default item-grid' : 'style-list';
-
 ?>
 
-	<article id="post-<?php the_ID(); ?>" class="blog-post feature-post-item <?php echo esc_attr($paste_class); ?> hover-image-translate">
+	<article id="post-<?php the_ID(); ?>" class="blog-post feature-post-item">
 			<?php get_template_part( 'tpl/feature-post'); ?>
 			<div class="content">
 				<?php 
