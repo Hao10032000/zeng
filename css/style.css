@@ -4806,18 +4806,19 @@ footer {
 }
 
 .blog-post .title {
-  font-family: Epilogue;
+  font-family: var("Epilogue", sans-serif);
   font-weight: 500;
   font-size: 24px;
   line-height: 30px;
   text-transform: capitalize;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .blog-post .post-content {
   font-size: 16px;
   line-height: 28px;
-  font-family: Inter;
+  font-family: var("Inter", sans-serif);
   font-weight: 400;
   margin-bottom: 10px;
 }
@@ -4827,7 +4828,7 @@ footer {
 }
 
 .blog-post .content .meta-feature li {
-  font-family: Inter;
+  font-family: var("Inter", sans-serif);
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -4842,7 +4843,7 @@ footer {
 }
 
 .trail-item {
-  font-family: Inter;
+  font-family: var("Inter", sans-serif);
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -4860,7 +4861,7 @@ footer {
   height: 60px;
   border-radius: 99px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  font-family: Inter;
+  font-family: var("Inter", sans-serif);
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
@@ -4892,7 +4893,7 @@ footer {
 }
 
 .wp-block-categories li.cat-item {
-  font-family: Epilogue;
+  font-family: var("Epilogue", sans-serif);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -4936,6 +4937,40 @@ footer {
 
 .wp-block-categories {
   margin-top: 0px !important;
+}
+
+.single-post .main-content p {
+  margin-bottom: 20px;
+}
+
+.single-post .main-content .wp-block-heading {
+  margin-bottom: 10px;
+}
+
+.single-post .main-content blockquote {
+  background: var(--Bg-linear-2);
+  backdrop-filter: blur(12px);
+  padding: 20px;
+}
+
+.single-post .main-content blockquote p:not(:first-child) {
+  margin-bottom: 0px;
+}
+
+.single-post .main-content blockquote p {
+  margin-bottom: 10px;
+}
+
+.single-post .main-content h3 {
+  font-size: 35px;
+  line-height: 60px;
+}
+
+.form-submit .tf-btn {
+  background-color: var(--Primary);
+  color: var(--Text-primary);
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */

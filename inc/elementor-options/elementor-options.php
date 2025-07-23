@@ -26,10 +26,10 @@ class themesflat_options_elementor {
         $post_id = $element->get_id();
         $post_type = get_post_type($post_id);
 
-        if ( ($post_type !== 'post') ) {
-        	$this->themesflat_options_page_header($element);
-            $this->themesflat_options_page_footer($element);                      
-        }
+        // if ( ($post_type !== 'post') ) {
+        // 	$this->themesflat_options_page_header($element);
+        //     $this->themesflat_options_page_footer($element);                      
+        // }
 
         $this->themesflat_options_page($element);
         $this->themesflat_options_page_pagetitle($element);
