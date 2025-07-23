@@ -84,7 +84,7 @@
     position: fixed;
     right: 42px;
     top: 100px;
-    z-index: 999;
+    z-index: 9999;
     @include res(xxl) {
         right: 15px;
     }
@@ -104,6 +104,10 @@
         right: 20px;
         top: 82px;
     }
+}
+
+.page-template-page-vertical .not-for-vertical {
+    display: none !important;
 }
 
 .nav-right {

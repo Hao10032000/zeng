@@ -1801,7 +1801,7 @@ ol.wp-block-latest-comments li {
   position: fixed;
   right: 42px;
   top: 100px;
-  z-index: 999;
+  z-index: 9999;
 }
 @media (max-width: 1440px) {
   .right-bar {
@@ -4971,6 +4971,10 @@ footer {
   color: var(--Text-primary);
   font-family: "Inter", sans-serif;
   font-weight: 600;
+}
+
+.page-template-page-vertical .not-for-vertical {
+    display: none !important;
 }
 
 /*# sourceMappingURL=style.css.map */

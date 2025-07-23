@@ -23,6 +23,8 @@
 <?php wp_body_open(); ?>
 <div id="wrapper" class="themesflat-boxed counter-scroll bg_dark">	
 
+    <?php get_template_part( 'tpl/header/header-navigation'); ?>
+
 	<?php
 		get_template_part( 'tpl/site-header');        		
 	?>
