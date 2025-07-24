@@ -3,7 +3,7 @@
 .user-bar {
   position: fixed;
   left: 41px;
-  top: 99px;
+     top: 132px;
   max-width: 370px;
   padding: 28px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -406,10 +406,14 @@
     }
   }
 }
-
+.style1 .section-testimonial .wrap-sw-button {
+    right: 0px;
+    bottom: unset;
+    top: -60px;
+}
 .portfolio-item {
-  background-image: url(../img/bg-portfolio-dark.png);
-  background-repeat: no-repeat;
+  background-image: url(../images/bg-portfolio-dark.png);
+  background-repeat: round;
   background-size: cover;
   padding: 28px 15px;
   border-radius: 40px 40px 0 0;

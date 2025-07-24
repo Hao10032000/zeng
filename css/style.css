@@ -1261,9 +1261,18 @@ a:hover, a:focus {
   color: var(--Text-light);
   background: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) -61.8%, rgba(204, 235, 235, 0.01) 100%);
 }
+.list-icon li svg {
+  width: 20px;
+  color: var(--Text-light);
+  fill: var(--Text-light);
+}
 .list-icon li:hover > * {
   background-color: var(--Text-light);
   color: var(--Text-primary);
+}
+.list-icon li:hover svg {
+  color: var(--Text-primary);
+  fill: var(--Text-primary);
 }
 
 .logo {
@@ -1827,6 +1836,10 @@ ol.wp-block-latest-comments li {
     right: 20px;
     top: 82px;
   }
+}
+
+.page-template-page-vertical .not-for-vertical {
+  display: none !important;
 }
 
 .nav-right {
@@ -2428,8 +2441,8 @@ form textarea {
   padding: 12px 24px;
   border-radius: 40px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  background: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) -61.8%, rgba(204, 235, 235, 0.01) 100%);
-  color: var(--White);
+  background: var(--Bg-linear-2);
+  color: var(--Text-light);
   cursor: pointer;
   transition: all 0.3s ease;
   font-family: "Inter", sans-serif;
@@ -3797,7 +3810,7 @@ ANIMATION AREA CSS
 .user-bar {
   position: fixed;
   left: 41px;
-  top: 99px;
+  top: 132px;
   max-width: 370px;
   padding: 28px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -4217,9 +4230,15 @@ ANIMATION AREA CSS
   }
 }
 
+.style1 .section-testimonial .wrap-sw-button {
+  right: 0px;
+  bottom: unset;
+  top: -60px;
+}
+
 .portfolio-item {
-  background-image: url(../img/bg-portfolio-dark.png);
-  background-repeat: no-repeat;
+  background-image: url(../images/bg-portfolio-dark.png);
+  background-repeat: round;
   background-size: cover;
   padding: 28px 15px;
   border-radius: 40px 40px 0 0;
@@ -4635,6 +4654,11 @@ ANIMATION AREA CSS
   }
 }
 
+.w-2 .main-content {
+  padding-top: 99px !important;
+  padding-right: 34px;
+}
+
 #main-content > .elementor {
   z-index: 1;
   position: relative;
@@ -4660,6 +4684,11 @@ ANIMATION AREA CSS
   .heading-section .tag-heading {
     margin-bottom: 12px;
   }
+}
+
+.section-contact h3 {
+  letter-spacing: -2px;
+  text-transform: capitalize;
 }
 
 .main-content-2 {
@@ -4806,7 +4835,7 @@ footer {
 }
 
 .blog-post .title {
-  font-family: var("Epilogue", sans-serif);
+  font-family: "Epilogue", sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 30px;
@@ -4818,7 +4847,7 @@ footer {
 .blog-post .post-content {
   font-size: 16px;
   line-height: 28px;
-  font-family: var("Inter", sans-serif);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   margin-bottom: 10px;
 }
@@ -4828,7 +4857,7 @@ footer {
 }
 
 .blog-post .content .meta-feature li {
-  font-family: var("Inter", sans-serif);
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -4843,7 +4872,7 @@ footer {
 }
 
 .trail-item {
-  font-family: var("Inter", sans-serif);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -4861,7 +4890,7 @@ footer {
   height: 60px;
   border-radius: 99px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  font-family: var("Inter", sans-serif);
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
@@ -4893,7 +4922,7 @@ footer {
 }
 
 .wp-block-categories li.cat-item {
-  font-family: var("Epilogue", sans-serif);
+  font-family: "Epilogue", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -4971,10 +5000,6 @@ footer {
   color: var(--Text-primary);
   font-family: "Inter", sans-serif;
   font-weight: 600;
-}
-
-.page-template-page-vertical .not-for-vertical {
-    display: none !important;
 }
 
 /*# sourceMappingURL=style.css.map */

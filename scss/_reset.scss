@@ -1125,11 +1125,22 @@ a {
                 rgba(204, 235, 235, 0.01) 100%
             );
         }
+        svg {
+        width: 20px;
+        color: var(--Text-light);
+        fill: var(--Text-light);
+       }
         &:hover {
             > * {
                 background-color: var(--Text-light);
                 color: var(--Text-primary);
             }
+        }
+        &:hover svg{
+
+                color: var(--Text-primary);
+                fill: var(--Text-primary);
+            
         }
     }
 }
