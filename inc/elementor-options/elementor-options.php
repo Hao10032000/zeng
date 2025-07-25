@@ -32,24 +32,24 @@ class themesflat_options_elementor {
         // }
 
         $this->themesflat_options_page($element);
-        $this->themesflat_options_page_pagetitle($element);
+        $this->themesflat_options_page_footer($element);
 
     }
 
-    public function themesflat_options_page_pagetitle($element) {
+    public function themesflat_options_page_footer($element) {
         // TF Page Title
         $element->start_controls_section(
-            'themesflat_pagetitle_options',
+            'themesflat_footer_options',
             [
-                'label' => esc_html__('TF Page Title', 'zeng'),
+                'label' => esc_html__('TF Footer', 'zeng'),
                 'tab' => Controls_Manager::TAB_SETTINGS,
             ]
         );       
 
         $element->add_control(
-            'hide_breadcrumb',
+            'hide_Footer',
             [
-                'label'     => esc_html__( 'Hide BreadCrumb', 'zeng'),
+                'label'     => esc_html__( 'Hide Footer', 'zeng'),
                 'type'      => Controls_Manager::SELECT,
                 'default'   => 'block',
                 'options'   => [
@@ -57,7 +57,7 @@ class themesflat_options_elementor {
                     'block'      => esc_html__( 'No', 'zeng'),
                 ],
                 'selectors'  => [
-                    '{{WRAPPER}} .breadcrumb-trail' => 'display: {{VALUE}};',
+                    '{{WRAPPER}} footer' => 'display: {{VALUE}};',
                 ],
             ]
         ); 

@@ -36,51 +36,7 @@ $header_button_url = themesflat_get_opt('header_button_url');
 	<div id="main-content">
 
         <div class="tf-container">
-            <!-- main-content -->
-
-            <div class="d-md-none pt_24">
-                <div class="header-sidebar style-horizontal bs-light-mode">
-                    <div class="box">
-                        <?php if ($website_info['custom_avatar']): ?>
-                            <div class="avatar">
-                                <img src="<?php echo esc_url($website_info['custom_avatar']); ?>" width="68" height="68" alt="avatar">
-                            </div>
-                        <?php else: ?>
-                            <div class="avatar">
-                                <img src="<?php echo  THEMESFLAT_LINK . '/images/avatar.png'; ?>" alt="avatar">
-                            </div>
-                        <?php endif; ?>
-                        <div class="info">
-                                <?php if ($website_info['full_name']): ?>
-                                    <h6 class="font-4 mb_4"><?php echo esc_html($website_info['full_name']); ?></h6>
-                                <?php else: ?>
-                                    <h6 class="font-4 mb_4"><?php echo _e('ZenG', 'zeng'); ?></h6>
-                                <?php endif; ?>     
-                                <?php if ($website_info['job_title']): ?>
-                                <div class="text-label text-uppercase fw-6 text_primary-color font-3  letter-spacing-1">
-                                    <?php echo esc_html($website_info['job_title']); ?>
-                                </div>
-                                <?php endif; ?>     
-                        </div>
-                    </div>
-
-                    <ul class="nav-menu style-2 list-icon ">
-                        <?php get_template_part( 'tpl/header/navigator-with-icon'); ?>
-                    </ul>
-
-                    <a class="menu-button show-menu-mobile  d-sm-none link-no-action" data-target="#menu-2" href="#"><i
-                            class="icon-CirclesFour"></i></a>
-                    <div id="menu-2" class="popup-menu-mobile">
-
-                        <?php get_template_part( 'tpl/header/navigator-2'); ?>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- user-bar -->
-
-        <div class="header header-fixed  style-1">
+            <div class="header header-fixed  style-1">
             <div class="tf-container">
                 <div class="row">
                     <div class="offset-xxl-4 col-xxl-7 offset-xl-4 col-xl-7">
@@ -119,6 +75,7 @@ $header_button_url = themesflat_get_opt('header_button_url');
             </div>
             <div class="popup-menu-mobile" id="menu-1">
                 <?php get_template_part( 'tpl/header/navigator-2'); ?>
+            </div>
             </div>
         </div>
 
@@ -276,7 +233,7 @@ $header_button_url = themesflat_get_opt('header_button_url');
         </div>
 
 
-        </div>
+    </div>
 
 
 

@@ -1173,8 +1173,8 @@ a {
     z-index: 0;
     svg {
         width: 100%;
-        rect {
-            stroke: var(--Primary);
+        path {
+            fill: var(--Primary);
         }
         linearGradient {
             stop {

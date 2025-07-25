@@ -67,7 +67,7 @@ $header_button_url = themesflat_get_opt('header_button_url');
                         </div>
                     </div>
 
-                    <ul class="nav-menu style-2 list-icon ">
+                    <ul class="nav-menu style-2 list-icon">
                         <?php get_template_part( 'tpl/header/navigator-with-icon'); ?>
                     </ul>
 

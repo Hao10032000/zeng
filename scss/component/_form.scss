@@ -55,6 +55,11 @@ form {
   }
 }
 
+@media (max-width: 1024px) {
+  .style1 .form-contact{
+    padding: 28px 15px;
+}
+}
 .form-contact {
   background: var(--Bg-linear-2);
   position: relative;
@@ -93,6 +98,7 @@ form {
   }
   @include res(md) {
     padding: 28px 15px;
+     margin-bottom: 0px;
     .list-tag a {
       padding: 8px 12px;
     }

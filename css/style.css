@@ -1308,8 +1308,8 @@ a:hover, a:focus {
 .body-overlay svg {
   width: 100%;
 }
-.body-overlay svg rect {
-  stroke: var(--Primary);
+.body-overlay svg path {
+  fill: var(--Primary);
 }
 .body-overlay svg linearGradient stop {
   stop-color: var(--Primary);
@@ -1852,6 +1852,8 @@ ol.wp-block-latest-comments li {
 }
 .nav-right .list-icon {
   gap: 20px;
+  flex-direction: column;
+  display: flex;
 }
 .nav-right .wrap {
   position: absolute;
@@ -2380,6 +2382,11 @@ form textarea {
   height: 92px;
 }
 
+@media (max-width: 1024px) {
+  .style1 .form-contact {
+    padding: 28px 15px;
+  }
+}
 .form-contact {
   background: var(--Bg-linear-2);
   position: relative;
@@ -2416,6 +2423,7 @@ form textarea {
 @media (max-width: 767px) {
   .form-contact {
     padding: 28px 15px;
+    margin-bottom: 0px;
   }
   .form-contact .list-tag a {
     padding: 8px 12px;
@@ -3005,6 +3013,10 @@ form textarea {
     * Responsive
  ------------------------------------------------------------------------------ */
 /*--------- Abstracts variable ---------- */
+.style2 .testimonial-item .icon {
+  display: none;
+}
+
 .testimonial-item {
   position: relative;
   overflow: hidden;
@@ -4236,6 +4248,12 @@ ANIMATION AREA CSS
   top: -60px;
 }
 
+.dark-mode .portfolio-item {
+  background: var(--White);
+  border-radius: 40px;
+  overflow: hidden;
+}
+
 .portfolio-item {
   background-image: url(../images/bg-portfolio-dark.png);
   background-repeat: round;
@@ -4259,8 +4277,6 @@ ANIMATION AREA CSS
 }
 .portfolio-item .img-style img {
   width: 100%;
-  height: 388px;
-  object-fit: cover;
 }
 .portfolio-item .tag {
   display: flex;
@@ -4300,7 +4316,7 @@ ANIMATION AREA CSS
 }
 @media (min-width: 768px) {
   .portfolio-item {
-    padding: 40px 40px 40px;
+    padding: 40px 40px 25px 40px;
   }
 }
 
@@ -4654,8 +4670,14 @@ ANIMATION AREA CSS
   }
 }
 
+@media (max-width: 1024px) {
+  .w-2 .main-content {
+    padding-top: 25px !important;
+    padding-right: 0px !important;
+  }
+}
 .w-2 .main-content {
-  padding-top: 99px !important;
+  padding-top: 99px;
   padding-right: 34px;
 }
 

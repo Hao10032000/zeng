@@ -1,6 +1,5 @@
     <?php 
-    
-    $website_info = get_my_website_info();
+$website_info = get_my_website_info();
 $header_button_show = themesflat_get_opt('header_button');
 if (themesflat_get_opt_elementor('header_button') != '') {
     $header_button_show = themesflat_get_opt_elementor('header_button');

@@ -119,6 +119,8 @@
     margin-bottom: 21px;
     .list-icon {
         gap: 20px;
+        flex-direction: column;
+        display: flex;
     }
     .wrap {
         position: absolute;
@@ -151,7 +153,11 @@
         border: 1px solid #ffffff1a;
     }
 }
-
+.nav-right .nav-menu .tooltip {
+    // left: -160px;
+    // top: calc(100% + -40px);
+    // right: auto;
+}
 .nav-menu {
     li {
         position: relative;

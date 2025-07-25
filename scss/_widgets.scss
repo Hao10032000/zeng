@@ -411,6 +411,11 @@
     bottom: unset;
     top: -60px;
 }
+.dark-mode .portfolio-item {
+    background: var(--White);
+    border-radius: 40px;
+    overflow: hidden;
+}
 .portfolio-item {
   background-image: url(../images/bg-portfolio-dark.png);
   background-repeat: round;
@@ -433,8 +438,8 @@
     box-shadow: 0px 10px 25px 0px rgba(54, 95, 104, 0.1);
     img {
       width: 100%;
-      height: 388px;
-      object-fit: cover;
+      // height: 388px;
+      // object-fit: cover;
     }
   }
   .tag {
@@ -472,7 +477,7 @@
     }
   }
   @include res(md, min) {
-    padding: 40px 40px 40px;
+    padding: 40px 40px 25px 40px;
   }
 }
 

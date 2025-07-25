@@ -1,5 +1,7 @@
 @use "../abstracts/index" as *;
-
+.style2 .testimonial-item .icon {
+    display: none;
+}
 .testimonial-item {
     position: relative;
     overflow: hidden;
