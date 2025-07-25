@@ -16,6 +16,7 @@ function themesflat_customize_default($key) {
 
 		'style_background' => '',
 		'video_background' => 'video-1',
+		'image_background' =>  THEMESFLAT_LINK . 'images/background.svg',
 
 		'style_header'	=> 'header-default',	
 		'header_backgroundcolor'=>'#24283E',

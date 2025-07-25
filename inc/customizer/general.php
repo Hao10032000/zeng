@@ -24,6 +24,29 @@ $wp_customize->add_control(
     )
 );
 
+$wp_customize->add_setting(
+    'image_background',
+    array(
+        'default' => themesflat_customize_default('image_background'),
+        'sanitize_callback' => 'esc_url_raw',
+    )
+);    
+$wp_customize->add_control(
+    new WP_Customize_Image_Control(
+        $wp_customize,
+        'image_background',
+        array(
+           'label'          => esc_html__( 'Upload Background Image', 'zeng' ),
+           'type'           => 'image',
+            'section' => 'general_panel',
+           'priority'       => 2,
+            'active_callback' => function () use ( $wp_customize ) {
+                return 'page-background' === $wp_customize->get_setting( 'style_background' )->value();
+            }, 
+        )
+    )
+);
+
 //Header Style
 $wp_customize->add_setting(
     'video_background',
@@ -38,7 +61,7 @@ $wp_customize->add_control( new themesflat_RadioImages($wp_customize,
     array (
         'type'      => 'radio-images',           
         'section' => 'general_panel',
-        'priority'  => 1,
+        'priority'  => 3,
         'label'         => esc_html__('Select Video', 'zeng'),
         'choices'   => array (
             'video-1' => array (
@@ -86,5 +109,8 @@ $wp_customize->add_control( new themesflat_RadioImages($wp_customize,
                 'src'       => THEMESFLAT_LINK . 'images/features/feature-bg-7.jpg'
             ),
         ),
+        'active_callback' => function () use ( $wp_customize ) {
+            return 'video' === $wp_customize->get_setting( 'style_background' )->value();
+        }, 
     ))
 ); 

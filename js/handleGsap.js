@@ -202,7 +202,7 @@ gsap.registerPlugin(ScrollTrigger);
             let resizeTimeout;
             window.addEventListener("resize", () => {
                 clearTimeout(resizeTimeout);
-                resizeTimeout = setTimeout(updateTotalHeight, 150);
+                resizeTimeout = setTimeout(updateTotalHeight, 300);
             });
         }
     };

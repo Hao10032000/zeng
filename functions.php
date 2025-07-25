@@ -67,10 +67,6 @@ function themesflat_setup() {
     // This theme uses wp_nav_menu() in one location.
     register_nav_menus( array(
         'primary' => esc_html__( 'Primary Menu', 'zeng' ),
-        'bottom' => esc_html__( 'Bottom Menu', 'zeng' ),
-        'footer-1' => esc_html__( 'Footer Menu 1', 'zeng' ),
-        'footer-2' => esc_html__( 'Footer Menu 2', 'zeng' ),
-        'footer-3' => esc_html__( 'Footer Menu 3', 'zeng' )
     ) );
 
     /*
