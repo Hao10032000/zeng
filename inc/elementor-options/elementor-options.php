@@ -90,6 +90,15 @@ class themesflat_options_elementor {
         );
 
         $element->add_control(
+            'image_background',
+            [
+                'label'   => esc_html__( 'Custom Background Body', 'vineta' ),
+                'type'    => Controls_Manager::MEDIA,
+                'condition' => [ 'style_background' => 'page-background' ]
+            ]
+        );
+
+        $element->add_control(
             'video_background',
             [
                 'label'     => esc_html__( 'Select Video', 'finwice'),
@@ -109,6 +118,7 @@ class themesflat_options_elementor {
                     'video-10' => esc_html__( 'Video 10', 'finwice'),
                     'video-11' => esc_html__( 'Video 11', 'finwice'),
                 ],
+                'condition' => [ 'style_background' => 'video' ]
             ]
         );
 

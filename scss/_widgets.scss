@@ -322,6 +322,7 @@
     position: relative;
     font-size: 24px;
     color: var(--Text-light);
+    background: var(--Bg-linear-2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -333,7 +334,6 @@
       position: absolute;
       content: "";
       inset: 0;
-      background: var(--Bg-linear-2);
       opacity: 1;
     }
     &:hover {
@@ -412,8 +412,7 @@
     top: -60px;
 }
 .dark-mode .portfolio-item {
-    background: var(--White);
-    border-radius: 40px;
+     background-image: url(../images/bg-portfolio-light.png);
     overflow: hidden;
 }
 .portfolio-item {

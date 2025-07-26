@@ -128,7 +128,7 @@
         }
     }
     .form-contact {
-        .list-tag a {
+        .custom-radio label > span {
             background: #f8f7f4;
         }
         .tf-btn {
@@ -163,4 +163,7 @@
     .tf-setting-color .settings-color a::before {
         border-color: #121212;
     }
+}
+.dark-mode .service-item .btn-arrow {
+    --Bg-linear-2: #fff;
 }

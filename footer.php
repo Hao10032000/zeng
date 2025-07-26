@@ -17,16 +17,28 @@
 
 </div><!-- /#boxed -->
 
-    <?php if (themesflat_get_opt('style_background') == 'page-background'): ?>
+    <?php 
+    $image_background = themesflat_get_opt('image_background');
+    if (themesflat_get_opt_elementor('image_background') != '') {
+        $image_background = themesflat_get_opt_elementor('image_background');
+    }
+    $style_background = themesflat_get_opt('style_background');
+    if (themesflat_get_opt_elementor('style_background') != '') {
+        $style_background = themesflat_get_opt_elementor('style_background');
+    }
+    $video_option = themesflat_get_opt('video_background');
+    if (themesflat_get_opt_elementor('video_background') != '') {
+        $video_option = themesflat_get_opt_elementor('video_background');
+    }
+    if ($style_background == 'page-background'): ?>
 	<div class="body-overlay d-block">
-        <img  src="<?php echo esc_url(themesflat_get_opt('image_background')); ?>" alt="background body" />
+        <img  src="<?php echo esc_url($image_background); ?>" alt="background body" />
     </div>
     <?php else: ?>
 
     <?php 
         $video_data = '';
         $base_url = 'https://micare.vithemes.com/wp-content/demo/video/';
-        $video_option = themesflat_get_opt('video_background');
 
         if ($video_option === 'video-1') {
             $video_data = $base_url . 'video1.mp4';

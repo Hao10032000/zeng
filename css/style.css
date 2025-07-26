@@ -1302,7 +1302,6 @@ a:hover, a:focus {
   top: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.3;
   z-index: 0;
 }
 .body-overlay svg {
@@ -3181,7 +3180,7 @@ form textarea {
 .dark-mode .section-pricing .tf-btn {
   --Text-primary: #121212;
 }
-.dark-mode .form-contact .list-tag a {
+.dark-mode .form-contact .custom-radio label > span {
   background: #f8f7f4;
 }
 .dark-mode .form-contact .tf-btn {
@@ -3206,6 +3205,10 @@ form textarea {
 }
 .dark-mode .tf-setting-color .settings-color a::before {
   border-color: #121212;
+}
+
+.dark-mode .service-item .btn-arrow {
+  --Bg-linear-2: #fff;
 }
 
 /*------------ landing ---------------- */
@@ -4156,6 +4159,7 @@ ANIMATION AREA CSS
   position: relative;
   font-size: 24px;
   color: var(--Text-light);
+  background: var(--Bg-linear-2);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4172,7 +4176,6 @@ ANIMATION AREA CSS
   position: absolute;
   content: "";
   inset: 0;
-  background: var(--Bg-linear-2);
   opacity: 1;
 }
 .service-item .btn-arrow:hover {
@@ -4249,8 +4252,7 @@ ANIMATION AREA CSS
 }
 
 .dark-mode .portfolio-item {
-  background: var(--White);
-  border-radius: 40px;
+  background-image: url(../images/bg-portfolio-light.png);
   overflow: hidden;
 }
 
