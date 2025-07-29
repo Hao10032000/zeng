@@ -55,11 +55,10 @@ function themesflat_customize_default($key) {
 		'show_bottom' => 1,		
 		'header_backgroundcolor_sticky'=>'#fff',	
 
-		'primary_color'=>'#161616',
-		'body_text_color'=>'#4e5052',
+		'primary_color'=>'#40E377',
+		'body_text_color'=>'#A6A7AE',
 		'border_color'=>'#e9e9e9',
-		'header1_background'=>'#f8f7f7',
-		'header2_background'=>'#fff',
+		
 		
 		'body_background_color' => '',
 		'page_sidebar_layout' => 'sidebar-right',

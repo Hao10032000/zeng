@@ -1300,6 +1300,7 @@ a:hover, a:focus {
   object-fit: cover;
   left: 0;
   top: 0;
+  opacity: 0.8;
   width: 100%;
   height: 100%;
   z-index: 0;
@@ -1882,6 +1883,26 @@ ol.wp-block-latest-comments li {
   }
 }
 
+.style-horizontal .style-1 li:hover .tooltip {
+  transform: translateX(50%) scale(1);
+}
+.style-horizontal .style-1 .tooltip {
+  right: 50%;
+  top: calc(100% + 26px);
+  transform: translateX(50%) scale(0.6);
+}
+.style-horizontal .style-1 .tooltip::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(48, 50, 50);
+  clip-path: polygon(49% 80%, 0 100%, 100% 100%);
+  width: 13px;
+  height: 20px;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .nav-menu li {
   position: relative;
 }
@@ -1923,25 +1944,6 @@ ol.wp-block-latest-comments li {
 .nav-menu.style-1 li .nav_link.active {
   background-color: unset !important;
   color: var(--Primary);
-}
-.nav-menu.style-2 li:hover .tooltip {
-  transform: translateX(50%) scale(1);
-}
-.nav-menu.style-2 .tooltip {
-  right: 50%;
-  top: calc(100% + 26px);
-  transform: translateX(50%) scale(0.6);
-}
-.nav-menu.style-2 .tooltip::after {
-  content: "";
-  position: absolute;
-  background-color: rgb(48, 50, 50);
-  clip-path: polygon(49% 80%, 0 100%, 100% 100%);
-  width: 13px;
-  height: 20px;
-  top: -20px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 .nav-menu.style-3 {
   padding: 20px;
@@ -4742,7 +4744,7 @@ footer {
   display: block;
   height: 12px;
   width: 12px;
-  background-color: var(--White);
+  background-color: var(--Text-light);
   border: 2px solid var(--Primary);
   z-index: 1;
 }
@@ -4900,12 +4902,12 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
-  color: var(--White);
+  color: var(--Text-light);
 }
 
 .breadcrumb-trail .sep {
   font-size: 16px;
-  color: var(--White);
+  color: var(--Text-light);
   margin: 0px 10px;
 }
 
@@ -4923,7 +4925,7 @@ footer {
   align-items: center;
   justify-content: center;
   margin-right: 10px;
-  color: var(--White);
+  color: var(--Text-light);
 }
 
 .page-numbers.current,
@@ -4940,7 +4942,8 @@ footer {
   margin-bottom: 40px;
 }
 
-.sidebar .widget .widget-title {
+.sidebar .widget .widget-title,
+.sidebar .widget .wp-block-heading {
   font-size: 28px;
   margin-bottom: 20px;
 }
@@ -4951,7 +4954,7 @@ footer {
   font-size: 16px;
   line-height: 24px;
   text-transform: capitalize;
-  color: var(--White);
+  color: var(--Text-light);
 }
 
 .wp-block-categories li.cat-item a,
@@ -4960,7 +4963,7 @@ footer {
 }
 
 .wp-block-categories li.cat-item a {
-  color: var(--White);
+  color: var(--Text-light);
 }
 
 .wp-block-categories li.cat-item a:hover {
@@ -4985,7 +4988,7 @@ footer {
 }
 
 .wp-block-tag-cloud a:hover {
-  background: var(--White);
+  background: var(--Text-light);
 }
 
 .wp-block-categories {
@@ -5024,6 +5027,39 @@ footer {
   color: var(--Text-primary);
   font-family: "Inter", sans-serif;
   font-weight: 600;
+}
+
+.wp-block-latest-posts li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+article footer {
+  padding-bottom: 0px;
+}
+
+.wp-block-query-pagination-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.wp-calendar-table caption {
+  color: var(--Text-light);
+  margin-top: 10px;
+}
+
+.wp-block-calendar td {
+  color: var(--Text-light);
+}
+
+.wp-block-latest-comments__comment-date {
+  margin-top: 10px;
+}
+
+.wp-block-rss__item-title {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
