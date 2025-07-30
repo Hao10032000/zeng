@@ -53,8 +53,8 @@ global $themesflat_paging_for;
 
 	<nav class="navigation paging-navigation pager <?php  echo esc_attr($themesflat_paging_for);?>" role="navigation">
 		<div class="pagination loop-pagination">
-			<?php echo wp_kses( $prev_link, themesflat_kses_allowed_html() ) ?>
-			<?php echo wp_kses( $next_link, themesflat_kses_allowed_html() ) ?>
+			<?php echo wp_kses_post( $prev_link ) ?>
+			<?php echo wp_kses_post( $next_link ) ?>
 		</div>
 	</nav>
 
@@ -62,7 +62,7 @@ global $themesflat_paging_for;
 
 	<nav class="navigation paging-navigation numeric <?php  echo esc_attr($themesflat_paging_for);?>" role="navigation">
 		<div class="pagination loop-pagination">
-			<?php echo wp_kses( $numeric_links, themesflat_kses_allowed_html() ) ?>
+			<?php echo wp_kses_post( $numeric_links ) ?>
 		</div>
 	</nav>
 
@@ -70,7 +70,7 @@ global $themesflat_paging_for;
 	
 	<nav class="navigation paging-navigation loadmore <?php  echo esc_attr($themesflat_paging_for);?>" role="navigation">
 		<div class="pagination loop-pagination text-center draw-border">
-			<?php echo wp_kses( $more_link, themesflat_kses_allowed_html() ) ?>
+			<?php echo wp_kses_post( $more_link ) ?>
 		</div>
 	</nav>
 
@@ -78,7 +78,7 @@ global $themesflat_paging_for;
 
 	<nav class="navigation  paging-navigation pager-numeric <?php  echo esc_attr($themesflat_paging_for);?>" role="navigation">
 		<div class="pagination loop-pagination">
-			<?php echo wp_kses( $links, themesflat_kses_allowed_html() ) ?>
+			<?php echo wp_kses_post( $links ) ?>
 		</div>
 	</nav>
 

@@ -100,7 +100,7 @@ add_action( 'customize_register', 'themesflat_customize_register' );
 
 // Text
 function themesflat_sanitize_text( $input ) {
-    return wp_kses( $input, themesflat_kses_allowed_html() );
+    return wp_kses_post( $input );
 }
 
 // Background size

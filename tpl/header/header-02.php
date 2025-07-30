@@ -78,7 +78,7 @@ if (!empty(themesflat_get_opt_elementor('site_logo_light'))) {
                             <?php if ($header_button_show == 1): ?>
                                 <a href="<?php echo esc_url(themesflat_get_opt('header_button_url')); ?>" class="tf-btn style-2 btn-switch-text animate-hover-btn md-hide">
                                     <span>
-                                        <span class="btn-double-text" data-text="<?php echo esc_attr($header_button_text); ?>"><?php echo wp_kses($header_button_text, themesflat_kses_allowed_html()); ?></span>
+                                        <span class="btn-double-text" data-text="<?php echo esc_attr($header_button_text); ?>"><?php echo wp_kses_post($header_button_text); ?></span>
                                     </span>
                                 </a>
                             <?php endif; ?>
@@ -132,7 +132,7 @@ if (!empty(themesflat_get_opt_elementor('site_logo_light'))) {
                             <?php if ($header_button_show == 1): ?>
                                 <a href="<?php echo esc_url(themesflat_get_opt('header_button_url')); ?>" class="tf-btn style-2 btn-switch-text animate-hover-btn md-hide">
                                     <span>
-                                        <span class="btn-double-text" data-text="<?php echo esc_attr($header_button_text); ?>"><?php echo wp_kses($header_button_text, themesflat_kses_allowed_html()); ?></span>
+                                        <span class="btn-double-text" data-text="<?php echo esc_attr($header_button_text); ?>"><?php echo wp_kses_post($header_button_text); ?></span>
                                     </span>
                                 </a>
                             <?php endif; ?>

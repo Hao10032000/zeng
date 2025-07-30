@@ -40,7 +40,7 @@ $header_button_url = themesflat_get_opt('header_button_url');
                         <?php if ($header_button_show == 1): ?>
                             <a href="<?php echo esc_url(themesflat_get_opt('header_button_url')); ?>" class="tf-btn style-1 btn-switch-text">
                                 <span>
-                                    <span class="btn-double-text" data-text="<?php echo wp_kses($header_button_text, themesflat_kses_allowed_html()); ?>"><?php echo wp_kses($header_button_text, themesflat_kses_allowed_html()); ?></span>
+                                    <span class="btn-double-text" data-text="<?php echo wp_kses_post($header_button_text); ?>"><?php echo wp_kses_post($header_button_text); ?></span>
                                 </span>
                             </a>
                         <?php endif; ?>   

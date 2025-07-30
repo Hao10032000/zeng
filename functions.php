@@ -187,6 +187,7 @@ function themesflat_scripts() {
 
     // Main JS scripts
     wp_enqueue_script( 'bootstrap-js', THEMESFLAT_LINK . 'js/bootstrap.min.js', array('jquery'), '1.0.0', true );
+    wp_enqueue_script( 'image-loader', THEMESFLAT_LINK . 'js/imagesloaded.pkgd.min.js', array('jquery'), '1.0.0', true );
     wp_enqueue_script( 'ScrollTrigger', THEMESFLAT_LINK . 'js/ScrollTrigger.min.js', array('gsap'), '1.0.0', true );
     wp_enqueue_script( 'gsap', THEMESFLAT_LINK . 'js/gsap.min.js', array(), '1.0.0', true );
     wp_enqueue_script( 'handleGsap', THEMESFLAT_LINK . 'js/handleGsap.js', array('gsap'), '1.0.0', true );

@@ -14,7 +14,7 @@ if (class_exists('WP_Customize_Control')) {
 				    <label class="onoffswitch-label" for="<?php echo esc_attr($this->id); ?>"></label>
 				</div>
 				<span class="customize-control-title onoffswitch_label"><?php echo esc_html( $this->label ); ?></span>
-				<p><?php echo wp_kses($this->description, themesflat_kses_allowed_html()); ?></p>
+				<p><?php echo wp_kses_post($this->description); ?></p>
 			</div>
 			<?php
 		}

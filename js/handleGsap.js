@@ -162,49 +162,64 @@ gsap.registerPlugin(ScrollTrigger);
 
     /* stackElement
   -------------------------------------------------------------------------*/
-    var stackElement = function () {
-        if ($(".stack-element").length > 0) {
-            let totalHeight;
-            let scrollTriggerInstances = [];
+    
+const stackElement = function () {
+        if ($(".stack-element").length === 0) return;
 
-            const updateTotalHeight = () => {
-               const headerHeight = $(".header-fixed").outerHeight() || 0;
-                totalHeight = $(".tabs-content-wrap").outerHeight();
+        let totalHeight;
+        let scrollTriggerInstances = [];
 
-                scrollTriggerInstances.forEach((instance) => instance.kill());
-                scrollTriggerInstances = [];
+        const updateTotalHeight = () => {
+            const headerHeight = $(".header-fixed").outerHeight() || 0;
+            totalHeight = $(".tabs-content-wrap").outerHeight();
 
-                document
-                    .querySelectorAll(".element:not(:last-child)")
-                    .forEach((element) => {
-                        const tabHeight = element.offsetHeight;
-                        totalHeight -= tabHeight;
+            scrollTriggerInstances.forEach((instance) => instance.kill());
+            scrollTriggerInstances = [];
 
-                        const pinTrigger = ScrollTrigger.create({
-                            trigger: element,
-                            scrub: 1,
-                            start: `top+=-${headerHeight} top`,
-                            end: `+=${totalHeight}`,
-                            pin: true,
-                            pinSpacing: false,
-                            animation: gsap.to(element, {
-                                scale: 0.7,
-                                opacity: 0,
-                            }),
-                        });
+            document.querySelectorAll(".element:not(:last-child)").forEach((element) => {
+                const tabHeight = element.offsetHeight;
+                totalHeight -= tabHeight;
 
-                        scrollTriggerInstances.push(pinTrigger);
-                    });
-            };
+                const pinTrigger = ScrollTrigger.create({
+                    trigger: element,
+                    scrub: 1,
+                    start: `top+=-${headerHeight} top`,
+                    end: `+=${totalHeight}`,
+                    pin: true,
+                    pinSpacing: false,
+                    animation: gsap.to(element, {
+                        scale: 0.7,
+                        opacity: 0,
+                    }),
+                });
 
-            updateTotalHeight();
-
-            let resizeTimeout;
-            window.addEventListener("resize", () => {
-                clearTimeout(resizeTimeout);
-                resizeTimeout = setTimeout(updateTotalHeight, 300);
+                scrollTriggerInstances.push(pinTrigger);
             });
-        }
+
+            ScrollTrigger.refresh();
+        };
+
+        const waitForStableLayout = (callback) => {
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                    requestAnimationFrame(() => {
+                        callback(); 
+                    });
+                });
+            });
+        };
+
+        window.addEventListener("load", function () {
+            waitForStableLayout(() => {
+                updateTotalHeight();
+
+                let resizeTimeout;
+                window.addEventListener("resize", () => {
+                    clearTimeout(resizeTimeout);
+                    resizeTimeout = setTimeout(updateTotalHeight, 300);
+                });
+            });
+        });
     };
 
     /* animationFooter
@@ -275,10 +290,11 @@ gsap.registerPlugin(ScrollTrigger);
     };
 
     $(function () {
+        stackElement();
         animation_text();
         scrolling_effect();
-        stackElement();
         animationFooter();
         scrollTransform();
     });
+
 })(jQuery);

@@ -19,7 +19,7 @@
 			<p>
 			<?php
 				$message = sprintf( 'Ready to publish your first post? <a href="%s">Get started here', esc_url(admin_url( 'post-new.php' ) ) );
-                echo wp_kses( $message, themesflat_kses_allowed_html() );
+                echo wp_kses( $message, wp_kses_post() );
 			?>
 			</p>
 

@@ -209,6 +209,9 @@ $header_button_url = themesflat_get_opt('header_button_url');
                             <li><a href="#" class="link-no-action show-sidebar md-hide"><i
                                         class="icon-CirclesFour"></i></a>
                             </li>
+                                                <li>
+                        <div class="toggle-switch-mode"><i class="icon-Sun"></i></div>
+                    </li>
                         </ul>
                     </div>
                     <!-- End right-bar  -->

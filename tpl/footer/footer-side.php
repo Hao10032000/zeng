@@ -60,7 +60,7 @@ if (themesflat_get_opt_elementor('style_footer') != '') {
                     </div>
                 </div>
                 <div class="footer-bottom d-flex align-items-center justify-content-between">
-                    <p class="text-caption-1"><?php echo wp_kses(themesflat_get_opt( 'footer_copyright'), themesflat_kses_allowed_html()); ?></p>
+                    <p class="text-caption-1"><?php echo wp_kses_post(themesflat_get_opt( 'footer_copyright')); ?></p>
                    
                    <?php
                         if (themesflat_get_opt( 'bottom_menu') == 1) {

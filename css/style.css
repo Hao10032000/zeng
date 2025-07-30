@@ -3132,9 +3132,6 @@ form textarea {
   background-color: var(--Text-light);
   color: var(--Text-primary);
 }
-.dark-mode .portfolio-item {
-  background-image: url(../images/item/bg-portfolio-light.png);
-}
 .dark-mode .service-item .btn-arrow {
   --Bg-linear-2: #f8f7f4;
   --Text-primary: #121212;

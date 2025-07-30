@@ -250,7 +250,7 @@ class Breadcrumb_Trail {
 		if ( false === $this->args['echo'] )
 			return $breadcrumb;
 
-		echo wp_kses( $breadcrumb, themesflat_kses_allowed_html() );
+		echo wp_kses_post( $breadcrumb );
 	}
 
 	/* ====== Protected Methods ====== */
