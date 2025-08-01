@@ -1295,6 +1295,10 @@ a:hover, a:focus {
   color: var(--Text-primary);
 }
 
+video.body-overlay {
+  opacity: 0.2;
+}
+
 .body-overlay {
   position: fixed;
   object-fit: cover;
@@ -1709,6 +1713,31 @@ ol.wp-block-latest-comments li {
   margin-bottom: 20px;
 }
 
+html, body {
+  height: auto;
+  overflow-y: auto !important;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  height: auto !important;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--White);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--Primary);
+  border-radius: 12px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: var(--Primary);
+}
+
 /*------------ Components ---------------- */
 /*------------ header ---------------- */
 /* ---------------------------------------------------------
@@ -1903,6 +1932,11 @@ ol.wp-block-latest-comments li {
   transform: translateX(-50%);
 }
 
+.nav-menu.list-icon .nav_link.active {
+  background-color: var(--Text-light) !important;
+  color: var(--Text-primary) !important;
+}
+
 .nav-menu li {
   position: relative;
 }
@@ -1938,10 +1972,10 @@ ol.wp-block-latest-comments li {
   transition: all 0.3s ease;
   font-family: "Inter", sans-serif;
 }
-.nav-menu.style-1 li .nav_link {
+.nav-menu li .nav_link {
   transition-delay: 0s;
 }
-.nav-menu.style-1 li .nav_link.active {
+.nav-menu li .nav_link.active {
   background-color: unset !important;
   color: var(--Primary);
 }
@@ -1965,6 +1999,15 @@ ol.wp-block-latest-comments li {
     color: var(--Text-light);
     border-top: 1px solid rgba(255, 255, 255, 0.1019607843);
   }
+}
+
+.class-name-page-home-full-width .header-sidebar {
+  margin: 0 !important;
+}
+
+.header-sidebar.style-horizontal .menu-none,
+.right-bar .nav-right .menu-none {
+  display: none;
 }
 
 .header.header-fixed {
@@ -2008,6 +2051,8 @@ ol.wp-block-latest-comments li {
 }
 .header.header-fixed.style-1 .header-sidebar {
   margin-bottom: 0;
+  margin-left: 13px;
+  margin-right: 60px;
 }
 .header.header-fixed.is-fixed {
   -webkit-transform: translateY(0);
@@ -3106,10 +3151,6 @@ form textarea {
 }
 .dark-mode .header-sidebar .nav-menu li > * {
   border: unset;
-}
-.dark-mode .header-sidebar .nav-menu li .nav_link.active, .dark-mode .header-sidebar .nav-menu li:hover a {
-  --Text-primary: #121212;
-  background: #f8f7f4;
 }
 .dark-mode .header-sidebar .menu-button {
   background: #f8f7f4;
@@ -5057,6 +5098,10 @@ article footer {
 .wp-block-rss__item-title {
   margin-bottom: 10px;
   margin-top: 10px;
+}
+
+.wpcf7-spinner {
+  margin-top: 12px !important;
 }
 
 /*# sourceMappingURL=style.css.map */

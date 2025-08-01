@@ -1161,7 +1161,9 @@ a {
         color: var(--Text-primary);
     }
 }
-
+video.body-overlay {
+    opacity: 0.2;
+}
 .body-overlay {
     position: fixed;
     object-fit: cover;
@@ -1574,4 +1576,29 @@ ol.wp-block-latest-comments li {
 
 .wp-block-group.has-background {
     margin-bottom: 20px;
+}
+
+html, body {
+  height: auto;
+ overflow-y: auto !important; 
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+   height: auto !important;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--White);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--Primary);
+  border-radius: 12px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: var(--Primary);
 }
