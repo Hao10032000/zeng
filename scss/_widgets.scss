@@ -565,31 +565,37 @@
   &.sz-80 {
     > img {
       padding: 14px;
+      width: 80px;
     }
   }
   &.sz-60 {
     > img {
       padding: 4px;
+      width: 60px;
     }
   }
   &.sz-100 {
     > img {
       padding: 24px;
+      width: 100px;
     }
   }
   &.sz-120 {
     > img {
       padding: 34px;
+      width: 120px;
     }
   }
   &.sz-160 {
     > img {
       padding: 50px;
+      width: 160px;
     }
   }
   &.sz-200 {
     > img {
       padding: 60px;
+      width: 200px;
     }
   }
   border-radius: 50%;
@@ -634,8 +640,8 @@
     position: unset !important;
     padding: 12px;
     > img {
-      height: 52px;
-      width: 52px;
+      height: 52px !important;
+      width: 52px !important;
       padding: 0 !important;
     }
   }

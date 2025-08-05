@@ -4456,21 +4456,27 @@ ANIMATION AREA CSS
 }
 .partner-item.sz-80 > img {
   padding: 14px;
+  width: 80px;
 }
 .partner-item.sz-60 > img {
   padding: 4px;
+  width: 60px;
 }
 .partner-item.sz-100 > img {
   padding: 24px;
+  width: 100px;
 }
 .partner-item.sz-120 > img {
   padding: 34px;
+  width: 120px;
 }
 .partner-item.sz-160 > img {
   padding: 50px;
+  width: 160px;
 }
 .partner-item.sz-200 > img {
   padding: 60px;
+  width: 200px;
 }
 .partner-item > img {
   -webkit-transition: all 0.3s ease;
@@ -4516,8 +4522,8 @@ ANIMATION AREA CSS
     padding: 12px;
   }
   .partner-item > img {
-    height: 52px;
-    width: 52px;
+    height: 52px !important;
+    width: 52px !important;
     padding: 0 !important;
   }
 }
