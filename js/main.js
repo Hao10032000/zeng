@@ -153,10 +153,9 @@
     /* oneNavOnePage
   -------------------------------------------------------------------------------------*/
     const oneNavOnePage = () => {
-        if (!$(".section-onepage").length) return;
 
         const $navLinks = $(".nav_link");
-        const $sections = $(".section");
+        const $sections = $(".section-one-page");
 
         $navLinks.on("click", function (e) {
             e.preventDefault();
@@ -274,6 +273,11 @@
                 }
             })
             .on("click.handleSidebar", ".overlay-popup", function () {
+                $(
+                    ".popup-show-bar, .popup-menu-mobile, .overlay-popup"
+                ).removeClass("show");
+            })
+            .on("click.handleSidebar",".nav_link", function () {
                 $(
                     ".popup-show-bar, .popup-menu-mobile, .overlay-popup"
                 ).removeClass("show");
