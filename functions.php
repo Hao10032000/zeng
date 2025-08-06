@@ -246,6 +246,7 @@ require_once( THEMESFLAT_DIR . 'inc/options/controls/dropdown-pages.php');
 require_once( THEMESFLAT_DIR . 'inc/options/controls/box-control.php');
 require_once( THEMESFLAT_DIR . 'inc/options/controls/radio-images.php');
 require_once( THEMESFLAT_DIR . 'inc/options/controls/check-box.php');
+require_once( THEMESFLAT_DIR . 'inc/options/controls/typography.php');
 require_once( THEMESFLAT_DIR . 'inc/options/controls/color_overlay.php');
 require_once( THEMESFLAT_DIR . 'inc/options/controls/multi-images.php');
 require_once( THEMESFLAT_DIR . 'inc/options/controls/styler_slider.php');
@@ -276,189 +277,47 @@ function themesflat_load_admin_style() {
 }
 add_action( 'admin_enqueue_scripts', 'themesflat_load_admin_style', 999 );
 
-class Custom_Icon_Menu_Walker extends Walker_Nav_Menu {
-
-    /**
-     * Start the element output.
-     *
-     * @see Walker_Nav_Menu::start_el()
-     *
-     * @param string   $output Used to append additional content (passed by reference).
-     * @param WP_Post  $item   Menu item data object.
-     * @param int      $depth  Depth of menu item. Used for padding.
-     * @param stdClass $args   An object of wp_nav_menu() arguments.
-     * @param int      $id     Current item ID.
-     */
-    public function start_el( &$output, $item, $depth = 0, $args = null, $id = 0 ) {
-        if ( isset( $args->item_spacing ) && 'discard' === $args->item_spacing ) {
-            $t = '';
-            $n = '';
-        } else {
-            $t = "\t";
-            $n = "\n";
-        }
-
-        $indent = ( $depth ) ? str_repeat( $t, $depth ) : '';
-
-        $classes = empty( $item->classes ) ? array() : (array) $item->classes;
-        $classes[] = 'menu-item-' . $item->ID;
-
-        /**
-         * Filters the list of CSS classes to be applied to an individual menu item in the WordPress admin menu.
-         *
-         * @since 3.0.0
-         * @since 4.1.0 The `$depth` parameter was added.
-         *
-         * @param string[] $classes The array of CSS classes that are applied to the menu item's `<li>` element.
-         * @param WP_Post  $item    The current menu item.
-         * @param stdClass $args    An object of wp_nav_menu() arguments.
-         * @param int      $depth   Depth of menu item. Used for padding.
-         */
-        $class_names = join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args, $depth ) );
-        $class_names = $class_names ? ' class="' . esc_attr( $class_names ) . '"' : '';
-
-        /**
-         * Filters the ID applied to an individual menu item in the WordPress admin menu.
-         *
-         * @since 3.0.0
-         * @since 4.1.0 The `$depth` parameter was added.
-         *
-         * @param string   $menu_id The ID that is applied to the menu item's `<li>` element.
-         * @param WP_Post  $item    The current menu item.
-         * @param stdClass $args    An object of wp_nav_menu() arguments.
-         * @param int      $depth   Depth of menu item. Used for padding.
-         */
-        $id = apply_filters( 'nav_menu_item_id', 'menu-item-' . $item->ID, $item, $args, $depth );
-        $id = $id ? ' id="' . esc_attr( $id ) . '"' : '';
-
-        $output .= $indent . '<li' . $id . $class_names . '>';
-
-        $atts = array();
-        $atts['class'] = 'nav_link'; // Add this class to your anchor tag
-        if ( in_array('current-menu-item', $classes) || in_array('current_page_item', $classes) ) {
-            $atts['class'] .= ' active'; // Add 'active' class if it's the current menu item
-        }
-        $atts['href'] = ! empty( $item->url ) ? $item->url : '';
-        $atts['target'] = ! empty( $item->target ) ? $item->target : '';
-        $atts['rel'] = ! empty( $item->xfn ) ? $item->xfn : '';
-        $atts['aria-current'] = $item->current ? 'page' : '';
-
-        /**
-         * Filters the HTML attributes applied to a menu item's anchor element.
-         *
-         * @since 3.6.0
-         * @since 4.1.0 The `$depth` parameter was added.
-         *
-         * @param array    $atts   The HTML attributes applied to the menu item's `<a>` element, empty array otherwise.
-         * @param WP_Post  $item   The current menu item data object.
-         * @param stdClass $args   An object of wp_nav_menu() arguments.
-         * @param int      $depth  Depth of menu item. Used for padding.
-         */
-        $atts = apply_filters( 'nav_menu_link_attributes', $atts, $item, $args, $depth );
-
-        $attributes = '';
-        foreach ( $atts as $attr => $value ) {
-            if ( ! empty( $value ) ) {
-                $value = ( 'href' === $attr ) ? esc_url( $value ) : esc_attr( $value );
-                $attributes .= ' ' . $attr . '="' . $value . '"';
-            }
-        }
-
-        $title = apply_filters( 'the_title', $item->title, $item->ID );
-
-        /**
-         * Filters a menu item's title.
-         *
-         * @since 4.4.0
-         *
-         * @param string   $title The menu item's title.
-         * @param WP_Post  $item  The current menu item.
-         * @param stdClass $args  An object of wp_nav_menu() arguments.
-         * @param int      $depth Depth of menu item. Used for padding.
-         */
-        $title = apply_filters( 'nav_menu_item_title', $title, $item, $args, $depth );
-
-        // --- Custom HTML Structure START ---
-        $item_output = $args->before;
-        $item_output .= '<a' . $attributes . '>';
-
-        // Get custom field for icon class if it exists.
-        // You might need to add a custom field to your menu items in the WordPress dashboard.
-        // For example, using ACF or a simple custom meta box.
-        $icon_class = get_post_meta( $item->ID, '_menu_item_icon', true );
-        if ( ! empty( $icon_class ) ) {
-            $item_output .= '<i class="icon ' . esc_attr( $icon_class ) . '"></i>';
-        } else {
-            // Fallback icon if no custom field is set, or remove this if not needed.
-            // You could map specific menu item titles to icons here.
-            $item_output .= '<i class="icon icon-User"></i>'; // Replace 'icon-Default' with a suitable default
-        }
-
-        $item_output .= '<span class="tooltip text-caption-1">' . $title . '</span>';
-        $item_output .= '</a>';
-        $item_output .= $args->after;
-        // --- Custom HTML Structure END ---
-
-        $output .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args );
-    }
-
-    // You might also need to customize 'start_lvl' if your <ul> has specific classes
-    // and 'end_lvl' and 'end_el' if you need to modify their closing tags.
-    // However, for your specific request, 'start_el' is the main focus.
-
-    /**
-     * Starts the list before the elements are added.
-     *
-     * @see Walker_Nav_Menu::start_lvl()
-     *
-     * @param string   $output Used to append additional content (passed by reference).
-     * @param int      $depth  Depth of menu item. Used for padding.
-     * @param stdClass $args   An object of wp_nav_menu() arguments.
-     */
-    public function start_lvl( &$output, $depth = 0, $args = null ) {
-        if ( isset( $args->item_spacing ) && 'discard' === $args->item_spacing ) {
-            $t = '';
-            $n = '';
-        } else {
-            $t = "\t";
-            $n = "\n";
-        }
-        $indent = str_repeat( $t, $depth );
-        // Add your desired classes for nested <ul> here if needed.
-        // In your example, the main <ul> has 'nav-menu style-2 list-icon',
-        // but typically sub-menus might have different classes.
-        $output .= "{$n}{$indent}<ul class=\"sub-menu\">\n";
-    }
+function themesflat_get_style($style) {
+    return str_replace('italic', 'i', $style);
 }
 
-function custom_menu_item_icons() {
-    add_action( 'wp_nav_menu_item_custom_fields', 'custom_menu_item_icon_field', 10, 2 );
-    add_action( 'wp_update_nav_menu_item', 'custom_menu_item_icon_save', 10, 3 );
-}
-add_action( 'admin_init', 'custom_menu_item_icons' );
+function themesflat_fonts_url() {
+    $fonts_url = '';
+    $typography_body =  themesflat_get_json('typography_body');
+    $typography_headings = themesflat_get_json('typography_headings');
+    $typography_menu = themesflat_get_json('typography_menu');
+    $typography_sub_menu =  themesflat_get_json('typography_sub_menu');
+    $font_families = array(); 
 
-function custom_menu_item_icon_field( $item_id, $item ) {
-    $icon_class = get_post_meta( $item_id, '_menu_item_icon', true );
-    ?>
-    <p class="field-custom description description-wide">
-        <label for="edit-menu-item-icon-<?php echo $item_id; ?>">
-            <?php _e( 'Icon Class (e.g., icon-User)', 'zeng' ); ?><br />
-            <input type="text" id="edit-menu-item-icon-<?php echo $item_id; ?>" class="widefat code edit-menu-item-custom" name="menu-item-icon[<?php echo $item_id; ?>]" value="<?php echo esc_attr( $icon_class ); ?>" />
-        </label>
-    </p>
-    <?php
-}
-
-function custom_menu_item_icon_save( $menu_id, $menu_item_db_id, $args ) {
-    if ( isset( $_POST['menu-item-icon'][ $menu_item_db_id ] ) ) {
-        $icon_class = sanitize_text_field( wp_unslash( $_POST['menu-item-icon'][ $menu_item_db_id ] ) );
-        update_post_meta( $menu_item_db_id, '_menu_item_icon', $icon_class );
+    if ( '' != $typography_body ) {
+        $font_families[] = $typography_body['family'].':100,200,300,400,500,600,700,900,'.themesflat_get_style($typography_body['style']);
     } else {
-        delete_post_meta( $menu_item_db_id, '_menu_item_icon' );
+        $font_families[] = 'Archivo:400,400i,700,700i,900';
     }
+    if ( '' != $typography_headings ) {
+        $font_families[] = $typography_headings['family'].':100,200,300,400,500,600,700,900,'.themesflat_get_style($typography_headings['style']);
+    } 
+    if ( '' != $typography_menu ) {
+        $font_families[] = $typography_menu['family'].':100,200,300,400,500,600,700,900,'.themesflat_get_style($typography_menu['style']);
+    }
+    if ( '' != $typography_sub_menu ) {
+        $font_families[] = $typography_sub_menu['family'].':100,200,300,400,500,600,700,900,'.themesflat_get_style($typography_sub_menu['style']);
+    }
+    
+    $query_args = array(
+        'family' => urlencode( implode( '|', $font_families ) ),        
+    );
+
+    $fonts_url = add_query_arg( $query_args, THEMESFLAT_PROTOCOL . '://fonts.googleapis.com/css' );
+
+    return esc_url_raw( $fonts_url );
 }
 
+function themesflat_scripts_styles() {
+    wp_enqueue_style( 'themesflat-theme-slug-fonts', themesflat_fonts_url(), array(), null );
+}
 
+add_action( 'wp_enqueue_scripts', 'themesflat_scripts_styles' );
 
 
 

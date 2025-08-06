@@ -86,6 +86,13 @@ function themesflat_customize_register( $wp_customize ) {
         'priority'      => 145,
     ));
     require THEMESFLAT_DIR . "inc/customizer/content.php";
+
+    //___TYPOGRAPHY___//
+    $wp_customize->add_panel('typography_panel',array(
+        'title'         => 'Typography',
+        'priority'      => 142,
+    ));      
+    require THEMESFLAT_DIR . "inc/customizer/typography.php";
     
    //___FOOTER___//
     $wp_customize->add_panel('footer_panel',array(

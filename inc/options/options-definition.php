@@ -136,13 +136,6 @@ function themesflat_customize_default($key) {
 		'footer_heading_menu_1' => 'Quick Link',
 		'footer_heading_menu_2' => 'Categories',
 		'footer_heading_menu_3' => 'Useful Links',
-		'typography_bottom_copyright' => array(
-			'family' => 'Epilogue',
-			'style'  => '400',
-			'size'   => '14',
-			'line_height'=>'22px',
-			'letter_spacing' => '',
-		),
 		'bottom_background_color'	=> '#24283E',
 		'bottom_text_color'			=> '#A2A3AB',
 		'bottom_link_color'         => '#ffffff',
@@ -153,6 +146,39 @@ function themesflat_customize_default($key) {
 		'enable_smooth_scroll'	=> 0,
 		'page_title_styles' => 'default',
 		'page_title_alignment' => 'left',
+		'typography_body' => array(
+			'family' => 'Inter',
+			'style'  => '400',
+			'size'   => '16',
+			'line_height'=>'28px',
+			'letter_spacing' => '',
+		),
+		'typography_headings'	=> array(
+			'family' => 'Inter',
+			'style'  => '500',
+			'line_height'=>'1.333',
+			'letter_spacing' => '0px'		
+		),
+		'typography_menu' => array(
+			'family' => 'Inter',
+			'style'  => '',
+			'size'   => '',
+			'line_height'=>'',
+			'letter_spacing' => '',
+		), 
+		'typography_sub_menu' => array(
+			'family' => 'Inter',
+			'style'  => '',
+			'size'   => '',
+			'line_height'=>'',
+			'letter_spacing' => '',
+		),
+		'h1_size' => 80,
+		'h2_size' => 56,
+		'h3_size' => 44,
+		'h4_size' => 32,
+		'h5_size' => 24,
+		'h6_size' => 20,
 
 	);
 	return $default[$key];
