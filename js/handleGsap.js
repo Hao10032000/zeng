@@ -163,7 +163,7 @@ gsap.registerPlugin(ScrollTrigger);
     /* stackElement
   -------------------------------------------------------------------------*/
     
-const stackElement = function () {
+    const stackElement = function () {
         if ($(".stack-element").length === 0) return;
 
         let totalHeight;
@@ -173,6 +173,7 @@ const stackElement = function () {
             const headerHeight = $(".header-fixed").outerHeight() || 0;
             totalHeight = $(".tabs-content-wrap").outerHeight();
 
+            // Kill all existing triggers
             scrollTriggerInstances.forEach((instance) => instance.kill());
             scrollTriggerInstances = [];
 
@@ -199,18 +200,11 @@ const stackElement = function () {
             ScrollTrigger.refresh();
         };
 
-        const waitForStableLayout = (callback) => {
-            requestAnimationFrame(() => {
-                requestAnimationFrame(() => {
-                    requestAnimationFrame(() => {
-                        callback(); 
-                    });
-                });
-            });
-        };
+        // Step-by-step loading flow
+        window.addEventListener("load", () => {
+            window.scrollTo({ top: 0, behavior: "auto" });
 
-        window.addEventListener("load", function () {
-            waitForStableLayout(() => {
+            setTimeout(() => {
                 updateTotalHeight();
 
                 let resizeTimeout;
@@ -218,9 +212,11 @@ const stackElement = function () {
                     clearTimeout(resizeTimeout);
                     resizeTimeout = setTimeout(updateTotalHeight, 300);
                 });
-            });
+            }, 500); 
         });
     };
+
+
 
     /* animationFooter
     -------------------------------------------------------------------------------------*/
