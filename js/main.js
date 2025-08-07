@@ -16,7 +16,7 @@
     ("use strict");
 
     /* headerFixed
-  -------------------------------------------------------------------------*/
+    -------------------------------------------------------------------------*/
     const headerFixed = () => {
         const header = document.querySelector(".header-fixed");
         if (!header) return;
@@ -34,7 +34,7 @@
     };
 
     /* Tab Slide 
-  ------------------------------------------------------------------------------------- */
+    ------------------------------------------------------------------------------------- */
     var tabSlide = function () {
         if ($(".tab-slide").length > 0) {
             function updateTabSlide() {
@@ -42,9 +42,7 @@
                 if ($activeTab.length > 0) {
                     var $width = $activeTab.width();
                     var $left = $activeTab.position().left;
-                    var sideEffect = $activeTab
-                        .parent()
-                        .find(".item-slide-effect");
+                    var sideEffect = $activeTab.parent().find(".item-slide-effect");
                     $(sideEffect).css({
                         width: $width,
                         transform: "translateX(" + $left + "px)",
@@ -74,7 +72,7 @@
     };
 
     /* settings_color
-  ------------------------------------------------------------------------------------- */
+    ------------------------------------------------------------------------------------- */
     const settings_color = () => {
         if (!$(".settings-color").length) return;
 
@@ -99,15 +97,12 @@
         }
 
         function setActiveItem(index) {
-            $(".choose-item")
-                .removeClass("active")
-                .eq(index)
-                .addClass("active");
+            $(".choose-item").removeClass("active").eq(index).addClass("active");
         }
     };
 
     /* switchMode
-  ------------------------------------------------------------------------------------- */
+    ------------------------------------------------------------------------------------- */
     const switchMode = () => {
         const $toggles = $(".toggle-switch-mode");
         const $body = $("body");
@@ -151,9 +146,8 @@
     };
 
     /* oneNavOnePage
-  -------------------------------------------------------------------------------------*/
+    -------------------------------------------------------------------------------------*/
     const oneNavOnePage = () => {
-
         const $navLinks = $(".nav_link");
         const $sections = $(".section-one-page");
 
@@ -216,7 +210,7 @@
     };
 
     /* handleEffectSpotlight
-  -------------------------------------------------------------------------*/
+    -------------------------------------------------------------------------*/
     const handleEffectSpotlight = () => {
         if (!$(".area-effect").length) return;
         $(".area-effect").each(function () {
@@ -236,7 +230,7 @@
     };
 
     /* preventDefault
-  -------------------------------------------------------------------------*/
+    -------------------------------------------------------------------------*/
     const preventDefault = () => {
         $(".link-no-action").on("click", function (e) {
             e.preventDefault();
@@ -244,7 +238,7 @@
     };
 
     /* spliting
-  -------------------------------------------------------------------------*/
+    -------------------------------------------------------------------------*/
     const spliting = () => {
         if ($(".splitting").length) {
             Splitting();
@@ -252,7 +246,7 @@
     };
 
     /* handleSidebar
-  -------------------------------------------------------------------------------------*/
+    -------------------------------------------------------------------------------------*/
     const handleSidebar = () => {
         $(document)
             .off("click.handleSidebar")
@@ -273,14 +267,14 @@
                 }
             })
             .on("click.handleSidebar", ".overlay-popup", function () {
-                $(
-                    ".popup-show-bar, .popup-menu-mobile, .overlay-popup"
-                ).removeClass("show");
+                $(".popup-show-bar, .popup-menu-mobile, .overlay-popup").removeClass(
+                    "show"
+                );
             })
-            .on("click.handleSidebar",".nav_link", function () {
-                $(
-                    ".popup-show-bar, .popup-menu-mobile, .overlay-popup"
-                ).removeClass("show");
+            .on("click.handleSidebar", ".nav_link", function () {
+                $(".popup-show-bar, .popup-menu-mobile, .overlay-popup").removeClass(
+                    "show"
+                );
             });
     };
 

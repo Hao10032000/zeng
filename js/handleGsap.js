@@ -215,6 +215,7 @@ gsap.registerPlugin(ScrollTrigger);
             }, 500); 
         });
     };
+   
 
 
 
