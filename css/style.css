@@ -2094,6 +2094,10 @@ body::-webkit-scrollbar-thumb:hover {
   pointer-events: all;
 }
 
+.popup-show-bar.show .sub-menu {
+  bottom: 100%;
+}
+
 /*------------ footer ---------------- */
 /* ---------------------------------------------------------
     * Name: 
@@ -2632,7 +2636,7 @@ form textarea {
   overflow: hidden;
   position: fixed;
   background: rgba(0, 0, 0, 0.7019607843);
-  opacity: 0.7;
+  opacity: 0;
   backdrop-filter: blur(10px);
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;

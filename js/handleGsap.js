@@ -162,60 +162,52 @@ gsap.registerPlugin(ScrollTrigger);
 
     /* stackElement
   -------------------------------------------------------------------------*/
-    
-    const stackElement = function () {
-        if ($(".stack-element").length === 0) return;
 
-        let totalHeight;
-        let scrollTriggerInstances = [];
+    var stackElement = function () {
+        if ($(".stack-element").length > 0) {
+            let totalHeight;
+            let scrollTriggerInstances = [];
 
-        const updateTotalHeight = () => {
-            const headerHeight = $(".header-fixed").outerHeight() || 0;
-            totalHeight = $(".tabs-content-wrap").outerHeight();
+            const updateTotalHeight = () => {
+                const headerHeight =
+                    document.querySelector(".header-fixed")?.offsetHeight || 0;
+                totalHeight = $(".tabs-content-wrap").outerHeight();
 
-            // Kill all existing triggers
-            scrollTriggerInstances.forEach((instance) => instance.kill());
-            scrollTriggerInstances = [];
+                scrollTriggerInstances.forEach((instance) => instance.kill());
+                scrollTriggerInstances = [];
 
-            document.querySelectorAll(".element:not(:last-child)").forEach((element) => {
-                const tabHeight = element.offsetHeight;
-                totalHeight -= tabHeight;
+                document
+                    .querySelectorAll(".element:not(:last-child)")
+                    .forEach((element, index) => {
+                        const tabHeight = element.offsetHeight;
+                        totalHeight -= tabHeight;
 
-                const pinTrigger = ScrollTrigger.create({
-                    trigger: element,
-                    scrub: 1,
-                    start: `top+=-${headerHeight} top`,
-                    end: `+=${totalHeight}`,
-                    pin: true,
-                    pinSpacing: false,
-                    animation: gsap.to(element, {
-                        scale: 0.7,
-                        opacity: 0,
-                    }),
-                });
+                        const pinTrigger = ScrollTrigger.create({
+                            trigger: element,
+                            scrub: 1,
+                            start: `top+=-${headerHeight} top`,
+                            end: `+=${totalHeight}`,
+                            pin: true,
+                            pinSpacing: false,
+                            animation: gsap.to(element, {
+                                scale: 0.7,
+                                opacity: 0,
+                            }),
+                        });
 
-                scrollTriggerInstances.push(pinTrigger);
+                        scrollTriggerInstances.push(pinTrigger);
+                    });
+            };
+
+            updateTotalHeight();
+
+            let resizeTimeout;
+            window.addEventListener("resize", () => {
+                clearTimeout(resizeTimeout);
+                resizeTimeout = setTimeout(updateTotalHeight, 150);
             });
-
-            ScrollTrigger.refresh();
-        };
-
-        // Step-by-step loading flow
-        window.addEventListener("load", () => {
-            window.scrollTo({ top: 0, behavior: "auto" });
-
-            setTimeout(() => {
-                updateTotalHeight();
-
-                let resizeTimeout;
-                window.addEventListener("resize", () => {
-                    clearTimeout(resizeTimeout);
-                    resizeTimeout = setTimeout(updateTotalHeight, 300);
-                });
-            }, 500); 
-        });
+        }
     };
-   
 
 
 

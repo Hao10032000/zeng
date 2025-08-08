@@ -349,14 +349,7 @@
     }
   }
 }
-.tabs-content-wrap {
-    position: relative;
-    overflow: visible !important; /* Tránh phá ScrollTrigger */
-}
 
-.element {
-    width: 100%;
-    display: block;
-    padding-bottom: 80px;
-    margin: 0; /* Tránh lỗi pin spacing */
+.popup-show-bar.show .sub-menu{
+      bottom: 100%;
 }

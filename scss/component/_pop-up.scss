@@ -9,7 +9,7 @@
     overflow: hidden;
     position: fixed;
     background: #000000b3;
-    opacity: 0.7;
+    opacity: 0;
     backdrop-filter: blur(10px);
     @include transition3();
     &.show {

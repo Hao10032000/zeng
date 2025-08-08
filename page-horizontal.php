@@ -236,5 +236,5 @@ $header_button_url = themesflat_get_opt('header_button_url');
     </div>
 
 
-
+ <div class="overlay-popup"></div>
 <?php get_footer(); ?>

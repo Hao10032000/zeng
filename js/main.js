@@ -152,24 +152,29 @@
         const $sections = $(".section-one-page");
 
         $navLinks.on("click", function (e) {
-            e.preventDefault();
-
             const target = $(this).attr("href");
-            const $target = $(target);
-            if (!$target.length) return;
 
-            const headerHeight = $(".header-fixed").outerHeight() || 0;
-            const offsetTop = $target.offset().top - headerHeight;
+            // Kiểm tra nếu link bắt đầu bằng "#" thì mới chặn mặc định
+            if (target && target.startsWith("#")) {
+                e.preventDefault();
 
-            $("html, body").animate({ scrollTop: offsetTop }, 0);
+                const $target = $(target);
+                if (!$target.length) return;
 
-            $(".tf-sidebar-menu,.popup-menu-mobile").removeClass("show");
-            $(".overlay-popup").removeClass("show");
-            $("body").removeAttr("style");
+                const headerHeight = $(".header-fixed").outerHeight() || 0;
+                const offsetTop = $target.offset().top - headerHeight;
 
-            if ($(this).hasClass("open-popup")) {
-                openYourPopup();
+                $("html, body").animate({ scrollTop: offsetTop }, 0);
+
+                $(".tf-sidebar-menu,.popup-menu-mobile").removeClass("show");
+                $(".overlay-popup").removeClass("show");
+                $("body").removeAttr("style");
+
+                if ($(this).hasClass("open-popup")) {
+                    openYourPopup();
+                }
             }
+            // nếu không phải anchor link (#), thì để mặc định cho submenu click
         });
 
         const updateActiveMenu = () => {
@@ -188,6 +193,7 @@
                     currentIndex = index;
                 }
             });
+
             $navLinks
                 .removeClass("active")
                 .filter(`[href="#${current}"]`)
@@ -204,10 +210,12 @@
             }
         };
 
-        $(window).on("scroll", updateActiveMenu);
-        $(window).on("resize", updateActiveMenu);
+        $(window).on("scroll resize", updateActiveMenu);
         updateActiveMenu();
     };
+
+
+
 
     /* handleEffectSpotlight
     -------------------------------------------------------------------------*/
