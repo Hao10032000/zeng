@@ -153,7 +153,6 @@
 
         $navLinks.on("click", function (e) {
             const target = $(this).attr("href");
-
             // Kiểm tra nếu link bắt đầu bằng "#" thì mới chặn mặc định
             if (target && target.startsWith("#")) {
                 e.preventDefault();
@@ -178,7 +177,7 @@
         });
 
         const updateActiveMenu = () => {
-            const scrollTop = $(window).scrollTop();
+            const scrollTop = $(window).scrollTop() + 50;
             const headerHeight = $(".header-fixed").outerHeight() || 0;
             let current = "";
             let currentIndex = -1;
@@ -188,7 +187,7 @@
                 const top = $section.offset().top - headerHeight;
                 const bottom = top + $section.outerHeight();
 
-                if (scrollTop >= top && scrollTop < bottom) {
+                if (scrollTop >= top && scrollTop < bottom ) {
                     current = $section.attr("id");
                     currentIndex = index;
                 }
@@ -294,7 +293,6 @@
         switchMode();
         oneNavOnePage();
         handleEffectSpotlight();
-        preventDefault();
         spliting();
         handleSidebar();
     });
