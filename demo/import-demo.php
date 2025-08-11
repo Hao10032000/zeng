@@ -11,7 +11,7 @@ function themesflat_import_files() {
             'import_customizer_file_url' => esc_url(THEMESFLAT_LINK.'/demo/options.dat'),
             'import_preview_image_url'   => esc_url(THEMESFLAT_LINK.'screenshot.png'),
             'import_notice'              => esc_html__( 'After you import this demo, you will have to setup the MailChimp form.', 'zeng' ),
-            'preview_url'                => esc_url('https://zeng.vithemes.com/'),
+            'preview_url'                => esc_url('https://zeng.autodealwordpress.com/'),
         ),
     );
 }
@@ -47,19 +47,13 @@ function themesflat_after_import_setup() {
 
     $main_menu = get_term_by( 'name', 'main-menu', 'nav_menu' );
     $bottom_menu = get_term_by( 'name', 'bottom-menu', 'nav_menu' );
-    $footer_menu_1 = get_term_by( 'name', 'footer-menu-1', 'nav_menu' );
-    $footer_menu_2 = get_term_by( 'name', 'footer-menu-2', 'nav_menu' );
-    $footer_menu_3 = get_term_by( 'name', 'footer-menu-3', 'nav_menu' );
     set_theme_mod( 'nav_menu_locations', array(
             'primary' => $main_menu->term_id,
-            'footer-1' => $footer_menu_1->term_id,
-            'footer-2' => $footer_menu_2->term_id,
-            'footer-3' => $footer_menu_3->term_id,
             'bottom' => $bottom_menu->term_id
         )
     );
 
-    $front_page_id = get_page_by_title( 'Home 01' );
+    $front_page_id = get_page_by_title( 'Home Full Width' );
     $blog_page_id  = get_page_by_title( 'Blog' );
     
     update_option( 'show_on_front', 'page' );

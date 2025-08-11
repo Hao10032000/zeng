@@ -163,51 +163,62 @@ gsap.registerPlugin(ScrollTrigger);
     /* stackElement
   -------------------------------------------------------------------------*/
 
-    var stackElement = function () {
-        if ($(".stack-element").length > 0) {
-            let totalHeight;
-            let scrollTriggerInstances = [];
+var stackElement = function () {
+    if ($(".stack-element").length > 0) {
+        let totalHeight;
+        let scrollTriggerInstances = [];
 
-            const updateTotalHeight = () => {
-                const headerHeight =
-                    document.querySelector(".header-fixed")?.offsetHeight || 0;
-                totalHeight = $(".tabs-content-wrap").outerHeight();
+        const updateTotalHeight = () => {
+            const headerHeight =
+                document.querySelector(".header-fixed")?.offsetHeight || 0;
+            totalHeight = $(".tabs-content-wrap").outerHeight();
 
-                scrollTriggerInstances.forEach((instance) => instance.kill());
-                scrollTriggerInstances = [];
+            // Xóa tất cả trigger cũ
+            scrollTriggerInstances.forEach((instance) => instance.kill());
+            scrollTriggerInstances = [];
 
-                document
-                    .querySelectorAll(".element:not(:last-child)")
-                    .forEach((element, index) => {
-                        const tabHeight = element.offsetHeight;
-                        totalHeight -= tabHeight;
+            document
+                .querySelectorAll(".element:not(:last-child)")
+                .forEach((element) => {
+                    const tabHeight = element.offsetHeight;
+                    totalHeight -= tabHeight;
 
-                        const pinTrigger = ScrollTrigger.create({
-                            trigger: element,
-                            scrub: 1,
-                            start: `top+=-${headerHeight} top`,
-                            end: `+=${totalHeight}`,
-                            pin: true,
-                            pinSpacing: false,
-                            animation: gsap.to(element, {
-                                scale: 0.7,
-                                opacity: 0,
-                            }),
-                        });
-
-                        scrollTriggerInstances.push(pinTrigger);
+                    const pinTrigger = ScrollTrigger.create({
+                        trigger: element,
+                        scrub: 1,
+                        start: `top+=-${headerHeight} top`,
+                        end: `+=${totalHeight}`,
+                        pin: true,
+                        pinSpacing: false,
+                        animation: gsap.to(element, {
+                            scale: 0.7,
+                            opacity: 0,
+                        }),
                     });
-            };
 
+                    scrollTriggerInstances.push(pinTrigger);
+                });
+
+            // Cập nhật ScrollTrigger sau khi set xong
+            ScrollTrigger.refresh();
+        };
+
+        updateTotalHeight();
+
+        let resizeTimeout;
+        window.addEventListener("resize", () => {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(() => {
+                updateTotalHeight();
+            }, 150);
+        });
+
+        // Cập nhật lại khi load hoàn tất (đảm bảo tính toán đúng)
+        window.addEventListener("load", () => {
             updateTotalHeight();
-
-            let resizeTimeout;
-            window.addEventListener("resize", () => {
-                clearTimeout(resizeTimeout);
-                resizeTimeout = setTimeout(updateTotalHeight, 150);
-            });
-        }
-    };
+        });
+    }
+};
 
 
 

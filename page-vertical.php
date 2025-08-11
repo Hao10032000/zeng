@@ -186,7 +186,7 @@ $header_button_url = themesflat_get_opt('header_button_url');
                         <?php while ( have_posts() ) : the_post(); ?>
 			            	<?php get_template_part( 'content', 'page' ); ?>
 			            <?php endwhile; // end of the loop. ?>
-
+                        <div class="overlay-popup"></div>
                     </div>
 
 
@@ -206,12 +206,15 @@ $header_button_url = themesflat_get_opt('header_button_url');
                             </div>
                         </div>
                         <ul class="list-icon menu-option  d-flex flex-column gap_8 ">
-                            <li><a href="#" class="link-no-action show-sidebar md-hide"><i
+                            <li>
+                                <a href="#" class="link-no-action show-sidebar"><i
                                         class="icon-CirclesFour"></i></a>
                             </li>
-                                                <li>
-                        <div class="toggle-switch-mode"><i class="icon-Sun"></i></div>
-                    </li>
+                            <li>
+                                  <div class="toggle-switch-mode">
+                                    <i class="icon-Sun"></i>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                     <!-- End right-bar  -->
@@ -221,6 +224,4 @@ $header_button_url = themesflat_get_opt('header_button_url');
 
 
         </div>
-
-<div class="overlay-popup"></div>
 <?php get_footer(); ?>

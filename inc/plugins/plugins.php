@@ -12,7 +12,7 @@ function themesflat_recommend_plugin() {
         array(
             'name' => esc_html__('ThemesFlat Core', 'zeng'),
             'slug' => 'plugin-core',
-            'source' => THEMESFLAT_DIR . 'inc/plugins/plugin-core.zip',
+            'source' => THEMESFLAT_DIR . 'inc/plugins/zeng-core.zip',
             'required' => true
         ),
         array(
