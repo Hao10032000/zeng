@@ -52,7 +52,8 @@ $website_info = get_my_website_info();
                             </div>
                         <?php else: ?>
                             <div class="avatar">
-                                <img src="<?php echo  THEMESFLAT_LINK . '/images/avatar.png'; ?>" alt="avatar">
+                                <img src="<?php echo  THEMESFLAT_LINK . '/images/avatar.png'; ?>" width="68"
+                                                height="68" alt="avatar">
                             </div>
                         <?php endif; ?>
                         <div class="info">
@@ -104,7 +105,8 @@ $website_info = get_my_website_info();
                             </div>
                         <?php else: ?>
                             <div class="avatar">
-                                <img src="<?php echo  THEMESFLAT_LINK . '/images/avatar.png'; ?>" alt="avatar">
+                                <img src="<?php echo  THEMESFLAT_LINK . '/images/avatar.png'; ?>" width="68"
+                                                height="68" alt="avatar">
                             </div>
                         <?php endif; ?>
                         <div class="info">

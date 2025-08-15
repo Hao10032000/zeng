@@ -48,7 +48,8 @@ $header_button_url = themesflat_get_opt('header_button_url');
                             </div>
                         <?php else: ?>
                             <div class="avatar">
-                                <img src="<?php echo  THEMESFLAT_LINK . '/images/avatar.png'; ?>" alt="avatar">
+                                <img src="<?php echo  THEMESFLAT_LINK . '/images/avatar.png'; ?>" width="68"
+                                                height="68" alt="avatar">
                             </div>
                         <?php endif; ?>
                         <div class="info">
@@ -92,7 +93,8 @@ $header_button_url = themesflat_get_opt('header_button_url');
                             <img decoding="async" loading="lazy" src="<?php echo esc_url($website_info['custom_avatar']); ?>" width="314" height="314"
                                 alt="feature post">
                         <?php else: ?>
-                                <img src="<?php echo  THEMESFLAT_LINK . '/images/avatar-thumbnail.png'; ?>" alt="avatar">
+                                <img src="<?php echo  THEMESFLAT_LINK . '/images/avatar-thumbnail.png'; ?>" width="68"
+                                                height="68" alt="avatar">
                         <?php endif; ?>
                     </div>
                     <div class="info">

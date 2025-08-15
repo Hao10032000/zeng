@@ -14,7 +14,7 @@ get_header();
 ?>	
 
 <div class="main-content style-fullwidth section-onepage">
-    <div class="tf-container w-6">
+    <div class="tf-container w-3">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'content', 'page' ); ?>
 				<?php

@@ -19,7 +19,8 @@ $header_button_url = themesflat_get_opt('header_button_url');
                         </div>
                     <?php else: ?>
                         <div class="avatar">
-                            <img src="<?php echo  THEMESFLAT_LINK . '/images/avatar.png'; ?>" alt="avatar">
+                            <img src="<?php echo  THEMESFLAT_LINK . '/images/avatar.png'; ?>" width="68"
+                                                height="68" alt="avatar">
                         </div>
                     <?php endif; ?>
                         <div class="info">

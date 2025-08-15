@@ -35,10 +35,13 @@ $args['category'] = wp_list_pluck( $categories, 'slug' );
 <!-- related-post -->
 <div class="tf-container sw-layout related-post">
     <?php if (!empty(themesflat_get_opt('heading_related'))): ?>
-        <h3 class="mb_28"><?php echo esc_html(themesflat_get_opt('heading_related')) ?></h3>
+    <h3 class="mb_28"><?php echo esc_html(themesflat_get_opt('heading_related')) ?></h3>
     <?php endif; ?>
-    <div class="swiper" data-preview="<?php echo esc_attr($grid_columns);  ?>" data-tablet="<?php echo esc_attr($grid_columns_tablet);  ?>" data-mobile="<?php echo esc_attr($grid_columns_mobile);  ?>" data-mobile-sm="<?php echo esc_attr($grid_columns_mobile_small);  ?>"
-        data-space-lg="30" data-space-md="24" data-space="15">
+    <div class="swiper" data-preview="<?php echo esc_attr($grid_columns);  ?>"
+        data-tablet="<?php echo esc_attr($grid_columns_tablet);  ?>"
+        data-mobile="<?php echo esc_attr($grid_columns_mobile);  ?>"
+        data-mobile-sm="<?php echo esc_attr($grid_columns_mobile_small);  ?>" data-space-lg="30" data-space-md="24"
+        data-space="15">
         <div class="swiper-wrapper">
 
             <?php
@@ -48,8 +51,8 @@ if( $query->have_posts() ) {
             <div class="swiper-slide">
                 <div class="feature-post-item style-default hover-image-translate item-grid ">
                     <div class="img-style mb_26">
-                            <a href="<?php the_permalink(); ?>" class="overlay-link"></a>
-                            <?php echo get_the_post_thumbnail(get_the_ID(), 'themesflat-blog-grid'); ?>
+                        <a href="<?php the_permalink(); ?>" class="overlay-link"></a>
+                        <?php echo get_the_post_thumbnail(get_the_ID(), 'themesflat-blog-grid'); ?>
                     </div>
                     <div class="content">
                         <?php 
@@ -58,11 +61,11 @@ if( $query->have_posts() ) {
                         echo '</div>';
                         the_title( sprintf( '<h5 class="title"><a href="%s" class="link line-clamp-2" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h5>' );
                         ?>
-                      
+
                     </div>
                 </div>
             </div>
-    <?php
+            <?php
     endwhile;
 }
 wp_reset_postdata();            
