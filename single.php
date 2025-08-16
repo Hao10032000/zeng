@@ -7,12 +7,15 @@
 
 
 get_header(); ?>
-<div id="main-content" class="main-content tf-container">
+<div id="main-content" class="main-content tf-container w-3">
 	<div class="row">
-			<div class="col-md-12">
+		<div class="col-md-12">
+			<div class="page-title">
 				<?php get_template_part( 'tpl/page-title'); ?>
 			</div>
-		<div class="col-md-9">
+		</div>
+		<div class="col-md-12">
+			
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php the_content(); ?>
 				<?php
@@ -23,11 +26,7 @@ get_header(); ?>
 				?>
 			<?php endwhile; // end of the loop. ?>
 		</div>
-		<div class="col-md-3">
-			<?php 
-				get_sidebar();
-			?>
-		</div>
+
 	</div><!-- /.row -->
 </div><!-- /.container -->
 <?php get_footer(); ?>

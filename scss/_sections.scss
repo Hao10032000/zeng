@@ -266,6 +266,36 @@ footer {
 .wrap-blog-article .blog-post:first-child .featured-post a img {
     width: 100%;
     height: 497.25px;
+
+}
+.wrap-blog-article .featured-post a img {
+     object-fit: cover;
+    transition: all 1s;
+
+}
+.featured-post:hover a {
+    position: relative;
+    overflow: hidden;
+}
+.featured-post:hover a img {
+    transform: scale(1.1);
+}
+.featured-post:hover a:after{
+    height: 250%;
+    transition: all 600ms linear;
+    background-color: transparent;
+}
+.featured-post a:after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%) rotate(-45deg);
+    z-index: 1;
+    pointer-events: none;
 }
 .featured-post a {
   border-radius: 16px;
@@ -330,27 +360,6 @@ footer {
  color: var(--Primary);
     letter-spacing: 0.3px;
     font-family: $font-3;
-}
-
-.breadcrumb-trail {
-  margin-bottom: 25px;
-  padding: 30px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.trail-item {
-  font-family: $font-3;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  color: var(--Text-light);
-}
-
-.breadcrumb-trail .sep {
-  font-size: 16px;
-  color: var(--Text-light);
-  margin: 0px 10px;
 }
 
 .page-numbers {
