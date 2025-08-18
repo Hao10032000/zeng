@@ -94,21 +94,21 @@ function themesflat_special_excerpt($length) {
 
 function themesflat_available_social_icons() {
     $icons = apply_filters( 'themesflat_available_icons', array(
-        'twitter'        => array( 'iclass' => 'icon-zeng-twitter', 'title' => 'Twitter','share_link' => THEMESFLAT_PROTOCOL . '://twitter.com/intent/tweet?url=' ),
-        'facebook'       => array( 'iclass' => 'icon-zeng-facebook', 'title' => 'Facebook','share_link'=> THEMESFLAT_PROTOCOL . '://www.facebook.com/sharer/sharer.php?u=' ),
-        'pinterest'      => array( 'iclass' => 'icon-zeng-pinterest', 'title' => 'Pinterest','share_link' => THEMESFLAT_PROTOCOL . '://pinterest.com/pin/create/bookmarklet/?url=' ),
-        'instagram'      => array( 'iclass' => 'icon-zeng-instagram', 'title' => 'Instagram','share_link' => 'https://www.instagram.com/?url=' ),
-        'youtube'        => array( 'iclass' => 'icon-zeng-youtube', 'title' => 'Youtube','share_link' =>'' ),
-        'vimeo'          => array( 'iclass' => 'icon-zeng-vimeo', 'title' => 'Vimeo','share_link' =>'' ),
-        'behance'        => array( 'iclass' => 'icon-zeng-behance', 'title' => 'Behance','share_link' =>'' ),
-        'digg'           => array( 'iclass' => 'icon-zeng-digg', 'title' => 'Digg','share_link' =>'http://digg.com/submit?url=' ),
-        'slack'          => array( 'iclass' => 'icon-zeng-slack', 'title' => 'Slack','share_link' => ''),
-        'spotify'        => array( 'iclass' => 'icon-zeng-spotify', 'title' => 'Spotify','share_link' => ''),
-        'dribble'          => array( 'iclass' => 'icon-zeng-dribbble', 'title' => 'Dribble','share_link' => ''),
-        'linkedin'          => array( 'iclass' => 'icon-zeng-linkedin', 'title' => 'Linkedin','share_link' => ''),
-        'telegram'          => array( 'iclass' => ' icon-zeng-telegram', 'title' => 'Telegram','share_link' => ''),        
-        'whatsapp'          => array( 'iclass' => ' icon-zeng-whatsapp', 'title' => 'Whatsapp','share_link' => ''),        
-        'tiktok'          => array( 'iclass' => ' icon-zeng-tiktok', 'title' => 'Tiktok','share_link' => ''),        
+        'twitter'        => array( 'iclass' => 'icon-twitter', 'title' => 'Twitter','share_link' => THEMESFLAT_PROTOCOL . '://twitter.com/intent/tweet?url=' ),
+        'facebook'       => array( 'iclass' => 'icon-facebook', 'title' => 'Facebook','share_link'=> THEMESFLAT_PROTOCOL . '://www.facebook.com/sharer/sharer.php?u=' ),
+        'pinterest'      => array( 'iclass' => 'icon-pinterest', 'title' => 'Pinterest','share_link' => THEMESFLAT_PROTOCOL . '://pinterest.com/pin/create/bookmarklet/?url=' ),
+        'instagram'      => array( 'iclass' => 'icon-instagram', 'title' => 'Instagram','share_link' => 'https://www.instagram.com/?url=' ),
+        'youtube'        => array( 'iclass' => 'icon-youtube', 'title' => 'Youtube','share_link' =>'' ),
+        'vimeo'          => array( 'iclass' => 'icon-vimeo', 'title' => 'Vimeo','share_link' =>'' ),
+        'behance'        => array( 'iclass' => 'icon-behance', 'title' => 'Behance','share_link' =>'' ),
+        'digg'           => array( 'iclass' => 'icon-digg', 'title' => 'Digg','share_link' =>'http://digg.com/submit?url=' ),
+        'slack'          => array( 'iclass' => 'icon-slack', 'title' => 'Slack','share_link' => ''),
+        'spotify'        => array( 'iclass' => 'icon-spotify', 'title' => 'Spotify','share_link' => ''),
+        'dribble'          => array( 'iclass' => 'icon-dribbble', 'title' => 'Dribble','share_link' => ''),
+        'linkedin'          => array( 'iclass' => 'icon-linkedin', 'title' => 'Linkedin','share_link' => ''),
+        'telegram'          => array( 'iclass' => ' icon-telegram', 'title' => 'Telegram','share_link' => ''),        
+        'whatsapp'          => array( 'iclass' => ' icon-whatsapp', 'title' => 'Whatsapp','share_link' => ''),        
+        'tiktok'          => array( 'iclass' => ' icon-tiktok', 'title' => 'Tiktok','share_link' => ''),        
     ) );
 
     $icons['__ordering__'] = array_keys( $icons );

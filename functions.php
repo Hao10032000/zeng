@@ -319,6 +319,91 @@ function themesflat_scripts_styles() {
 
 add_action( 'wp_enqueue_scripts', 'themesflat_scripts_styles' );
 
+// ===================
+// Customizer: chọn style hiển thị bài viết
+// ===================
+function zeng_customize_register($wp_customize) {
+    $wp_customize->add_section('blog_single_style_section', array(
+        'title'    => __('Blog Single Style', 'zeng'),
+        'priority' => 30,
+    ));
+
+    $wp_customize->add_setting('blog_single_style', array(
+        'default'   => 'default',
+        'transport' => 'refresh',
+    ));
+
+    $wp_customize->add_control('blog_single_style_control', array(
+        'label'    => __('Select Single Style', 'zeng'),
+        'section'  => 'blog_single_style_section',
+        'settings' => 'blog_single_style',
+        'type'     => 'radio',
+        'choices'  => array(
+            'default' => __('Default', 'zeng'),
+            'popup'   => __('Popup', 'zeng'),
+        ),
+    ));
+}
+add_action('customize_register', 'zeng_customize_register');
+
+
+// AJAX handler cho popup
+function zeng_load_post_popup() {
+    $post_id = isset($_POST['post_id']) ? intval($_POST['post_id']) : 0;
+
+    if ($post_id > 0) {
+        $args = array(
+            'p'         => $post_id,
+            'post_type' => 'post',
+        );
+
+        $query = new WP_Query($args);
+
+        if ($query->have_posts()) {
+            while ($query->have_posts()) {
+                $query->the_post();
+
+                // Bắt đầu ghi output
+                ob_start();
+                get_template_part('tpl/content', 'popup');
+                $html = ob_get_clean();
+
+                echo $html;
+            }
+            wp_reset_postdata();
+        }
+    }
+
+    wp_die();
+}
+add_action('wp_ajax_zeng_load_post_popup', 'zeng_load_post_popup');
+add_action('wp_ajax_nopriv_zeng_load_post_popup', 'zeng_load_post_popup'); // Cho khách chưa login
+
+
+// Truyền biến ajaxurl sang JS
+function zeng_enqueue_scripts() {
+    wp_enqueue_script(
+        'zeng-main',
+        get_template_directory_uri() . '/js/main.js',
+        array('jquery'),
+        null,
+        true
+    );
+
+    // Truyền ajaxurl cho JS
+    wp_localize_script('zeng-main', 'zeng_ajax', array(
+        'ajaxurl' => admin_url('admin-ajax.php')
+    ));
+}
+add_action('wp_enqueue_scripts', 'zeng_enqueue_scripts');
+
+
+
+
+
+
+
+
 
 
 

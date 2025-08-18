@@ -114,3 +114,21 @@ $wp_customize->add_control( new themesflat_RadioImages($wp_customize,
         }, 
     ))
 ); 
+
+//Socials
+$wp_customize->add_setting(
+    'social_links',
+    array(
+      'sanitize_callback' => 'esc_attr',
+      'default' => themesflat_customize_default('social_links'),     
+    )   
+  );
+  $wp_customize->add_control( new themesflat_SocialIcons($wp_customize,
+      'social_links',
+      array(
+          'type' => 'social-icons',
+          'label' => esc_html__('Social Media', 'zeng'),
+          'section' => 'general_panel',
+          'priority' => 4,
+      ))
+  );
