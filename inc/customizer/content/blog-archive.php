@@ -67,3 +67,26 @@ $wp_customize->add_control(
         'priority'  => 7
     )
 );
+
+
+$wp_customize->add_setting(
+    'blog_single_style',
+    array(
+        'default'           => themesflat_customize_default('blog_single_style'),
+        'sanitize_callback' => 'esc_attr',
+    )
+);
+$wp_customize->add_control( 
+    'blog_single_style',
+    array (
+        'type'      => 'select',           
+        'section'   => 'section_content_blog_archive',
+        'priority'  => 8,
+        'label'         => esc_html__('Blog Single Popup', 'finwice'),
+        'default'           => 'sidebar-right',
+        'choices'   => array (
+            'default'            => esc_html__( 'Disable', 'zeng' ),
+            'popup'           => esc_html__( 'Popup', 'zeng' ),
+        ),
+    )
+);

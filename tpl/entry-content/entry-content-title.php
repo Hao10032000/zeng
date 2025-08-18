@@ -5,7 +5,7 @@
 ?>
 
 <?php
-$style = get_theme_mod('blog_single_style', 'default');
+$style = themesflat_get_opt('blog_single_style');
 
 if ( is_singular('post') ) : 
     the_title('<h3 class="title">', '</h3>');

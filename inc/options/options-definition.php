@@ -114,6 +114,7 @@ function themesflat_customize_default($key) {
 		'blog_order_direction' => 'DESC',
 		'page_sidebar_list'	=> 'blog-sidebar',	
 		'heading_related' => 'Related Post',
+		'blog_single_style' => 'default',
 
 		'footer_background_color'	=> '#24283E',
 		'footer_title_widget_color' => '#fff',
@@ -180,15 +181,7 @@ function themesflat_customize_default($key) {
 		'h5_size' => 24,
 		'h6_size' => 20,
 		'show_action_box'			=> 1,
-		'subtitle_action_box'			=> 'Contact',
-		'title_action_box'			=> 'Work Together',
-		'title_before_action_box'			=> 'Lets',
-		'title_repeater1_action_box'			=> 'Design',
-		'title_repeater2_action_box'			=> 'Create',
-		'title_after_action_box'			=> 'Incredible',
-		'mail_action_box'			=> 'themesflat@gmail.com',
-		'address_action_box'			=> 'Based in San Francisco, CA',
-		'shortcode_action_box'			=> '[contact-form-7 id="8bed001" title="Form Contact"]',
+		'template_action_box'			=> '',
 
 	);
 	return $default[$key];

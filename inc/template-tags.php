@@ -29,104 +29,11 @@ if ( ! function_exists( 'themesflat_entry_footer' ) ) :
 function themesflat_entry_footer() {
 	// Hide category and tag text for pages.
 	$tags_links = '';
-if ( 'post' === get_post_type() && is_single() ) {
-    $tags = get_the_tags();
-    if ( $tags ) {
-        echo '<div class="wrap-tag d-flex flex-wrap align-items-center gap_12">';
-        echo '<span class="text-title text_on-surface-color fw-7">' . esc_html__( 'Tag:', 'zeng' ) . '</span>';
-        echo '<ul class="d-flex flex-wrap gap_12">';
-        foreach ( $tags as $tag ) {
-            $tag_link = get_tag_link( $tag->term_id );
-            echo '<li><a href="' . esc_url( $tag_link ) . '" class="tag text-caption-1">' . esc_html( $tag->name ) . '</a></li>';
-        }
-        echo '</ul>';
-        echo '</div>';
-    }
-}
-
-
-	?>
-
-	<?php
-
-}
-endif;
-
-if ( ! function_exists( 'themesflat_post_navigation' ) ) :
-function themesflat_post_navigation() {
-	// Don't print empty markup if there's nowhere to navigate.
-	$previous = ( is_attachment() ) ? get_post( get_post()->post_parent ) : get_adjacent_post( false, '', true );
-	$next     = get_adjacent_post( false, '', false );
-
-	if ( ! $next && ! $previous ) {
-		return;
-	}
-	?>
-	<nav class="navigation posts-navigation" role="navigation">
-		<h2 class="screen-reader-text"><?php esc_html_e( 'Post navigation', 'zeng' ); ?></h2>
-		<ul class="tf-article-navigation">
-			<?php
-			if ( is_attachment() ) :
-
-				$prevPost = get_adjacent_post( false, '', true);
-				if( is_object( $prevPost ) ){
-					$prev_title = get_the_title($prevPost->ID);
-				}
-				$prev = esc_html__( 'Published In', 'zeng' );
-				$date = get_the_date();
-				echo '<li class="item prev">';
-						previous_post_link('<div class="prev-button">%link</div>', $date); 
-						previous_post_link('<div class="title-post">%link</div>', $prev_title); 
-				echo '</li>';
-			else :
-
-				$prevPost = get_adjacent_post( false, '', true);
-				if( is_object( $prevPost ) ){
-					$prev_title = get_the_title($prevPost->ID);
-					$prev = esc_html__( 'Previous', 'zeng' );
-					$date = get_the_date();
-
-					echo '<li class="item prev">';
-						echo '<div class="content">';
-							previous_post_link('<div class="post-button prev-button">%link</div>', $prev); 
-							previous_post_link('<div class="title-post">%link</div>', $prev_title); 
-						echo '</div>';
-					echo '</li>';
-				}
-
-				$nextPost = get_adjacent_post( false, '', false);
-				if( is_object( $nextPost ) ){
-					$next_title = get_the_title($nextPost->ID);
-					$next = esc_html__( 'Next', 'zeng' );
-					$date = get_the_date();
-					echo '<li class="item next">';
-						echo '<div class="content">';
-						next_post_link('<div class="post-button next-button">%link</div>', $next); 
-							next_post_link('<div class="title-post">%link</div>', $next_title); 
-						echo '</div>';
-					echo '</li>';
-				}
-				
-			endif;
-			?>
-		</ul><!-- .nav-links --> 
-	</nav><!-- .navigation -->
-	<?php
-}
-endif;
-
-if ( ! function_exists( 'themesflat_entry_footer' ) ) :
-/**
- * Prints HTML with meta information for the categories, tags and comments.
- */
-function themesflat_entry_footer() {
-	// Hide category and tag text for pages.
-	$tags_links = '';
 	if ( 'post' == get_post_type() ) {
 		/* translators: used between list items, there is a space after the comma */
 		$tags_list = get_the_tag_list( ' ', ' ' );
 		if ( $tags_list && is_single() ) {
-			$tags_links = sprintf( '<div class="tags-links"><h5>' . esc_html__( 'Popular Tags ', 'zeng' ) . '</h5>' . esc_html__( ' %1$s', 'zeng' ) . '</div>', $tags_list  );
+			$tags_links = sprintf( '<div class="tags-links"><h5>' . esc_html__( 'Tag: ', 'zeng' ) . '</h5>' . esc_html__( ' %1$s', 'zeng' ) . '</div>', $tags_list  );
 
 		}			
 	}
@@ -135,9 +42,7 @@ function themesflat_entry_footer() {
     <div class="entry-footer">
 	
     <?php
-	 if( themesflat_get_opt('show_popular_tag') == 1 ):
 	 printf($tags_links); 
-     endif;
 
 	themesflat_social_single();
 	?>
@@ -159,17 +64,17 @@ function themesflat_post_navigation() {
 		return;
 	}
 	?>
-<nav class="navigation posts-navigation" role="navigation">
-    <h2 class="screen-reader-text"><?php esc_html_e( 'Post navigation', 'zeng' ); ?></h2>
-    <ul class="nav-links">
-        <?php
+	<nav class="navigation posts-navigation" role="navigation">
+		<h2 class="screen-reader-text"><?php esc_html_e( 'Post navigation', 'finwice' ); ?></h2>
+		<ul class="nav-links clearfix">
+			<?php
 			if ( is_attachment() ) :
 
 				$prevPost = get_adjacent_post( false, '', true);
 				if( is_object( $prevPost ) ){
 					$prev_title = get_the_title($prevPost->ID);
 				}
-				$prev = esc_html__( 'Published In', 'zeng' );
+				$prev = esc_html__( 'Published In', 'finwice' );
 				$date = get_the_date();
 				echo '<li class="post-navigation previous-post">';
 					echo '<div class="content">';
@@ -182,12 +87,12 @@ function themesflat_post_navigation() {
 				$prevPost = get_adjacent_post( false, '', true);
 				if( is_object( $prevPost ) ){
 					$prev_title = get_the_title($prevPost->ID);
-					$prev = esc_html__( '', 'zeng' );
+					$prev = esc_html__( 'Previous', 'finwice' );
 					$date = get_the_date();
 
 					echo '<li class="post-navigation previous-post">';
 						echo '<div class="content">';
-							previous_post_link('<div class="post-button prev-button"><i class="icon-zeng-chevron-left"></i>%link</div>', $prev); 
+							previous_post_link('<div class="post-button prev-button">%link</div>', $prev); 
 							previous_post_link('<div class="title-post">%link</div>', $prev_title); 
 						echo '</div>';
 					echo '</li>';
@@ -196,11 +101,11 @@ function themesflat_post_navigation() {
 				$nextPost = get_adjacent_post( false, '', false);
 				if( is_object( $nextPost ) ){
 					$next_title = get_the_title($nextPost->ID);
-					$next = esc_html__( '', 'zeng' );
+					$next = esc_html__( 'next post', 'finwice' );
 					$date = get_the_date();
 					echo '<li class="post-navigation next-post">';
 						echo '<div class="content">';
-						    next_post_link('<div class="post-button next-button"><i class="icon-zeng-chevron-right"></i>%link</div>', $next); 
+						next_post_link('<div class="post-button next-button">%link</div>', $next); 
 							next_post_link('<div class="title-post">%link</div>', $next_title); 
 						echo '</div>';
 					echo '</li>';
@@ -208,8 +113,8 @@ function themesflat_post_navigation() {
 				
 			endif;
 			?>
-    </ul><!-- .nav-links -->
-</nav><!-- .navigation -->
-<?php
+		</ul><!-- .nav-links --> 
+	</nav><!-- .navigation -->
+	<?php
 }
 endif;

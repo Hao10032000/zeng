@@ -369,7 +369,12 @@ add_action( 'wp_head', 'themesflat_pingback_header' );
 
 function themesflat_preload_hook(){
 
-
+echo '<div id="post-popup" style="display:none;">
+    <div class="popup-inner">
+        <button class="close-popup">×</button>
+        <div class="popup-content"></div>
+    </div>
+</div>';
 
 }
 add_action( 'wp_body_open', 'themesflat_preload_hook' );
@@ -474,7 +479,7 @@ function themesflat_social_single() {
                             printf(
                                 '<li class="%1$s">
                                     <a href="%2$s" class="social-item d-flex align-items-center justify-content-center text-body-1 fw-7 gap_8" target="_blank" rel="alternate" title="%1$s">
-                                        <i class="icon-zeng-%4$s"></i> %1$s
+                                        <i class="icon-zeng-%4$s"></i>
                                     </a>
                                 </li>',
                                 esc_attr( $key ),
@@ -959,4 +964,21 @@ function custom_menu_item_icon_save( $menu_id, $menu_item_db_id, $args ) {
         delete_post_meta( $menu_item_db_id, '_menu_item_icon' );
     }
 }
+
+function my_render_elementor_template_shortcode( $atts ) {
+    $atts = shortcode_atts( [
+        'id' => '',
+    ], $atts );
+
+    if ( empty( $atts['id'] ) ) {
+        return '';
+    }
+
+    if ( ! class_exists( '\Elementor\Plugin' ) ) {
+        return '<!-- Elementor plugin not active -->';
+    }
+
+    return \Elementor\Plugin::instance()->frontend->get_builder_content_for_display( $atts['id'] );
+}
+add_shortcode( 'my_elementor_template', 'my_render_elementor_template_shortcode' );
 

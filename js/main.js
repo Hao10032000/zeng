@@ -284,50 +284,51 @@
                 );
             });
     };
-    jQuery(document).ready(function ($) {
-        // Mở popup khi click vào link
-        $(document).on('click', '.open-post-popup', function (e) {
-            e.preventDefault();
 
-            let post_id = $(this).data('id');
-
-            $.ajax({
-                url: zeng_ajax.ajaxurl, // lấy từ wp_localize_script
-                type: 'POST',
-                data: {
-                    action: 'zeng_load_post_popup',
-                    post_id: post_id
-                },
-                beforeSend: function () {
-                    $('#post-popup .popup-content').html('<p>Loading...</p>');
-                    $('#post-popup').fadeIn();
-                },
-                success: function (response) {
-                    $('#post-popup .popup-content').html(response);
-                },
-                error: function () {
-                    $('#post-popup .popup-content').html('<p>Error loading content!</p>');
-                }
+    const handlePopupBlog = () => {
+        $(document).ready(function ($) {
+            $(document).on('click', '.open-post-popup', function (e) {
+                e.preventDefault();
+    
+                let post_id = $(this).data('id');
+    
+                $.ajax({
+                    url: zeng_ajax.ajaxurl, 
+                    type: 'POST',
+                    data: {
+                        action: 'zeng_load_post_popup',
+                        post_id: post_id
+                    },
+                    beforeSend: function () {
+                        $('#post-popup .popup-content').html('<p>Loading...</p>');
+                        $('#post-popup').fadeIn();
+                    },
+                    success: function (response) {
+                        $('#post-popup .popup-content').html(response);
+                    },
+                    error: function () {
+                        $('#post-popup .popup-content').html('<p>Error loading content!</p>');
+                    }
+                });
+    
             });
-
-        });
-
-        // Đóng popup
-        $(document).on('click', '.close-popup', function () {
-            $('#post-popup').fadeOut(function () {
-                $('#post-popup .popup-content').empty();
-            });
-        });
-
-        // Đóng popup khi click ra ngoài
-        $(document).on('click', '#post-popup', function (e) {
-            if ($(e.target).is('#post-popup')) {
+    
+            $(document).on('click', '.close-popup', function () {
                 $('#post-popup').fadeOut(function () {
                     $('#post-popup .popup-content').empty();
                 });
-            }
+            });
+    
+            $(document).on('click', '#post-popup', function (e) {
+                if ($(e.target).is('#post-popup')) {
+                    $('#post-popup').fadeOut(function () {
+                        $('#post-popup .popup-content').empty();
+                    });
+                }
+            });
         });
-    });
+    };
+
 
 
 
@@ -340,6 +341,7 @@
         oneNavOnePage();
         handleEffectSpotlight();
         spliting();
+        handlePopupBlog();
         handleSidebar();
     });
 })(jQuery);
