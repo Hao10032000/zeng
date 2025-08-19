@@ -13,7 +13,7 @@ get_header(); ?>
 				<?php get_template_part( 'tpl/page-title'); ?>
 			</div>
 		</div>
-			<div class="col-md-8">
+			<div class="col-lg-8">
 				<div class="wrap-content-area clearfix">
 					<div id="primary" class="content-area">
 						<main id="main" class="post-wrap" role="main">
@@ -42,7 +42,7 @@ get_header(); ?>
 
 				</div><!-- /.wrap-content-area -->
 			</div>
-			<div class="col-md-4">
+			<div class="col-lg-4">
 					<?php 
 						get_sidebar();
 					?>

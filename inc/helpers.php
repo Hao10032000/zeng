@@ -470,7 +470,7 @@ function themesflat_social_single() {
         $sharelink = themesflat_available_social_icons();
         ?>
         <div class="share-bar text-center lg-hide">
-            <h6 class="mb_20"><?php echo esc_html__( 'Share this post:', 'zeng' ); ?></h6>        
+            <h6 ><?php echo esc_html__( 'Share this post:', 'zeng' ); ?></h6>        
             <ul class="d-grid gap_6">
                 <?php
                     foreach ( $value as $key => $val ) {

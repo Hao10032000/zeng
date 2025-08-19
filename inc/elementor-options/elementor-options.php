@@ -60,7 +60,22 @@ class themesflat_options_elementor {
                     '{{WRAPPER}} footer' => 'display: {{VALUE}};',
                 ],
             ]
-        ); 
+        );
+        $element->add_control(
+            'hide_actionbox',
+            [
+                'label'     => esc_html__( 'Hide Action Box', 'zeng'),
+                'type'      => Controls_Manager::SELECT,
+                'default'   => 'block',
+                'options'   => [
+                    'none'       => esc_html__( 'Yes', 'zeng'),
+                    'block'      => esc_html__( 'No', 'zeng'),
+                ],
+                'selectors'  => [
+                    '{{WRAPPER}} .action-box' => 'display: {{VALUE}};',
+                ],
+            ]
+        );  
 
         $element->end_controls_section();
     }
