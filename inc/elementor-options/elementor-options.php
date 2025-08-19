@@ -107,7 +107,7 @@ class themesflat_options_elementor {
         $element->add_control(
             'image_background',
             [
-                'label'   => esc_html__( 'Custom Background Body', 'vineta' ),
+                'label'   => esc_html__( 'Custom Background Body', 'zeng' ),
                 'type'    => Controls_Manager::MEDIA,
                 'condition' => [ 'style_background' => 'page-background' ]
             ]
@@ -116,22 +116,22 @@ class themesflat_options_elementor {
         $element->add_control(
             'video_background',
             [
-                'label'     => esc_html__( 'Select Video', 'finwice'),
+                'label'     => esc_html__( 'Select Video', 'zeng'),
                 'type'      => Controls_Manager::SELECT,
                 'default'   => '',
                 'options'   => [
-                	'' => esc_html__( 'Theme Setting', 'finwice'),
-                    'video-1' => esc_html__( 'Video 1', 'finwice'),
-                    'video-2' => esc_html__( 'Video 2', 'finwice'),
-                    'video-3' => esc_html__( 'Video 3', 'finwice'),
-                    'video-4' => esc_html__( 'Video 4', 'finwice'),
-                    'video-5' => esc_html__( 'Video 5', 'finwice'),
-                    'video-6' => esc_html__( 'Video 6', 'finwice'),
-                    'video-7' => esc_html__( 'Video 7', 'finwice'),
-                    'video-8' => esc_html__( 'Video 8', 'finwice'),
-                    'video-9' => esc_html__( 'Video 9', 'finwice'),
-                    'video-10' => esc_html__( 'Video 10', 'finwice'),
-                    'video-11' => esc_html__( 'Video 11', 'finwice'),
+                	'' => esc_html__( 'Theme Setting', 'zeng'),
+                    'video-1' => esc_html__( 'Video 1', 'zeng'),
+                    'video-2' => esc_html__( 'Video 2', 'zeng'),
+                    'video-3' => esc_html__( 'Video 3', 'zeng'),
+                    'video-4' => esc_html__( 'Video 4', 'zeng'),
+                    'video-5' => esc_html__( 'Video 5', 'zeng'),
+                    'video-6' => esc_html__( 'Video 6', 'zeng'),
+                    'video-7' => esc_html__( 'Video 7', 'zeng'),
+                    'video-8' => esc_html__( 'Video 8', 'zeng'),
+                    'video-9' => esc_html__( 'Video 9', 'zeng'),
+                    'video-10' => esc_html__( 'Video 10', 'zeng'),
+                    'video-11' => esc_html__( 'Video 11', 'zeng'),
                 ],
                 'condition' => [ 'style_background' => 'video' ]
             ]

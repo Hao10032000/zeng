@@ -23,20 +23,5 @@
 			?>
 			</p>
 
-		<?php elseif ( is_search() ) : ?>
-
-			<p class="subtext-nothing"><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'zeng' ); ?></p>
-			<aside class="widget widget_search">
-				<?php get_themesflat_search_form('style-1'); ?>
-			</aside>
-
-		<?php else : ?>
-
-			<p class="subtext-nothing"><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'zeng' ); ?></p>
-			<aside class="widget widget_search">
-				 <?php get_themesflat_search_form('style-1'); ?>
-			</aside>
-
-		<?php endif; ?>
 	</div><!-- .page-content -->
 </section><!-- .no-results -->

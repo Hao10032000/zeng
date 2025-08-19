@@ -84,17 +84,18 @@ get_header(); ?>
 
                 <div class="popup-post-content">
                     <?php the_content(); ?>
+                    
+                    <?php themesflat_entry_footer(); 
+                        themesflat_post_navigation();
+                    ?>
+
+                    <?php
+                        if (comments_open() || get_comments_number()) :
+                            comments_template();
+                        endif;
+                    ?>
                 </div>
 
-                <?php themesflat_entry_footer(); 
-                themesflat_post_navigation();
-                ?>
-
-                <?php
-        if (comments_open() || get_comments_number()) :
-            comments_template();
-        endif;
-        ?>
             </div>
         </div>
 

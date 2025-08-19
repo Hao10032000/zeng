@@ -94,21 +94,19 @@ function themesflat_special_excerpt($length) {
 
 function themesflat_available_social_icons() {
     $icons = apply_filters( 'themesflat_available_icons', array(
-        'twitter'        => array( 'iclass' => 'icon-twitter', 'title' => 'Twitter','share_link' => THEMESFLAT_PROTOCOL . '://twitter.com/intent/tweet?url=' ),
-        'facebook'       => array( 'iclass' => 'icon-facebook', 'title' => 'Facebook','share_link'=> THEMESFLAT_PROTOCOL . '://www.facebook.com/sharer/sharer.php?u=' ),
-        'pinterest'      => array( 'iclass' => 'icon-pinterest', 'title' => 'Pinterest','share_link' => THEMESFLAT_PROTOCOL . '://pinterest.com/pin/create/bookmarklet/?url=' ),
-        'instagram'      => array( 'iclass' => 'icon-instagram', 'title' => 'Instagram','share_link' => 'https://www.instagram.com/?url=' ),
-        'youtube'        => array( 'iclass' => 'icon-youtube', 'title' => 'Youtube','share_link' =>'' ),
-        'vimeo'          => array( 'iclass' => 'icon-vimeo', 'title' => 'Vimeo','share_link' =>'' ),
-        'behance'        => array( 'iclass' => 'icon-behance', 'title' => 'Behance','share_link' =>'' ),
-        'digg'           => array( 'iclass' => 'icon-digg', 'title' => 'Digg','share_link' =>'http://digg.com/submit?url=' ),
-        'slack'          => array( 'iclass' => 'icon-slack', 'title' => 'Slack','share_link' => ''),
-        'spotify'        => array( 'iclass' => 'icon-spotify', 'title' => 'Spotify','share_link' => ''),
-        'dribble'          => array( 'iclass' => 'icon-dribbble', 'title' => 'Dribble','share_link' => ''),
-        'linkedin'          => array( 'iclass' => 'icon-linkedin', 'title' => 'Linkedin','share_link' => ''),
-        'telegram'          => array( 'iclass' => ' icon-telegram', 'title' => 'Telegram','share_link' => ''),        
-        'whatsapp'          => array( 'iclass' => ' icon-whatsapp', 'title' => 'Whatsapp','share_link' => ''),        
-        'tiktok'          => array( 'iclass' => ' icon-tiktok', 'title' => 'Tiktok','share_link' => ''),        
+        'twitter'        => array( 'iclass' => 'icon-zeng-twitter', 'title' => 'Twitter','share_link' => THEMESFLAT_PROTOCOL . '://twitter.com/intent/tweet?url=' ),
+        'facebook'       => array( 'iclass' => 'icon-zeng-facebook', 'title' => 'Facebook','share_link'=> THEMESFLAT_PROTOCOL . '://www.facebook.com/sharer/sharer.php?u=' ),
+        'pinterest'      => array( 'iclass' => 'icon-zeng-pinterest', 'title' => 'Pinterest','share_link' => THEMESFLAT_PROTOCOL . '://pinterest.com/pin/create/bookmarklet/?url=' ),
+        'instagram'      => array( 'iclass' => 'icon-zeng-instagram', 'title' => 'Instagram','share_link' => 'https://www.instagram.com/?url=' ),
+        'youtube'        => array( 'iclass' => 'icon-zeng-youtube', 'title' => 'Youtube','share_link' =>'' ),
+        'vimeo'          => array( 'iclass' => 'icon-zeng-vimeo', 'title' => 'Vimeo','share_link' =>'' ),
+        'behance'        => array( 'iclass' => 'icon-zeng-behance', 'title' => 'Behance','share_link' =>'' ),
+        'digg'           => array( 'iclass' => 'icon-zeng-digg', 'title' => 'Digg','share_link' =>'http://digg.com/submit?url=' ),
+        'slack'          => array( 'iclass' => 'icon-zeng-slack', 'title' => 'Slack','share_link' => ''),
+        'spotify'        => array( 'iclass' => 'icon-zeng-spotify', 'title' => 'Spotify','share_link' => ''),
+        'dribble'          => array( 'iclass' => 'icon-zeng-dribble', 'title' => 'Dribble','share_link' => ''),
+        'linkedin'          => array( 'iclass' => 'icon-zeng-linkedin', 'title' => 'Linkedin','share_link' => ''),
+        'tiktok'          => array( 'iclass' => ' icon-zeng-tiktok', 'title' => 'Tiktok','share_link' => ''),        
     ) );
 
     $icons['__ordering__'] = array_keys( $icons );
@@ -386,44 +384,6 @@ function themesflat_layout_draganddrop($blocks) {
     }
     $blocks = array_combine( $blocks, $blocks );
     return $blocks;
-}
-
-function get_themesflat_search_form($style = 'default') {
-    set_query_var('themesflat_search_form_style', $style);
-    get_search_form();
-}
-
-add_filter('get_search_form', 'themesflat_custom_search_form_output');
-function themesflat_custom_search_form_output($form) {
-    $style = get_query_var('themesflat_search_form_style', 'default');
-
-    if ($style === 'style-2') {
-        $form = '<form role="search" method="get" class="search-form form-search style-2" action="' . esc_url(home_url('/')) . '">
-            <fieldset class="input-search">
-                <input type="search" value="' . esc_attr(get_search_query()) . '" name="s" class="s" placeholder="' . esc_attr__('Search posts', 'zeng') . '"/>
-            </fieldset>
-            <div class="btn-submit">
-                <button type="submit" class="btn-icon">
-                    <i class="icon-search"></i>
-                </button>
-            </div>
-        </form>';
-    } else {
-        $form = '<form role="search" method="get" class="search-form form-search" action="' . esc_url(home_url('/')) . '">
-            <fieldset class="input-search">
-                <input type="search" value="' . esc_attr(get_search_query()) . '" name="s" class="s" placeholder="' . esc_attr__('Searching....', 'zeng') . '"/>
-            </fieldset>
-            <div class="btn-submit">
-                <button type="submit" class="tf-btn animate-hover-btn btn-switch-text">
-                    <span>
-                        <span class="btn-double-text" data-text="Search">Search</span>
-                    </span>
-                </button>
-            </div>
-        </form>';
-    }
-
-    return $form;
 }
 
 function themesflat_font_style($style) {
@@ -948,9 +908,9 @@ function custom_menu_item_icon_field( $item_id, $item ) {
     $icon_class = get_post_meta( $item_id, '_menu_item_icon', true );
     ?>
     <p class="field-custom description description-wide">
-        <label for="edit-menu-item-icon-<?php echo $item_id; ?>">
+        <label for="edit-menu-item-icon-<?php echo esc_attr($item_id); ?>">
             <?php _e( 'Icon Class (e.g., icon-User)', 'zeng' ); ?><br />
-            <input type="text" id="edit-menu-item-icon-<?php echo $item_id; ?>" class="widefat code edit-menu-item-custom" name="menu-item-icon[<?php echo $item_id; ?>]" value="<?php echo esc_attr( $icon_class ); ?>" />
+            <input type="text" id="edit-menu-item-icon-<?php echo esc_attr($item_id); ?>" class="widefat code edit-menu-item-custom" name="menu-item-icon[<?php echo esc_attr($item_id); ?>]" value="<?php echo esc_attr( $icon_class ); ?>" />
         </label>
     </p>
     <?php
@@ -964,21 +924,4 @@ function custom_menu_item_icon_save( $menu_id, $menu_item_db_id, $args ) {
         delete_post_meta( $menu_item_db_id, '_menu_item_icon' );
     }
 }
-
-function my_render_elementor_template_shortcode( $atts ) {
-    $atts = shortcode_atts( [
-        'id' => '',
-    ], $atts );
-
-    if ( empty( $atts['id'] ) ) {
-        return '';
-    }
-
-    if ( ! class_exists( '\Elementor\Plugin' ) ) {
-        return '<!-- Elementor plugin not active -->';
-    }
-
-    return \Elementor\Plugin::instance()->frontend->get_builder_content_for_display( $atts['id'] );
-}
-add_shortcode( 'my_elementor_template', 'my_render_elementor_template_shortcode' );
 

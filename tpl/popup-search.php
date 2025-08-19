@@ -7,7 +7,6 @@
             <div class="tf-container w-xl">
                 <div class="wrap-form">
                     <h5 class="title"><?php echo esc_html(themesflat_get_opt('heading_search')); ?>  </h5>                   
-                    <?php get_themesflat_search_form('style-1'); ?>
                 </div>
 
                 <div class="popular-searches">

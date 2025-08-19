@@ -177,43 +177,43 @@ $header_button_url = themesflat_get_opt('header_button_url');
                                 <ul class="list-icon d-flex justify-content-center mb_28">
                                     <?php if ($website_info['social_linkedin']): ?>
                                     <li><a href="<?php echo esc_attr($website_info['social_linkedin']); ?>"
-                                            class="icon-LinkedIn"></a></li>
+                                            class="icon-zeng-linkedin"></a></li>
                                     <?php endif; ?>
                                     <?php if ($website_info['social_github']): ?>
                                     <li> <a href="<?php echo esc_attr($website_info['social_github']); ?>"
-                                            class="icon-GitHub"></a></li>
+                                            class="icon-zeng-github"></a></li>
                                     <?php endif; ?>
                                     <?php if ($website_info['social_twitter']): ?>
                                     <li><a href="<?php echo esc_attr($website_info['social_twitter']); ?>"
-                                            class="icon-X"></a></li>
+                                            class="icon-zeng-twitter"></a></li>
                                     <?php endif; ?>
                                     <?php if ($website_info['social_dribbble']): ?>
                                     <li><a href="<?php echo esc_attr($website_info['social_dribbble']); ?>"
-                                            class="icon-dribbble"></a></li>
+                                            class="icon-zeng-dribble"></a></li>
                                     <?php endif; ?>
                                     <?php if ($website_info['social_facebook']): ?>
                                     <li><a href="<?php echo esc_attr($website_info['social_facebook']); ?>"
-                                            class="icon-facebook"></a></li>
+                                            class="icon-zeng-facebook"></a></li>
                                     <?php endif; ?>
                                     <?php if ($website_info['social_instagram']): ?>
                                     <li><a href="<?php echo esc_attr($website_info['social_instagram']); ?>"
-                                            class="icon-instagram"></a></li>
+                                            class="icon-zeng-instagram"></a></li>
                                     <?php endif; ?>
                                     <?php if ($website_info['social_tiktok']): ?>
                                     <li><a href="<?php echo esc_attr($website_info['social_tiktok']); ?>"
-                                            class="icon-tiktok"></a></li>
+                                            class="icon-zeng-tiktok"></a></li>
                                     <?php endif; ?>
                                     <?php if ($website_info['social_youtube']): ?>
                                     <li><a href="<?php echo esc_attr($website_info['social_youtube']); ?>"
-                                            class="icon-youtube"></a></li>
+                                            class="icon-zeng-youtube"></a></li>
                                     <?php endif; ?>
                                     <?php if ($website_info['social_behance']): ?>
                                     <li><a href="<?php echo esc_attr($website_info['social_behance']); ?>"
-                                            class="icon-behance"></a></li>
+                                            class="icon-zeng-behance"></a></li>
                                     <?php endif; ?>
                                     <?php if ($website_info['social_medium']): ?>
                                     <li><a href="<?php echo esc_attr($website_info['social_medium']); ?>"
-                                            class="icon-medium"></a></li>
+                                            class="icon-zeng-medium"></a></li>
                                     <?php endif; ?>
                                 </ul>
 

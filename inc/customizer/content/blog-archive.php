@@ -82,7 +82,7 @@ $wp_customize->add_control(
         'type'      => 'select',           
         'section'   => 'section_content_blog_archive',
         'priority'  => 8,
-        'label'         => esc_html__('Blog Single Popup', 'finwice'),
+        'label'         => esc_html__('Blog Single Popup', 'zeng'),
         'default'           => 'sidebar-right',
         'choices'   => array (
             'default'            => esc_html__( 'Disable', 'zeng' ),

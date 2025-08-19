@@ -6,7 +6,7 @@ $wp_customize->add_setting('themesflat_options[info]', array(
     )
 );
 $wp_customize->add_control( new themesflat_Info( $wp_customize, 'typography-body', array(
-    'label' => esc_html__('Body', 'finwice'),
+    'label' => esc_html__('Body', 'zeng'),
     'section' => 'section_typo_body',
     'settings' => 'themesflat_options[info]',
     'priority' => 1
@@ -23,7 +23,7 @@ $wp_customize->add_setting(
 $wp_customize->add_control( new themesflat_Typography($wp_customize,
     'typography_body',
     array(
-        'label' => esc_html__( 'Font name/style/sets', 'finwice' ),
+        'label' => esc_html__( 'Font name/style/sets', 'zeng' ),
         'section' => 'section_typo_body',
         'type' => 'typography',
         'fields' => array('family','style','line_height','size','letter_spacing'),

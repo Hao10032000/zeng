@@ -65,7 +65,7 @@ function themesflat_post_navigation() {
 	}
 	?>
 	<nav class="navigation posts-navigation" role="navigation">
-		<h2 class="screen-reader-text"><?php esc_html_e( 'Post navigation', 'finwice' ); ?></h2>
+		<h2 class="screen-reader-text"><?php esc_html_e( 'Post navigation', 'zeng' ); ?></h2>
 		<ul class="nav-links clearfix">
 			<?php
 			if ( is_attachment() ) :
@@ -74,7 +74,7 @@ function themesflat_post_navigation() {
 				if( is_object( $prevPost ) ){
 					$prev_title = get_the_title($prevPost->ID);
 				}
-				$prev = esc_html__( 'Published In', 'finwice' );
+				$prev = esc_html__( 'Published In', 'zeng' );
 				$date = get_the_date();
 				echo '<li class="post-navigation previous-post">';
 					echo '<div class="content">';
@@ -87,7 +87,7 @@ function themesflat_post_navigation() {
 				$prevPost = get_adjacent_post( false, '', true);
 				if( is_object( $prevPost ) ){
 					$prev_title = get_the_title($prevPost->ID);
-					$prev = esc_html__( 'Previous', 'finwice' );
+					$prev = esc_html__( 'Previous', 'zeng' );
 					$date = get_the_date();
 
 					echo '<li class="post-navigation previous-post">';
@@ -101,7 +101,7 @@ function themesflat_post_navigation() {
 				$nextPost = get_adjacent_post( false, '', false);
 				if( is_object( $nextPost ) ){
 					$next_title = get_the_title($nextPost->ID);
-					$next = esc_html__( 'next post', 'finwice' );
+					$next = esc_html__( 'next post', 'zeng' );
 					$date = get_the_date();
 					echo '<li class="post-navigation next-post">';
 						echo '<div class="content">';

@@ -171,6 +171,7 @@ function themesflat_scripts() {
 
     // Load CSS
     wp_enqueue_style( 'icon-zeng', THEMESFLAT_LINK . 'css/icon-zeng.css' );
+    wp_enqueue_style( 'icon-zeng-extend', THEMESFLAT_LINK . 'css/icon-zeng-extend.css' );
     wp_enqueue_style( 'themesflat-style', THEMESFLAT_LINK . 'css/style.css' );
     wp_enqueue_style( 'themesflat-inline-css', THEMESFLAT_LINK . 'css/inline-css.css' );
     wp_enqueue_style( 'swiper-theme', THEMESFLAT_LINK . 'css/swiper-bundle.min.css' );
@@ -339,12 +340,11 @@ function zeng_load_post_popup() {
             while ($query->have_posts()) {
                 $query->the_post();
 
-                // Bắt đầu ghi output
                 ob_start();
                 get_template_part('tpl/content', 'popup');
                 $html = ob_get_clean();
 
-                echo $html;
+                echo wp_kses_post($html);
             }
             wp_reset_postdata();
         }
