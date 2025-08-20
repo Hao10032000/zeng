@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ---------------------------------------------------------
     * Name: 
     * Version: 1.0.0
@@ -5783,6 +5784,22 @@ article footer {
 
 .nav-links.clearfix::after {
   display: none;
+}
+
+.blog-sidebar-fullwidth .wrap-content-area {
+  padding-right: 0px;
+}
+
+.blog-sidebar-sidebar-left .col-lg-8 {
+  order: 2; /* đưa ra sau */
+}
+
+.blog-sidebar-sidebar-left .col-lg-4 {
+  order: 1; /* đưa ra trước */
+}
+
+.blog-sidebar-sidebar-left .elementor-2428 {
+  order: 3;
 }
 
 /*# sourceMappingURL=style.css.map */
