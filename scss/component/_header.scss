@@ -361,6 +361,7 @@
     &.style-1 {
       @include res(lg) {
         padding: 0;
+        background-color: var(--Bg-dark);
 
         .header-sidebar {
           border-radius: unset;

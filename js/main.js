@@ -21,7 +21,7 @@
         const header = document.querySelector(".header-fixed");
         if (!header) return;
         let isFixed = false;
-        const scrollThreshold = 350;
+        const scrollThreshold = 100;
         const handleScroll = () => {
             const shouldBeFixed = window.scrollY >= scrollThreshold;
             if (shouldBeFixed !== isFixed) {

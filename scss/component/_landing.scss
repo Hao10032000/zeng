@@ -120,11 +120,22 @@
     font-size: 25px !important;
     line-height: 30px !important;
 }
+.post-navigation .title-post a {
+    font-size: 20px !important;
+    line-height: 26px !important;
+}
 .title_detail {
     font-size: 30px !important;
 }
 }
 @media (max-width: 480px) {
+  .nav-links .post-navigation.next-post {
+    text-align: left !important;
+}
+  .wrap-content-post-single .nav-links {
+    gap: 20px !important;
+    flex-direction: column;
+}
 .wrap-blog-article {
     grid-template-columns: repeat(1, 1fr) !important;
     grid-gap: 30px !important;

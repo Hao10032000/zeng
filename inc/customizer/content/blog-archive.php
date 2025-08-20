@@ -90,3 +90,26 @@ $wp_customize->add_control(
         ),
     )
 );
+
+$wp_customize->add_setting(
+    'sidebar_layout',
+    array(
+        'default'           => themesflat_customize_default('sidebar_layout'),
+        'sanitize_callback' => 'esc_attr',
+    )
+);
+$wp_customize->add_control( 
+    'sidebar_layout',
+    array (
+        'type'      => 'select',           
+        'section'   => 'section_content_blog_archive',
+        'priority'  => 9,
+        'label'         => esc_html__('Sidebar Position', 'zeng'),
+        'default'           => 'sidebar-right',
+        'choices'   => array (
+            'fullwidth'         =>   esc_html__( 'Full Width','zeng' ),
+            'sidebar-right'     => esc_html__( 'Sidebar Right','zeng' ),
+            'sidebar-left'      =>  esc_html__( 'Sidebar Left','zeng' ),
+        ),
+    )
+);

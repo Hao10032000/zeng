@@ -5,6 +5,7 @@
         //Header
         elementor.settings.page.addChangeCallback( 'style_background', handleReloadPreview );
         elementor.settings.page.addChangeCallback( 'video_background', handleReloadPreview );
+        elementor.settings.page.addChangeCallback( 'sidebar_layout', handleReloadPreview );
     });
 
     function handleReloadPreview ( newValue ) {

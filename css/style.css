@@ -36,6 +36,7 @@
   --Bg-light: #f8f7f4;
   --Bg-dark: #111111;
   --Line: #e5e7eb;
+  --border-light: rgba(255, 255, 255, 0.1)
   --Bg-linear: linear-gradient(
       123.51deg,
       rgba(204, 235, 235, 0.01) -61.8%,
@@ -2089,6 +2090,7 @@ body::-webkit-scrollbar-thumb:hover {
 @media (max-width: 991px) {
   .header.header-fixed.style-1 {
     padding: 0;
+    background-color: var(--Bg-dark);
   }
   .header.header-fixed.style-1 .header-sidebar {
     border-radius: unset;
@@ -3306,6 +3308,22 @@ form textarea {
 .dark-mode .tf-setting-color .settings-color a::before {
   border-color: #121212;
 }
+.dark-mode .sidebar input[type=search],
+.dark-mode .sidebar .infor-siderbar .social li a,
+.dark-mode .sidebar .mail-siderbar input,
+.dark-mode .wp-block-tag-cloud a,
+.dark-mode .page-numbers,
+.dark-mode .wrap-content-post-single .post-social-share .social li a,
+.dark-mode .entry-footer .tags-links a,
+.dark-mode .share-bar ul li a {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.dark-mode .recent-news li:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.dark-mode .meta-feature .meta-item:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 .dark-mode .service-item .btn-arrow {
   --Bg-linear-2: #fff;
@@ -3450,11 +3468,22 @@ form textarea {
     font-size: 25px !important;
     line-height: 30px !important;
   }
+  .post-navigation .title-post a {
+    font-size: 20px !important;
+    line-height: 26px !important;
+  }
   .title_detail {
     font-size: 30px !important;
   }
 }
 @media (max-width: 480px) {
+  .nav-links .post-navigation.next-post {
+    text-align: left !important;
+  }
+  .wrap-content-post-single .nav-links {
+    gap: 20px !important;
+    flex-direction: column;
+  }
   .wrap-blog-article {
     grid-template-columns: repeat(1, 1fr) !important;
     grid-gap: 30px !important;
