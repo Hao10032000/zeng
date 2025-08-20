@@ -6,16 +6,17 @@
  *
  * @package zeng
  */
-
-get_header(); ?>
-	<div class="main-content tf-container w-3">
+get_header(); 
+$blog_layout_sidebar = isset($_GET['sidebar_layout']) ? $_GET['sidebar_layout'] : themesflat_get_opt('sidebar_layout');
+?>
+	<div class="main-content tf-container w-3 blog-sidebar-<?php echo esc_attr($blog_layout_sidebar); ?>">
 		<div class="row">
 						<div class="col-md-12">
 			<div class="page-title">
 				<?php get_template_part( 'tpl/page-title'); ?>
 			</div>
 		</div>
-			<div class="col-lg-8">
+			<div class="<?php echo esc_attr($blog_layout_sidebar == 'fullwidth' ? 'col-lg-12' : 'col-lg-8'); ?>">
 				<div class="wrap-content-area clearfix">
 					<div id="primary" class="content-area">
 						<main id="main" class="post-wrap" role="main">
@@ -45,8 +46,10 @@ get_header(); ?>
 				</div><!-- /.wrap-content-area -->
 			</div>
 			<div class="col-lg-4">
-					<?php 
+				<?php 
+					if ( $blog_layout_sidebar == 'sidebar-left' || $blog_layout_sidebar == 'sidebar-right' ) :
 						get_sidebar();
+					endif;
 					?>
 			</div>
 
