@@ -16,12 +16,12 @@
   ("use strict");
 
   /* headerFixed
-    -------------------------------------------------------------------------*/
+      -------------------------------------------------------------------------*/
   const headerFixed = () => {
     const header = document.querySelector(".header-fixed");
     if (!header) return;
     let isFixed = false;
-    const scrollThreshold = 250;
+    const scrollThreshold = 122;
     const handleScroll = () => {
       const shouldBeFixed = window.scrollY >= scrollThreshold;
       if (shouldBeFixed !== isFixed) {
@@ -34,7 +34,7 @@
   };
 
   /* Tab Slide 
-    ------------------------------------------------------------------------------------- */
+      ------------------------------------------------------------------------------------- */
   var tabSlide = function () {
     if ($(".tab-slide").length > 0) {
       function updateTabSlide() {
@@ -72,7 +72,7 @@
   };
 
   /* settings_color
-    ------------------------------------------------------------------------------------- */
+      ------------------------------------------------------------------------------------- */
   const settings_color = () => {
     if (!$(".settings-color").length) return;
 
@@ -102,7 +102,7 @@
   };
 
   /* switchMode
-    ------------------------------------------------------------------------------------- */
+      ------------------------------------------------------------------------------------- */
   const switchMode = () => {
     const $toggles = $(".toggle-switch-mode");
     const $body = $("body");
@@ -146,7 +146,7 @@
   };
 
   /* oneNavOnePage
-    -------------------------------------------------------------------------------------*/
+      -------------------------------------------------------------------------------------*/
   const oneNavOnePage = () => {
     const $navLinks = $(".nav_link");
     const $sections = $(".section-one-page");
@@ -177,44 +177,89 @@
     });
 
     const updateActiveMenu = () => {
-      const scrollTop = $(window).scrollTop() + 50;
-      const headerHeight = $(".header-fixed").outerHeight() || 0;
-      let current = "";
-      let currentIndex = -1;
+        const scrollTop = $(window).scrollTop() + 50;
+        const headerHeight = $(".header-fixed").outerHeight() || 0;
+        let current = "";
+        let currentIndex = -1;
 
-      $sections.each(function (index) {
-        const $section = $(this);
-        const top = $section.offset().top - headerHeight;
-        const bottom = top + $section.outerHeight();
-
-        if (scrollTop >= top && scrollTop < bottom) {
-          current = $section.attr("id");
-          currentIndex = index;
-        }
-      });
-
-      $navLinks
-        .removeClass("active")
-        .filter(`[href="#${current}"]`)
-        .addClass("active");
-
-      $sections.removeClass("dimmed");
-
-      if (currentIndex !== -1) {
         $sections.each(function (index) {
-          if (index < currentIndex) {
-            $(this).addClass("dimmed");
-          }
+            const $section = $(this);
+            const top = $section.offset().top - headerHeight;
+            const bottom = top + $section.outerHeight();
+
+            if (scrollTop >= top && scrollTop < bottom) {
+                current = $section.attr("id");
+                currentIndex = index;
+            }
         });
-      }
+
+        $navLinks
+            .removeClass("active")
+            .filter(`[href="#${current}"]`)
+            .addClass("active");
+
+        $sections.removeClass("dimmed");
+
+        if (currentIndex !== -1) {
+            $sections.each(function (index) {
+                if (index < currentIndex) {
+                    $(this).addClass("dimmed");
+                }
+            });
+        }
     };
+
+    // const updateActiveMenu = () => {
+    //   // Chỉ chạy khi ở trang home (one page)
+    //   if (!$("body").hasClass("home")) {
+    //     return;
+    //   }
+
+    //   const scrollTop = $(window).scrollTop() + 50;
+    //   const headerHeight = $(".header-fixed").outerHeight() || 0;
+    //   let current = "";
+    //   let currentIndex = -1;
+
+    //   $sections.each(function (index) {
+    //     const $section = $(this);
+    //     const top = $section.offset().top - headerHeight;
+    //     const bottom = top + $section.outerHeight();
+
+    //     if (scrollTop >= top && scrollTop < bottom) {
+    //       current = $section.attr("id");
+    //       currentIndex = index;
+    //     }
+    //   });
+
+    //   // Xóa hết active rồi thêm lại cho menu tương ứng section
+    //   $navLinks
+    //     .removeClass("active")
+    //     .filter('[href="#' + current + '"]')
+    //     .addClass("active");
+
+    //   // Xử lý hiệu ứng dimmed
+    //   $sections.removeClass("dimmed");
+    //   if (currentIndex !== -1) {
+    //     $sections.each(function (index) {
+    //       if (index < currentIndex) {
+    //         $(this).addClass("dimmed");
+    //       }
+    //     });
+    //   }
+    // };
+
+    // // Chạy lần đầu và khi scroll (chỉ ở trang home)
+    // if ($("body").hasClass("home")) {
+    //   $(window).on("scroll", updateActiveMenu);
+    //   updateActiveMenu();
+    // }
 
     $(window).on("scroll resize", updateActiveMenu);
     updateActiveMenu();
   };
 
   /* handleEffectSpotlight
-    -------------------------------------------------------------------------*/
+      -------------------------------------------------------------------------*/
   const handleEffectSpotlight = () => {
     if (!$(".area-effect").length) return;
     $(".area-effect").each(function () {
@@ -234,7 +279,7 @@
   };
 
   /* preventDefault
-    -------------------------------------------------------------------------*/
+      -------------------------------------------------------------------------*/
   const preventDefault = () => {
     $(".link-no-action").on("click", function (e) {
       e.preventDefault();
@@ -242,7 +287,7 @@
   };
 
   /* spliting
-    -------------------------------------------------------------------------*/
+      -------------------------------------------------------------------------*/
   const spliting = () => {
     if ($(".splitting").length) {
       Splitting();
@@ -250,7 +295,7 @@
   };
 
   /* handleSidebar
-    -------------------------------------------------------------------------------------*/
+      -------------------------------------------------------------------------------------*/
   const handleSidebar = () => {
     $(document)
       .off("click.handleSidebar")

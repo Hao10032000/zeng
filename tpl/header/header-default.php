@@ -142,11 +142,5 @@ $website_info = get_my_website_info();
             <div class="popup-menu-mobile" id="menu-2">
                 <?php get_template_part( 'tpl/header/menu-mobile'); ?>
             </div>
-
-
-       
-
-            
-
         </header>
  <div class="overlay-popup"></div>
