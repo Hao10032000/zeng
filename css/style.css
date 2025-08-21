@@ -2072,25 +2072,25 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .header.header-fixed {
-  padding-top: 20px;
-  top: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
-  z-index: 999;
-  -webkit-transform: translateY(-150%);
-  -khtml-transform: translateY(-150%);
-  -moz-transform: translateY(-150%);
-  -ms-transform: translateY(-150%);
-  -o-transform: translateY(-150%);
-  transform: translateY(-150%);
-  -webkit-transition: 0.6s cubic-bezier(0.24, 0.74, 0.58, 1);
-  -khtml-transition: 0.6s cubic-bezier(0.24, 0.74, 0.58, 1);
-  -moz-transition: 0.6s cubic-bezier(0.24, 0.74, 0.58, 1);
-  -ms-transition: 0.6s cubic-bezier(0.24, 0.74, 0.58, 1);
-  -o-transition: 0.6s cubic-bezier(0.24, 0.74, 0.58, 1);
-  transition: 0.6s cubic-bezier(0.24, 0.74, 0.58, 1);
-  pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    top: 0;
+    -webkit-transform: translateY(-120%);
+    -khtml-transform: translateY(-120%);
+    -moz-transform: translateY(-120%);
+    -ms-transform: translateY(-120%);
+    -o-transform: translateY(-120%);
+    transform: translateY(-120%);
+    -webkit-transition: .6s cubic-bezier(.24,.74,.58,1);
+    -khtml-transition: .6s cubic-bezier(.24,.74,.58,1);
+    -moz-transition: .6s cubic-bezier(.24,.74,.58,1);
+    -ms-transition: .6s cubic-bezier(.24,.74,.58,1);
+    -o-transition: .6s cubic-bezier(.24,.74,.58,1);
+    transition: .6s cubic-bezier(.24,.74,.58,1);
+    visibility: hidden;
 }
 .header.header-fixed .header-sidebar {
   background: var(--Bg-linear-2);
@@ -2112,13 +2112,13 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 .header.header-fixed.is-fixed {
-  -webkit-transform: translateY(0);
-  -khtml-transform: translateY(0);
-  -moz-transform: translateY(0);
-  -ms-transform: translateY(0);
-  -o-transform: translateY(0);
-  transform: translateY(0);
-  pointer-events: all;
+    -webkit-transform: translateY(0%);
+    -khtml-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+    visibility: visible;
 }
 
 .popup-show-bar.show .sub-menu {
@@ -4890,7 +4890,7 @@ ANIMATION AREA CSS
   }
 }
 .w-2 .main-content {
-  padding-top: 99px;
+  padding-top: 50px;
   padding-right: 34px;
 }
 
