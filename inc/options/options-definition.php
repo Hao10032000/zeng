@@ -161,7 +161,7 @@ function themesflat_customize_default($key) {
 			'letter_spacing' => '0px'		
 		),
 		'typography_menu' => array(
-			'family' => 'Inter',
+			'family' => '',
 			'style'  => '',
 			'size'   => '',
 			'line_height'=>'',

@@ -1,23 +1,16 @@
 @charset "UTF-8";
-/* ---------------------------------------------------------
-    * Name: 
-    * Version: 1.0.0
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+/*
+Theme Name: Zeng
+Theme URI: https://zeng.autodealwordpress.com
+Author: Your Name
+Author URI: https://yourwebsite.com
+Description: Therapy & Counseling Psychologist WordPress Theme
+Version: 1.0
+License: GPLv2 or later
+Text Domain: zeng
+Tags: accessibility-ready, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
 
-	* Abstracts variable
-
-    * Reset css styles
-
-    * Components
-
-    * section
-
-    * dashboard
-
-    * Responsive
- ------------------------------------------------------------------------------ */
-/*--------- Abstracts variable ---------- */
 @font-face {
   font-family: "Nasalization";
   src: url("../fonts/nasalization.otf") format("truetype");
@@ -857,6 +850,15 @@ h6,
 
 .fw-7 {
   font-weight: 700;
+}
+
+/* Gallery caption recommended by Theme Check */
+.gallery-caption {
+    display: block;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #777;
+    margin-top: 8px;
 }
 
 /* Line Clamp
@@ -1968,7 +1970,7 @@ body::-webkit-scrollbar-thumb:hover {
 .nav-menu .sub-menu {
   position: absolute;
   z-index: 999;
-  left: 100%;
+  left: 0%;
   min-width: max-content;
   background: var(--Bg-dark);
   backdrop-filter: blur(12px);
@@ -1991,7 +1993,13 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .nav-menu .sub-menu .menu-item-has-children > .sub-menu {
-  top: 0;
+  top: -10px;
+  left: 113%;
+}
+
+.popup-show-bar .nav-menu .sub-menu .menu-item-has-children > .sub-menu {
+  top: unset;
+  bottom: -17px;
 }
 
 .nav-menu li {
@@ -2050,6 +2058,11 @@ body::-webkit-scrollbar-thumb:hover {
   color: var(--Primary);
 }
 
+.current-menu-item > a,
+.current-menu-ancestor > a {
+  color: var(--Primary) !important;
+}
+
 @media (max-width: 767px) {
   .menu-option li > * {
     background-color: var(--Bg-dark);
@@ -2072,25 +2085,26 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .header.header-fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;
-    top: 0;
-    -webkit-transform: translateY(-120%);
-    -khtml-transform: translateY(-120%);
-    -moz-transform: translateY(-120%);
-    -ms-transform: translateY(-120%);
-    -o-transform: translateY(-120%);
-    transform: translateY(-120%);
-    -webkit-transition: .6s cubic-bezier(.24,.74,.58,1);
-    -khtml-transition: .6s cubic-bezier(.24,.74,.58,1);
-    -moz-transition: .6s cubic-bezier(.24,.74,.58,1);
-    -ms-transition: .6s cubic-bezier(.24,.74,.58,1);
-    -o-transition: .6s cubic-bezier(.24,.74,.58,1);
-    transition: .6s cubic-bezier(.24,.74,.58,1);
-    visibility: hidden;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  top: 0;
+  -webkit-transform: translateY(-120%);
+  -khtml-transform: translateY(-120%);
+  -moz-transform: translateY(-120%);
+  -ms-transform: translateY(-120%);
+  -o-transform: translateY(-120%);
+  transform: translateY(-120%);
+  -webkit-transition: 0.6s cubic-bezier(0.24, 0.74, 0.58, 1);
+  -khtml-transition: 0.6s cubic-bezier(0.24, 0.74, 0.58, 1);
+  -moz-transition: 0.6s cubic-bezier(0.24, 0.74, 0.58, 1);
+  -ms-transition: 0.6s cubic-bezier(0.24, 0.74, 0.58, 1);
+  -o-transition: 0.6s cubic-bezier(0.24, 0.74, 0.58, 1);
+  transition: 0.6s cubic-bezier(0.24, 0.74, 0.58, 1);
+  visibility: hidden;
 }
 .header.header-fixed .header-sidebar {
   background: var(--Bg-linear-2);
@@ -2112,20 +2126,28 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 .header.header-fixed.is-fixed {
-    -webkit-transform: translateY(0%);
-    -khtml-transform: translateY(0%);
-    -moz-transform: translateY(0%);
-    -ms-transform: translateY(0%);
-    -o-transform: translateY(0%);
-    transform: translateY(0%);
-    visibility: visible;
+  -webkit-transform: translateY(0%);
+  -khtml-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  -o-transform: translateY(0%);
+  transform: translateY(0%);
+  visibility: visible;
 }
 
 .popup-show-bar.show .sub-menu {
   bottom: 100%;
 }
 
-.current-menu-item a {
+.sub-menu li a {
+  color: var(--Text-light);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.sub-menu li a:hover {
   color: var(--Primary);
 }
 
@@ -4855,6 +4877,10 @@ ANIMATION AREA CSS
     * Responsive
  ------------------------------------------------------------------------------ */
 /*--------- Abstracts variable ---------- */
+.home .main-content {
+  padding-top: 0px;
+}
+
 .main-content {
   padding-top: 50px;
   min-height: 100vh;
@@ -4890,7 +4916,7 @@ ANIMATION AREA CSS
   }
 }
 .w-2 .main-content {
-  padding-top: 50px;
+  padding-top: 99px;
   padding-right: 34px;
 }
 

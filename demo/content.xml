@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.8.2" created="2025-08-20 00:32" -->
+	<!-- generator="WordPress/6.8.2" created="2025-08-22 07:53" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>ZenG - Personal Portfolio WordPress Template</title>
 	<link>https://zeng.autodealwordpress.com</link>
 	<description></description>
-	<pubDate>Wed, 20 Aug 2025 00:32:27 +0000</pubDate>
+	<pubDate>Fri, 22 Aug 2025 07:53:45 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://zeng.autodealwordpress.com</wp:base_site_url>
@@ -1518,16 +1518,16 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>11</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-05-28 03:19:58]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[post-styles]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>17</wp:menu_order>
+		<wp:menu_order>18</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -1604,6 +1604,14 @@
 		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2025-07-24]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Services]]></title>
@@ -1615,16 +1623,16 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>12</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-05-28 03:19:58]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[categories]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>18</wp:menu_order>
+		<wp:menu_order>19</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -1700,6 +1708,14 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2025-07-24]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1843,16 +1859,16 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>988</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-06-12 06:18:22]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[home-2]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>16</wp:menu_order>
+		<wp:menu_order>17</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -1909,6 +1925,14 @@
 		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2025-07-24]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Portfolio]]></title>
@@ -1920,16 +1944,16 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>1178</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-06-26 01:25:37]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[portfolio]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>19</wp:menu_order>
+		<wp:menu_order>20</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -1982,6 +2006,14 @@
 		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2025-07-24]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Pricing]]></title>
@@ -1993,16 +2025,16 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>1179</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-06-26 01:25:37]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[pricing]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>20</wp:menu_order>
+		<wp:menu_order>21</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -2055,6 +2087,14 @@
 		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2025-07-24]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Contact]]></title>
@@ -2066,16 +2106,16 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>1180</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-06-26 01:25:37]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[contact]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>21</wp:menu_order>
+		<wp:menu_order>22</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -2128,6 +2168,14 @@
 		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2025-07-24]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Demo]]></title>
@@ -2139,10 +2187,10 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>2183</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[demo]]></wp:post_name>
@@ -2189,6 +2237,14 @@
 		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[]]></title>
@@ -2200,10 +2256,10 @@
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>2184</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[2184]]></wp:post_name>
@@ -2250,6 +2306,14 @@
 		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Home Cyber Particle Waves]]></title>
@@ -2261,16 +2325,16 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>2185</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[home-cyber-particle-waves]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>5</wp:menu_order>
+		<wp:menu_order>6</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -2281,7 +2345,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2183]]></wp:meta_value>
+		<wp:meta_value><![CDATA[2494]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
@@ -2311,6 +2375,14 @@
 		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Home Digital technology]]></title>
@@ -2322,16 +2394,16 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>2186</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[home-digital-technology]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>6</wp:menu_order>
+		<wp:menu_order>7</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -2342,7 +2414,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2183]]></wp:meta_value>
+		<wp:meta_value><![CDATA[2494]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
@@ -2372,6 +2444,14 @@
 		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Home Dotted waves bounce]]></title>
@@ -2383,16 +2463,16 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>2187</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[home-dotted-waves-bounce]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>7</wp:menu_order>
+		<wp:menu_order>8</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -2403,7 +2483,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2183]]></wp:meta_value>
+		<wp:meta_value><![CDATA[2494]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
@@ -2433,6 +2513,14 @@
 		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Home Futuristic Cyber Matrix]]></title>
@@ -2444,16 +2532,16 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>2188</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[home-futuristic-cyber-matrix]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>8</wp:menu_order>
+		<wp:menu_order>9</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -2464,7 +2552,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2183]]></wp:meta_value>
+		<wp:meta_value><![CDATA[2494]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
@@ -2494,6 +2582,14 @@
 		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Home Glowing Digital Waves]]></title>
@@ -2505,16 +2601,16 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>2189</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[home-glowing-digital-waves]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>9</wp:menu_order>
+		<wp:menu_order>10</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -2525,7 +2621,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2183]]></wp:meta_value>
+		<wp:meta_value><![CDATA[2494]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
@@ -2554,6 +2650,14 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -2729,6 +2833,14 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
 		<wp:meta_value><![CDATA[[{"id":"6e70091","elType":"container","settings":{"flex_direction":"column","boxed_width":{"unit":"px","size":1290,"sizes":[]}},"elements":[{"id":"fe649ef","elType":"widget","settings":{"heading":"Contact","description":"Lets","list":[{"animate_text":"Design","_id":"45c9966"},{"animate_text":"Design 1","_id":"a6255e0"}],"description2":"incredible work together","title-heding":"example@gmail.com","description-heding":"Based in San Francisco, CA ","icon_list":[{"_id":"c88750c","icon":{"value":"fab fa-linkedin","library":"fa-brands"}},{"icon":{"value":"fab fa-github","library":"fa-brands"},"_id":"97e640f"},{"icon":{"value":"fab fa-x-twitter","library":"fa-brands"},"_id":"27524c7"},{"_id":"d8ffb44","icon":{"value":"fab fa-dribbble","library":"fa-brands"}}],"cf7_shortcode":"[contact-form-7 id=\"8bed001\" title=\"Form Contact\"]","description_margin":{"unit":"px","top":"0","right":"0","bottom":"10","left":"0","isLinked":false},"_css_classes":"action-box"},"elements":[],"widgetType":"tf-form"}],"isInner":false}]]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:2:{s:6:"styles";a:1:{i:0;s:12:"animate-text";}s:7:"scripts";a:2:{i:0;s:12:"animate-text";i:1;s:18:"elementor-frontend";}}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_elementor_element_cache]]></wp:meta_key>
+		<wp:meta_value><![CDATA[{"timeout":1755934281,"value":{"content":"<div class=\"elementor-element elementor-element-6e70091 e-flex e-con-boxed e-con e-parent\" data-id=\"6e70091\" data-element_type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t[elementor-element k=\"c010cd8ff4f965e048f9b6fbe35c07c1\" data=\"eyJpZCI6ImZlNjQ5ZWYiLCJlbFR5cGUiOiJ3aWRnZXQiLCJzZXR0aW5ncyI6eyJoZWFkaW5nIjoiQ29udGFjdCIsImRlc2NyaXB0aW9uIjoiTGV0cyIsImxpc3QiOlt7ImFuaW1hdGVfdGV4dCI6IkRlc2lnbiIsIl9pZCI6IjQ1Yzk5NjYifSx7ImFuaW1hdGVfdGV4dCI6IkRlc2lnbiAxIiwiX2lkIjoiYTYyNTVlMCJ9XSwiZGVzY3JpcHRpb24yIjoiaW5jcmVkaWJsZSB3b3JrIHRvZ2V0aGVyIiwidGl0bGUtaGVkaW5nIjoiZXhhbXBsZUBnbWFpbC5jb20iLCJkZXNjcmlwdGlvbi1oZWRpbmciOiJCYXNlZCBpbiBTYW4gRnJhbmNpc2NvLCBDQSAiLCJpY29uX2xpc3QiOlt7Il9pZCI6ImM4ODc1MGMiLCJpY29uIjp7InZhbHVlIjoiZmFiIGZhLWxpbmtlZGluIiwibGlicmFyeSI6ImZhLWJyYW5kcyJ9fSx7Imljb24iOnsidmFsdWUiOiJmYWIgZmEtZ2l0aHViIiwibGlicmFyeSI6ImZhLWJyYW5kcyJ9LCJfaWQiOiI5N2U2NDBmIn0seyJpY29uIjp7InZhbHVlIjoiZmFiIGZhLXgtdHdpdHRlciIsImxpYnJhcnkiOiJmYS1icmFuZHMifSwiX2lkIjoiMjc1MjRjNyJ9LHsiX2lkIjoiZDhmZmI0NCIsImljb24iOnsidmFsdWUiOiJmYWIgZmEtZHJpYmJibGUiLCJsaWJyYXJ5IjoiZmEtYnJhbmRzIn19XSwiY2Y3X3Nob3J0Y29kZSI6Iltjb250YWN0LWZvcm0tNyBpZD1cIjhiZWQwMDFcIiB0aXRsZT1cIkZvcm0gQ29udGFjdFwiXSIsImRlc2NyaXB0aW9uX21hcmdpbiI6eyJ1bml0IjoicHgiLCJ0b3AiOiIwIiwicmlnaHQiOiIwIiwiYm90dG9tIjoiMTAiLCJsZWZ0IjoiMCIsImlzTGlua2VkIjpmYWxzZX0sIl9jc3NfY2xhc3NlcyI6ImFjdGlvbi1ib3gifSwiZWxlbWVudHMiOltdLCJ3aWRnZXRUeXBlIjoidGYtZm9ybSJ9\"]\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t","scripts":[],"styles":[]}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -3100,8 +3212,8 @@
                             Based in San Francisco, CA </p>
                     <ul><li><a href="#"><svg aria-hidden="true" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></a></li><li><a href="# #"><svg aria-hidden="true" viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg></a></li><li><a href="# # #"><svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg></a></li><li><a href="# # # #"><svg aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 131.955-6.984-1.477-77.018-15.682-147.502-6.818-5.752-14.041-11.181-26.393-18.617-41.614 78.321-31.977 113.818-77.482 118.284-83.523zM396.421 97.87c-3.81 5.427-35.697 48.286-111.021 76.519-34.712-63.776-73.185-116.168-79.04-124.008 67.176-16.193 137.966 1.27 190.061 47.489zm-230.48-33.25c5.585 7.659 43.438 60.116 78.537 122.509-99.087 26.313-186.36 25.934-195.834 25.809C62.38 147.205 106.678 92.573 165.941 64.62zM44.17 256.323c0-2.166.043-4.322.108-6.473 9.268.19 111.92 1.513 217.706-30.146 6.064 11.868 11.857 23.915 17.174 35.949-76.599 21.575-146.194 83.527-180.531 142.306C64.794 360.405 44.17 310.73 44.17 256.323zm81.807 167.113c22.127-45.233 82.178-103.622 167.579-132.756 29.74 77.283 42.039 142.053 45.189 160.638-68.112 29.013-150.015 21.053-212.768-27.882zm248.38 8.489c-2.171-12.886-13.446-74.897-41.152-151.033 66.38-10.626 124.7 6.768 131.947 9.055-9.442 58.941-43.273 109.844-90.795 141.978z"></path></svg></a></li></ul>                
 <p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul>
-<form action="/zeng/wp-admin/admin-ajax.php#wpcf7-f1451-o1" method="post" aria-label="Contact form" novalidate="novalidate" data-status="init">
-<fieldset><input type="hidden" name="_wpcf7" value="1451" /><input type="hidden" name="_wpcf7_version" value="6.1" /><input type="hidden" name="_wpcf7_locale" value="en_US" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1451-o1" /><input type="hidden" name="_wpcf7_container_post" value="0" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+<form action="/wp-admin/admin-ajax.php#wpcf7-f1451-o1" method="post" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<fieldset><input type="hidden" name="_wpcf7" value="1451" /><input type="hidden" name="_wpcf7_version" value="6.1.1" /><input type="hidden" name="_wpcf7_locale" value="en_US" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1451-o1" /><input type="hidden" name="_wpcf7_container_post" value="0" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" />
 </fieldset>
           <fieldset>
              <input size="40" maxlength="400" aria-required="true" aria-invalid="false" value="Your name" type="text" name="text-567" /> 
@@ -3116,14 +3228,14 @@
              <label><input type="radio" name="radio-637" value="&lt; $1,000" />&lt; $1,000</label><label><input type="radio" name="radio-637" value="$1,000 - $5,000" />$1,000 - $5,000</label><label><input type="radio" name="radio-637" value="$5,000 - $10,000" />$5,000 - $10,000</label><label><input type="radio" name="radio-637" value="$10,000 - 20,000" />$10,000 - 20,000</label><label><input type="radio" name="radio-637" value="&gt; $20,000" />&gt; $20,000</label>
           </fieldset>
          <input type="submit" value="Get Started !" />
-       <p style="display: none !important;" data-prefix="_wpcf7_ak_"><label>&#916;<textarea name="_wpcf7_ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="_wpcf7_ak_js" value="95"/></p>
+       <p style="display: none !important;" data-prefix="_wpcf7_ak_"><label>&#916;<textarea name="_wpcf7_ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="_wpcf7_ak_js" value="80"/></p>
 </form>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>1362</wp:post_id>
 		<wp:post_date><![CDATA[2025-06-27 03:05:55]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-06-27 03:05:55]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-19 02:03:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-19 02:03:18]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 06:04:17]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 06:04:17]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[home-full-width]]></wp:post_name>
@@ -3143,7 +3255,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
-		<wp:meta_value><![CDATA[3.30.3]]></wp:meta_value>
+		<wp:meta_value><![CDATA[3.31.2]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
@@ -3151,11 +3263,19 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-		<wp:meta_value><![CDATA[[{"id":"845afe2","elType":"container","settings":{"flex_direction":"row","boxed_width":{"unit":"px","size":1290,"sizes":[]},"flex_gap":{"column":"150","row":"30","isLinked":false,"unit":"px","size":150},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"52","right":"15","bottom":"0","left":"15","isLinked":false},"flex_direction_tablet":"column","flex_gap_tablet":{"column":"40","row":"40","isLinked":true,"unit":"px","size":40},"padding_tablet":{"unit":"px","top":"0","right":"15","bottom":"0","left":"15","isLinked":false}},"elements":[{"id":"28ffc67","elType":"container","settings":{"content_width":"full","width":{"unit":"%","size":32.4,"sizes":[]},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"width_tablet":{"unit":"%","size":100,"sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]}},"elements":[{"id":"f933217","elType":"widget","settings":[],"elements":[],"widgetType":"tf-author"}],"isInner":true},{"id":"ab968a0","elType":"container","settings":{"content_width":"full","width":{"unit":"%","size":67.6,"sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":false,"unit":"px","size":0},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"width_tablet":{"unit":"%","size":100,"sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]}},"elements":[{"id":"9483b0a","elType":"container","settings":{"content_width":"full","flex_gap":{"column":"0","row":"0","isLinked":false,"unit":"px","size":0},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_element_id":"about","width_tablet":{"unit":"%","size":100,"sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]},"css_classes":"section-one-page"},"elements":[{"id":"3ab8893","elType":"widget","settings":{"heading":"About","list":[{"animate_text":"AI Developer","_id":"b6eccb2"},{"animate_text":"Narrator","_id":"7c06b7a"}],"description":"Hello! I'm ","button_text":"Contact Us","heading_right":"WHAT I AM DOING","list2":[{"content_text":"Photographer","_id":"86c10c9"},{"content_text":"Lifestyle Blogger","_id":"8200f0f"},{"content_text":"Content Creator","_id":"d4e509a"}],"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"Title":"Resume","style":"style2","title-heding":"Empower Code Intelligence","description-heding":"Hello! Im ZenG, an AI Developer with 10 years of experience in designing and developing intelligent systems. My expertise spans machine learning, natural language processing, computer vision, and data analysis. Driven by curiosity, I transform complex data into smart solutions."},"elements":[],"widgetType":"tf-call-to-action"},{"id":"75e85a2","elType":"widget","settings":{"list":[{"animate_text":"AI Developer","_id":"9bfecf9"},{"animate_text":"AI Developer 1","_id":"623a069"}],"starting_number":[],"title":"Satisfied\tClients","counters":[{"number":10,"suffix":"+","title":"Years in AI Development","_id":"bdafa13"},{"number":500,"suffix":"+","title":"Satisfied Clients","_id":"dd6be06"},{"number":1,"suffix":"k+","title":"Projects Completed","_id":"a700f98"}],"text_align":"left","_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[],"widgetType":"tf-counter"}],"isInner":true},{"id":"37af2a0","elType":"container","settings":{"content_width":"full","flex_gap":{"column":"0","row":"0","isLinked":false,"unit":"px","size":0},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"82","right":"0","bottom":"0","left":"0","isLinked":false},"_element_id":"resume","padding_mobile":{"unit":"em","top":"4","right":"0","bottom":"0","left":"0","isLinked":false},"css_classes":"section-one-page"},"elements":[{"id":"a1790f9","elType":"widget","settings":{"heading":"Resume","list":[{"animate_text":"Storyteller","_id":"b6eccb2"},{"animate_text":"Narrator","_id":"7c06b7a"}],"description":"Education & Experience","button_text":"Contact Us","heading_right":"WHAT I AM DOING","list2":[{"content_text":"Photographer","_id":"86c10c9"},{"content_text":"Lifestyle Blogger","_id":"8200f0f"},{"content_text":"Content Creator","_id":"d4e509a"}],"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"Title":"Resume","title-heding":"Empower Code Intelligence","description-heding":"Hello! Im ZenG, an AI Developer with 10 years of experience in designing and developing intelligent systems. My expertise spans machine learning, natural language processing, computer vision, and data analysis. Driven by curiosity, I transform complex data into smart solutions."},"elements":[],"widgetType":"tf-call-to-action"},{"id":"a006e53","elType":"widget","settings":{"list":[{"title":"AI Developer","description":"Google Inc.","_id":"a2c1786","number_step":"2020 - Present","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/small-comet.webp","id":1106,"size":"","alt":"","source":"library"}},{"title":"Machine Learning Engineer","description":"Microsoft Inc.","number_step":"2018 - 2020","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/small-comet.webp","id":1106,"size":"","alt":"","source":"library"},"_id":"3c48eac"},{"title":"Data Scientist","description":"IBM Inc.","number_step":"2014 - 2018","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/small-comet.webp","id":1106,"size":"","alt":"","source":"library"},"_id":"5f72b51"},{"title":"M.Sc. in Computer Science","description":"Stanford University","number_step":"2013 - 2014","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/small-comet.webp","id":1106,"size":"","alt":"","source":"library"},"_id":"8d32a1d"},{"title":"B.Sc. in Information Technolol","description":"Massachusetts Institute of Technology","number_step":"2008 - 2013","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/small-comet.webp","id":1106,"size":"","alt":"","source":"library"},"_id":"965a968"}]},"elements":[],"widgetType":"tf-list-step"}],"isInner":true}],"isInner":true}],"isInner":false},{"id":"15bc3db","elType":"container","settings":{"flex_direction":"column","boxed_width":{"unit":"px","size":1290,"sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":false,"unit":"px","size":0},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"100","right":"15","bottom":"0","left":"15","isLinked":false},"_element_id":"services","padding_mobile":{"unit":"em","top":"4","right":"1","bottom":"0","left":"1","isLinked":false},"css_classes":"section-one-page"},"elements":[{"id":"84051b9","elType":"widget","settings":{"heading":"Services","list":[{"animate_text":"Storyteller","_id":"b6eccb2"},{"animate_text":"Narrator","_id":"7c06b7a"}],"description":"AI Solutions That Matter","button_text":"Contact Us","heading_right":"WHAT I AM DOING","list2":[{"content_text":"Photographer","_id":"86c10c9"},{"content_text":"Lifestyle Blogger","_id":"8200f0f"},{"content_text":"Content Creator","_id":"d4e509a"}],"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"Title":"Resume","title-heding":"Empower Code Intelligence","description-heding":"Hello! Im ZenG, an AI Developer with 10 years of experience in designing and developing intelligent systems. My expertise spans machine learning, natural language processing, computer vision, and data analysis. Driven by curiosity, I transform complex data into smart solutions.","content_margin":{"unit":"px","top":"0","right":"0","bottom":"41","left":"0","isLinked":false}},"elements":[],"widgetType":"tf-call-to-action"},{"id":"8498a14","elType":"widget","settings":{"list":[{"title":"Custom AI Solutions","_id":"05db353","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/service-item-1.webp","id":1129,"size":"","alt":"","source":"library"}},{"title":"Data Analysis &amp; Visualization","_id":"670ccb6","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/service-item-2.webp","id":1130,"size":"","alt":"","source":"library"}},{"title":"Machine Learning Automation","_id":"74d2462","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/service-item-3.webp","id":1131,"size":"","alt":"","source":"library"}},{"title":"AI Consulting &amp; Training","_id":"528d808","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/service-item-4.webp","id":1132,"size":"","alt":"","source":"library"}}]},"elements":[],"widgetType":"tf-service"}],"isInner":false},{"id":"4b584f0","elType":"container","settings":{"flex_direction":"column","boxed_width":{"unit":"px","size":1290,"sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":false,"unit":"px","size":0},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"100","right":"15","bottom":"0","left":"15","isLinked":false},"_element_id":"portfolio","padding_mobile":{"unit":"em","top":"4","right":"1","bottom":"0","left":"1","isLinked":false},"css_classes":"section-one-page"},"elements":[{"id":"c474818","elType":"widget","settings":{"heading":"Portfolio","list":[{"animate_text":"Storyteller","_id":"b6eccb2"},{"animate_text":"Narrator","_id":"7c06b7a"}],"description":"Featured Projects","button_text":"Contact Us","heading_right":"WHAT I AM DOING","list2":[{"content_text":"Photographer","_id":"86c10c9"},{"content_text":"Lifestyle Blogger","_id":"8200f0f"},{"content_text":"Content Creator","_id":"d4e509a"}],"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"Title":"Resume","title-heding":"Empower Code Intelligence","description-heding":"Hello! Im ZenG, an AI Developer with 10 years of experience in designing and developing intelligent systems. My expertise spans machine learning, natural language processing, computer vision, and data analysis. Driven by curiosity, I transform complex data into smart solutions."},"elements":[],"widgetType":"tf-call-to-action"},{"id":"5d6777c","elType":"widget","settings":{"list":[{"title":"AI-Powered Chatbot","description":"Saas Dashboard","_id":"7bf1140","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/portfolio-item-1-1.webp","id":1149,"size":"","alt":"","source":"library"},"number_step":"2000"},{"title":"AI-Powered Chatbot","description":"Conversational AI","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/07\/portfolio-item-3-1.webp","id":1751,"size":"","alt":"","source":"library"},"number_step":"2000","_id":"9765c62"},{"title":"Real-Time Object Detection","description":"App AI","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/07\/portfolio-item-2-1.webp","id":1750,"size":"","alt":"","source":"library"},"number_step":"2000","_id":"52bda55"},{"title":"Resume ZenG pro","description":"Resume Pro","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/07\/portfolio-item-4-1.webp","id":1752,"size":"","alt":"","source":"library"},"number_step":"2000","_id":"13a979a"}]},"elements":[],"widgetType":"tf-project"}],"isInner":false},{"id":"185d7a1","elType":"container","settings":{"flex_direction":"column","boxed_width":{"unit":"px","size":1290,"sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":false,"unit":"px","size":0},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"88","right":"15","bottom":"0","left":"15","isLinked":false},"padding_mobile":{"unit":"em","top":"4","right":"1","bottom":"0","left":"1","isLinked":false},"css_classes":"section-one-page"},"elements":[{"id":"33c647c","elType":"widget","settings":{"heading":"testimonials","list":[{"animate_text":"Storyteller","_id":"b6eccb2"},{"animate_text":"Narrator","_id":"7c06b7a"}],"description":"Trusted by Clients","button_text":"Contact Us","heading_right":"WHAT I AM DOING","list2":[{"content_text":"Photographer","_id":"86c10c9"},{"content_text":"Lifestyle Blogger","_id":"8200f0f"},{"content_text":"Content Creator","_id":"d4e509a"}],"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"Title":"Resume","title-heding":"Empower Code Intelligence","description-heding":"Hello! Im ZenG, an AI Developer with 10 years of experience in designing and developing intelligent systems. My expertise spans machine learning, natural language processing, computer vision, and data analysis. Driven by curiosity, I transform complex data into smart solutions.","content_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":true},"heading_margin":{"unit":"px","top":"0","right":"0","bottom":"34","left":"0","isLinked":false}},"elements":[],"widgetType":"tf-call-to-action"},{"id":"aecdaf9","elType":"widget","settings":{"list":[{"name":"Lincoln Press","position":"CEO Avitex","description":"ZenG is one of the most reliable developers I've ever worked with. He\u2019s detail-oriented, responsive, and always delivers clean, scalable code. Highly recommended!\"","_id":"e6351ab"},{"name":"Cheyenne Mango","position":"CTO at Meko App","description":"ZenG managed our project with impressive efficiency and clarity. Deadlines were met, communication was smooth, and the outcome was exactly what we hoped for.\"","_id":"320e56c"},{"name":"Lincoln Press","position":"CEO Avitex","description":"ZenG is one of the most reliable developers I've ever worked with. He\u2019s detail-oriented, responsive, and always delivers clean, scalable code. Highly recommended!\"","_id":"2720a7e"},{"name":"Cheyenne Mango","position":"CTO at Meko App","description":"ZenG managed our project with impressive efficiency and clarity. Deadlines were met, communication was smooth, and the outcome was exactly what we hoped for.\"","_id":"5659cc4"}],"_element_custom_width":{"unit":"px","size":770,"sizes":[]},"space_between":44,"space_between_tablet":22,"space_between_mobile":11,"_css_classes":"style1"},"elements":[],"widgetType":"tf-testimonial"}],"isInner":false},{"id":"00bd2fa","elType":"container","settings":{"flex_direction":"column","boxed_width":{"unit":"px","size":1290,"sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":false,"unit":"px","size":0},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"96","right":"15","bottom":"0","left":"15","isLinked":false},"_element_id":"pricing","padding_mobile":{"unit":"em","top":"4","right":"1","bottom":"0","left":"1","isLinked":false},"css_classes":"section-one-page"},"elements":[{"id":"2c24a9c","elType":"widget","settings":{"heading":"Pricing","list":[{"animate_text":"Storyteller","_id":"b6eccb2"},{"animate_text":"Narrator","_id":"7c06b7a"}],"description":"My Pricing","button_text":"Contact Us","heading_right":"WHAT I AM DOING","list2":[{"content_text":"Photographer","_id":"86c10c9"},{"content_text":"Lifestyle Blogger","_id":"8200f0f"},{"content_text":"Content Creator","_id":"d4e509a"}],"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"Title":"Resume","title-heding":"Empower Code Intelligence","description-heding":"Hello! Im ZenG, an AI Developer with 10 years of experience in designing and developing intelligent systems. My expertise spans machine learning, natural language processing, computer vision, and data analysis. Driven by curiosity, I transform complex data into smart solutions.","content_margin":{"unit":"px","top":"0","right":"0","bottom":"44","left":"0","isLinked":false}},"elements":[],"widgetType":"tf-call-to-action"},{"id":"064a2be","elType":"widget","settings":{"tab_list":[{"_id":"8939a72","list_title":"Standard Plan","description":"<ul><li>60 keywords<\/li><li>6,000 monthly website visitors<\/li><li>8 blogs \/ month<\/li><li>10 quality backlinks \/ month<\/li><\/ul>","list_price":"$29","list_per":"\/per hour","title-btn":"Get Started!"},{"list_title":"Premium Plan","description":"<ul><li>90 keywords<\/li><li>9,000 monthly website visitors<\/li><li>9 blogs \/ month<\/li><li>99 quality backlinks \/ month<\/li><\/ul>","list_price":"$99","list_per":"\/per hour","title-btn":"Get Started!","_id":"13e025e"}]},"elements":[],"widgetType":"tftabs"}],"isInner":false},{"id":"8d5042c","elType":"container","settings":{"flex_direction":"row","boxed_width":{"unit":"px","size":1290,"sizes":[]},"flex_gap":{"column":"80","row":"30","isLinked":false,"unit":"px","size":80},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"100","right":"15","bottom":"0","left":"15","isLinked":false},"flex_gap_mobile":{"column":"20","row":"20","isLinked":true,"unit":"px","size":20},"padding_mobile":{"unit":"em","top":"3","right":"1","bottom":"0","left":"1","isLinked":false}},"elements":[{"id":"350dcc9","elType":"container","settings":{"content_width":"full","width":{"unit":"%","size":38,"sizes":[]},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"flex_justify_content":"center"},"elements":[{"id":"2fa567c","elType":"widget","settings":{"heading":"Partner","list":[{"animate_text":"Storyteller","_id":"b6eccb2"},{"animate_text":"Narrator","_id":"7c06b7a"}],"description":"Trusted by 100+ Brands Worldwide","button_text":"Contact Us","heading_right":"WHAT I AM DOING","list2":[{"content_text":"Photographer","_id":"86c10c9"},{"content_text":"Lifestyle Blogger","_id":"8200f0f"},{"content_text":"Content Creator","_id":"d4e509a"}],"_margin":{"unit":"px","top":"17","right":"0","bottom":"0","left":"0","isLinked":false},"_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"Title":"Resume","title-heding":"Empower Code Intelligence","description-heding":"Hello! Im ZenG, an AI Developer with 10 years of experience in designing and developing intelligent systems. My expertise spans machine learning, natural language processing, computer vision, and data analysis. Driven by curiosity, I transform complex data into smart solutions.","content_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"description_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[],"widgetType":"tf-call-to-action"}],"isInner":true},{"id":"fd61acd","elType":"container","settings":{"content_width":"full","width":{"unit":"%","size":62,"sizes":[]},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[{"id":"cd4f921","elType":"widget","settings":{"partner_list":[{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-1.png","id":1340,"size":"","alt":"","source":"library"},"scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"6a59747"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-3.png","id":1342,"size":"","alt":"","source":"library"},"size_class":"sz-80","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"1666c49"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-2.png","id":1341,"size":"","alt":"","source":"library"},"size_class":"sz-80","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"2133e94"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-5.png","id":1344,"size":"","alt":"","source":"library"},"size_class":"sz-60","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"81082fc"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-8.png","id":1347,"size":"","alt":"","source":"library"},"size_class":"sz-60","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"bc8cd03"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-6.png","id":1345,"size":"","alt":"","source":"library"},"scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"7ec5f78"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-9.png","id":1348,"size":"","alt":"","source":"library"},"size_class":"sz-200","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"9dfa4d9"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-4.png","id":1343,"size":"","alt":"","source":"library"},"size_class":"sz-160","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"70ebe37"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-7.png","id":1346,"size":"","alt":"","source":"library"},"size_class":"sz-120","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"422e77a"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-7.png","id":1346,"size":"","alt":"","source":"library"},"size_class":"sz-120","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"78c7323"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-6.png","id":1345,"size":"","alt":"","source":"library"},"scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"a7fccc5"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-3.png","id":1342,"size":"","alt":"","source":"library"},"size_class":"sz-80","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"0d31ec9"}],"_element_custom_width_tablet":{"unit":"%","size":"","sizes":[]},"_element_custom_width_mobile":{"unit":"%","size":"","sizes":[]}},"elements":[],"widgetType":"tf-image-slider"}],"isInner":true}],"isInner":false},{"id":"330fde1","elType":"container","settings":{"flex_direction":"row","boxed_width":{"unit":"px","size":1290,"sizes":[]},"flex_gap":{"column":"40","row":"30","isLinked":false,"unit":"px","size":40},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"72","right":"15","bottom":"0","left":"15","isLinked":false},"_element_id":"contact","padding_tablet":{"unit":"px","top":"0","right":"15","bottom":"0","left":"15","isLinked":false},"css_classes":"section-one-page"},"elements":[{"id":"58cb67d","elType":"container","settings":{"content_width":"full","width":{"unit":"%","size":100,"sizes":[]},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[{"id":"ee9a568","elType":"widget","settings":{"heading":"Contact","description":"Lets","list":[{"animate_text":"Design","_id":"45c9966"},{"animate_text":"Design 1","_id":"a6255e0"}],"description2":"incredible work together","title-heding":"example@gmail.com","description-heding":"Based in San Francisco, CA ","icon_list":[{"_id":"c88750c","icon":{"value":"fab fa-linkedin","library":"fa-brands"}},{"icon":{"value":"fab fa-github","library":"fa-brands"},"_id":"97e640f"},{"icon":{"value":"fab fa-x-twitter","library":"fa-brands"},"_id":"27524c7"},{"_id":"d8ffb44","icon":{"value":"fab fa-dribbble","library":"fa-brands"}}],"cf7_shortcode":"[contact-form-7 id=\"8bed001\" title=\"Form Contact\"]","description_margin":{"unit":"px","top":"0","right":"0","bottom":"10","left":"0","isLinked":false}},"elements":[],"widgetType":"tf-form"}],"isInner":true}],"isInner":false}]]]></wp:meta_value>
+		<wp:meta_value><![CDATA[[{"id":"845afe2","elType":"container","settings":{"flex_direction":"row","boxed_width":{"unit":"px","size":1290,"sizes":[]},"flex_gap":{"column":"150","row":"30","isLinked":false,"unit":"px","size":150},"margin":{"unit":"px","top":"30","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"65","right":"15","bottom":"0","left":"15","isLinked":false},"flex_direction_tablet":"column","flex_gap_tablet":{"column":"40","row":"40","isLinked":true,"unit":"px","size":40},"padding_tablet":{"unit":"px","top":"0","right":"15","bottom":"0","left":"15","isLinked":false},"_element_id":"about","css_classes":"section-one-page"},"elements":[{"id":"28ffc67","elType":"container","settings":{"content_width":"full","width":{"unit":"%","size":32.4,"sizes":[]},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"width_tablet":{"unit":"%","size":100,"sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]}},"elements":[{"id":"f933217","elType":"widget","settings":[],"elements":[],"widgetType":"tf-author"}],"isInner":true},{"id":"ab968a0","elType":"container","settings":{"content_width":"full","width":{"unit":"%","size":67.6,"sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":false,"unit":"px","size":0},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"width_tablet":{"unit":"%","size":100,"sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]}},"elements":[{"id":"9483b0a","elType":"container","settings":{"content_width":"full","flex_gap":{"column":"0","row":"0","isLinked":false,"unit":"px","size":0},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"width_tablet":{"unit":"%","size":100,"sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]}},"elements":[{"id":"3ab8893","elType":"widget","settings":{"heading":"About","list":[{"animate_text":"AI Developer","_id":"b6eccb2"},{"animate_text":"Narrator","_id":"7c06b7a"}],"description":"Hello! I'm ","button_text":"Contact Us","heading_right":"WHAT I AM DOING","list2":[{"content_text":"Photographer","_id":"86c10c9"},{"content_text":"Lifestyle Blogger","_id":"8200f0f"},{"content_text":"Content Creator","_id":"d4e509a"}],"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"Title":"Resume","style":"style2","title-heding":"Empower Code Intelligence","description-heding":"Hello! Im ZenG, an AI Developer with 10 years of experience in designing and developing intelligent systems. My expertise spans machine learning, natural language processing, computer vision, and data analysis. Driven by curiosity, I transform complex data into smart solutions."},"elements":[],"widgetType":"tf-call-to-action"},{"id":"75e85a2","elType":"widget","settings":{"list":[{"animate_text":"AI Developer","_id":"9bfecf9"},{"animate_text":"AI Developer 1","_id":"623a069"}],"starting_number":[],"title":"Satisfied\tClients","counters":[{"number":10,"suffix":"+","title":"Years in AI Development","_id":"bdafa13"},{"number":500,"suffix":"+","title":"Satisfied Clients","_id":"dd6be06"},{"number":1,"suffix":"k+","title":"Projects Completed","_id":"a700f98"}],"text_align":"left","_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[],"widgetType":"tf-counter"}],"isInner":true},{"id":"37af2a0","elType":"container","settings":{"content_width":"full","flex_gap":{"column":"0","row":"0","isLinked":false,"unit":"px","size":0},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"82","right":"0","bottom":"0","left":"0","isLinked":false},"_element_id":"resume","padding_mobile":{"unit":"em","top":"4","right":"0","bottom":"0","left":"0","isLinked":false},"css_classes":"section-one-page"},"elements":[{"id":"a1790f9","elType":"widget","settings":{"heading":"Resume","list":[{"animate_text":"Storyteller","_id":"b6eccb2"},{"animate_text":"Narrator","_id":"7c06b7a"}],"description":"Education & Experience","button_text":"Contact Us","heading_right":"WHAT I AM DOING","list2":[{"content_text":"Photographer","_id":"86c10c9"},{"content_text":"Lifestyle Blogger","_id":"8200f0f"},{"content_text":"Content Creator","_id":"d4e509a"}],"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"Title":"Resume","title-heding":"Empower Code Intelligence","description-heding":"Hello! Im ZenG, an AI Developer with 10 years of experience in designing and developing intelligent systems. My expertise spans machine learning, natural language processing, computer vision, and data analysis. Driven by curiosity, I transform complex data into smart solutions."},"elements":[],"widgetType":"tf-call-to-action"},{"id":"a006e53","elType":"widget","settings":{"list":[{"title":"AI Developer","description":"Google Inc.","_id":"a2c1786","number_step":"2020 - Present","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/small-comet.webp","id":1106,"size":"","alt":"","source":"library"}},{"title":"Machine Learning Engineer","description":"Microsoft Inc.","number_step":"2018 - 2020","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/small-comet.webp","id":1106,"size":"","alt":"","source":"library"},"_id":"3c48eac"},{"title":"Data Scientist","description":"IBM Inc.","number_step":"2014 - 2018","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/small-comet.webp","id":1106,"size":"","alt":"","source":"library"},"_id":"5f72b51"},{"title":"M.Sc. in Computer Science","description":"Stanford University","number_step":"2013 - 2014","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/small-comet.webp","id":1106,"size":"","alt":"","source":"library"},"_id":"8d32a1d"},{"title":"B.Sc. in Information Technolol","description":"Massachusetts Institute of Technology","number_step":"2008 - 2013","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/small-comet.webp","id":1106,"size":"","alt":"","source":"library"},"_id":"965a968"}]},"elements":[],"widgetType":"tf-list-step"}],"isInner":true}],"isInner":true}],"isInner":false},{"id":"15bc3db","elType":"container","settings":{"flex_direction":"column","boxed_width":{"unit":"px","size":1290,"sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":false,"unit":"px","size":0},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"100","right":"15","bottom":"0","left":"15","isLinked":false},"_element_id":"services","padding_mobile":{"unit":"em","top":"4","right":"1","bottom":"0","left":"1","isLinked":false},"css_classes":"section-one-page"},"elements":[{"id":"84051b9","elType":"widget","settings":{"heading":"Services","list":[{"animate_text":"Storyteller","_id":"b6eccb2"},{"animate_text":"Narrator","_id":"7c06b7a"}],"description":"AI Solutions That Matter","button_text":"Contact Us","heading_right":"WHAT I AM DOING","list2":[{"content_text":"Photographer","_id":"86c10c9"},{"content_text":"Lifestyle Blogger","_id":"8200f0f"},{"content_text":"Content Creator","_id":"d4e509a"}],"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"Title":"Resume","title-heding":"Empower Code Intelligence","description-heding":"Hello! Im ZenG, an AI Developer with 10 years of experience in designing and developing intelligent systems. My expertise spans machine learning, natural language processing, computer vision, and data analysis. Driven by curiosity, I transform complex data into smart solutions.","content_margin":{"unit":"px","top":"0","right":"0","bottom":"41","left":"0","isLinked":false}},"elements":[],"widgetType":"tf-call-to-action"},{"id":"8498a14","elType":"widget","settings":{"list":[{"title":"Custom AI Solutions","_id":"05db353","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/service-item-1.webp","id":1129,"size":"","alt":"","source":"library"}},{"title":"Data Analysis &amp; Visualization","_id":"670ccb6","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/service-item-2.webp","id":1130,"size":"","alt":"","source":"library"}},{"title":"Machine Learning Automation","_id":"74d2462","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/service-item-3.webp","id":1131,"size":"","alt":"","source":"library"}},{"title":"AI Consulting &amp; Training","_id":"528d808","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/service-item-4.webp","id":1132,"size":"","alt":"","source":"library"}}]},"elements":[],"widgetType":"tf-service"}],"isInner":false},{"id":"4b584f0","elType":"container","settings":{"flex_direction":"column","boxed_width":{"unit":"px","size":1290,"sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":false,"unit":"px","size":0},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"100","right":"15","bottom":"0","left":"15","isLinked":false},"_element_id":"portfolio","padding_mobile":{"unit":"em","top":"4","right":"1","bottom":"0","left":"1","isLinked":false},"css_classes":"section-one-page"},"elements":[{"id":"c474818","elType":"widget","settings":{"heading":"Portfolio","list":[{"animate_text":"Storyteller","_id":"b6eccb2"},{"animate_text":"Narrator","_id":"7c06b7a"}],"description":"Featured Projects","button_text":"Contact Us","heading_right":"WHAT I AM DOING","list2":[{"content_text":"Photographer","_id":"86c10c9"},{"content_text":"Lifestyle Blogger","_id":"8200f0f"},{"content_text":"Content Creator","_id":"d4e509a"}],"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"Title":"Resume","title-heding":"Empower Code Intelligence","description-heding":"Hello! Im ZenG, an AI Developer with 10 years of experience in designing and developing intelligent systems. My expertise spans machine learning, natural language processing, computer vision, and data analysis. Driven by curiosity, I transform complex data into smart solutions."},"elements":[],"widgetType":"tf-call-to-action"},{"id":"5d6777c","elType":"widget","settings":{"list":[{"title":"AI-Powered Chatbot","description":"Saas Dashboard","_id":"7bf1140","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/portfolio-item-1-1.webp","id":1149,"size":"","alt":"","source":"library"},"number_step":"2000"},{"title":"AI-Powered Chatbot","description":"Conversational AI","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/07\/portfolio-item-3-1.webp","id":1751,"size":"","alt":"","source":"library"},"number_step":"2000","_id":"9765c62"},{"title":"Real-Time Object Detection","description":"App AI","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/07\/portfolio-item-2-1.webp","id":1750,"size":"","alt":"","source":"library"},"number_step":"2000","_id":"52bda55"},{"title":"Resume ZenG pro","description":"Resume Pro","image_thumb":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/07\/portfolio-item-4-1.webp","id":1752,"size":"","alt":"","source":"library"},"number_step":"2000","_id":"13a979a"}]},"elements":[],"widgetType":"tf-project"}],"isInner":false},{"id":"185d7a1","elType":"container","settings":{"flex_direction":"column","boxed_width":{"unit":"px","size":1290,"sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":false,"unit":"px","size":0},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"88","right":"15","bottom":"0","left":"15","isLinked":false},"padding_mobile":{"unit":"em","top":"4","right":"1","bottom":"0","left":"1","isLinked":false},"css_classes":"section-one-page"},"elements":[{"id":"33c647c","elType":"widget","settings":{"heading":"testimonials","list":[{"animate_text":"Storyteller","_id":"b6eccb2"},{"animate_text":"Narrator","_id":"7c06b7a"}],"description":"Trusted by Clients","button_text":"Contact Us","heading_right":"WHAT I AM DOING","list2":[{"content_text":"Photographer","_id":"86c10c9"},{"content_text":"Lifestyle Blogger","_id":"8200f0f"},{"content_text":"Content Creator","_id":"d4e509a"}],"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"Title":"Resume","title-heding":"Empower Code Intelligence","description-heding":"Hello! Im ZenG, an AI Developer with 10 years of experience in designing and developing intelligent systems. My expertise spans machine learning, natural language processing, computer vision, and data analysis. Driven by curiosity, I transform complex data into smart solutions.","content_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":true},"heading_margin":{"unit":"px","top":"0","right":"0","bottom":"34","left":"0","isLinked":false}},"elements":[],"widgetType":"tf-call-to-action"},{"id":"aecdaf9","elType":"widget","settings":{"list":[{"name":"Lincoln Press","position":"CEO Avitex","description":"ZenG is one of the most reliable developers I've ever worked with. He\u2019s detail-oriented, responsive, and always delivers clean, scalable code. Highly recommended!\"","_id":"e6351ab"},{"name":"Cheyenne Mango","position":"CTO at Meko App","description":"ZenG managed our project with impressive efficiency and clarity. Deadlines were met, communication was smooth, and the outcome was exactly what we hoped for.\"","_id":"320e56c"},{"name":"Lincoln Press","position":"CEO Avitex","description":"ZenG is one of the most reliable developers I've ever worked with. He\u2019s detail-oriented, responsive, and always delivers clean, scalable code. Highly recommended!\"","_id":"2720a7e"},{"name":"Cheyenne Mango","position":"CTO at Meko App","description":"ZenG managed our project with impressive efficiency and clarity. Deadlines were met, communication was smooth, and the outcome was exactly what we hoped for.\"","_id":"5659cc4"}],"_element_custom_width":{"unit":"px","size":770,"sizes":[]},"space_between":44,"space_between_tablet":22,"space_between_mobile":11,"_css_classes":"style1"},"elements":[],"widgetType":"tf-testimonial"}],"isInner":false},{"id":"00bd2fa","elType":"container","settings":{"flex_direction":"column","boxed_width":{"unit":"px","size":1290,"sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":false,"unit":"px","size":0},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"96","right":"15","bottom":"0","left":"15","isLinked":false},"_element_id":"pricing","padding_mobile":{"unit":"em","top":"4","right":"1","bottom":"0","left":"1","isLinked":false},"css_classes":"section-one-page"},"elements":[{"id":"2c24a9c","elType":"widget","settings":{"heading":"Pricing","list":[{"animate_text":"Storyteller","_id":"b6eccb2"},{"animate_text":"Narrator","_id":"7c06b7a"}],"description":"My Pricing","button_text":"Contact Us","heading_right":"WHAT I AM DOING","list2":[{"content_text":"Photographer","_id":"86c10c9"},{"content_text":"Lifestyle Blogger","_id":"8200f0f"},{"content_text":"Content Creator","_id":"d4e509a"}],"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"Title":"Resume","title-heding":"Empower Code Intelligence","description-heding":"Hello! Im ZenG, an AI Developer with 10 years of experience in designing and developing intelligent systems. My expertise spans machine learning, natural language processing, computer vision, and data analysis. Driven by curiosity, I transform complex data into smart solutions.","content_margin":{"unit":"px","top":"0","right":"0","bottom":"44","left":"0","isLinked":false}},"elements":[],"widgetType":"tf-call-to-action"},{"id":"064a2be","elType":"widget","settings":{"tab_list":[{"_id":"8939a72","list_title":"Standard Plan","description":"<ul><li>60 keywords<\/li><li>6,000 monthly website visitors<\/li><li>8 blogs \/ month<\/li><li>10 quality backlinks \/ month<\/li><\/ul>","list_price":"$29","list_per":"\/per hour","title-btn":"Get Started!"},{"list_title":"Premium Plan","description":"<ul><li>90 keywords<\/li><li>9,000 monthly website visitors<\/li><li>9 blogs \/ month<\/li><li>99 quality backlinks \/ month<\/li><\/ul>","list_price":"$99","list_per":"\/per hour","title-btn":"Get Started!","_id":"13e025e"}]},"elements":[],"widgetType":"tftabs"}],"isInner":false},{"id":"8d5042c","elType":"container","settings":{"flex_direction":"row","boxed_width":{"unit":"px","size":1290,"sizes":[]},"flex_gap":{"column":"80","row":"30","isLinked":false,"unit":"px","size":80},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"100","right":"15","bottom":"0","left":"15","isLinked":false},"flex_gap_mobile":{"column":"20","row":"20","isLinked":true,"unit":"px","size":20},"padding_mobile":{"unit":"em","top":"3","right":"1","bottom":"0","left":"1","isLinked":false}},"elements":[{"id":"350dcc9","elType":"container","settings":{"content_width":"full","width":{"unit":"%","size":38,"sizes":[]},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"flex_justify_content":"center"},"elements":[{"id":"2fa567c","elType":"widget","settings":{"heading":"Partner","list":[{"animate_text":"Storyteller","_id":"b6eccb2"},{"animate_text":"Narrator","_id":"7c06b7a"}],"description":"Trusted by 100+ Brands Worldwide","button_text":"Contact Us","heading_right":"WHAT I AM DOING","list2":[{"content_text":"Photographer","_id":"86c10c9"},{"content_text":"Lifestyle Blogger","_id":"8200f0f"},{"content_text":"Content Creator","_id":"d4e509a"}],"_margin":{"unit":"px","top":"17","right":"0","bottom":"0","left":"0","isLinked":false},"_padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"Title":"Resume","title-heding":"Empower Code Intelligence","description-heding":"Hello! Im ZenG, an AI Developer with 10 years of experience in designing and developing intelligent systems. My expertise spans machine learning, natural language processing, computer vision, and data analysis. Driven by curiosity, I transform complex data into smart solutions.","content_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"description_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[],"widgetType":"tf-call-to-action"}],"isInner":true},{"id":"fd61acd","elType":"container","settings":{"content_width":"full","width":{"unit":"%","size":62,"sizes":[]},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[{"id":"cd4f921","elType":"widget","settings":{"partner_list":[{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-1.png","id":1340,"size":"","alt":"","source":"library"},"scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"6a59747"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-3.png","id":1342,"size":"","alt":"","source":"library"},"size_class":"sz-80","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"1666c49"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-2.png","id":1341,"size":"","alt":"","source":"library"},"size_class":"sz-80","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"2133e94"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-5.png","id":1344,"size":"","alt":"","source":"library"},"size_class":"sz-60","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"81082fc"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-8.png","id":1347,"size":"","alt":"","source":"library"},"size_class":"sz-60","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"bc8cd03"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-6.png","id":1345,"size":"","alt":"","source":"library"},"scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"7ec5f78"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-9.png","id":1348,"size":"","alt":"","source":"library"},"size_class":"sz-200","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"9dfa4d9"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-4.png","id":1343,"size":"","alt":"","source":"library"},"size_class":"sz-160","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"70ebe37"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-7.png","id":1346,"size":"","alt":"","source":"library"},"size_class":"sz-120","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"422e77a"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-7.png","id":1346,"size":"","alt":"","source":"library"},"size_class":"sz-120","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"78c7323"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-6.png","id":1345,"size":"","alt":"","source":"library"},"scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"a7fccc5"},{"image":{"url":"https:\/\/zeng.autodealwordpress.com\/wp-content\/uploads\/2025\/06\/partner-3.png","id":1342,"size":"","alt":"","source":"library"},"size_class":"sz-80","scroll_effect":"scrolling-effect effectZoomIn","delay":"0.3","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"_id":"0d31ec9"}],"_element_custom_width_tablet":{"unit":"%","size":"","sizes":[]},"_element_custom_width_mobile":{"unit":"%","size":"","sizes":[]}},"elements":[],"widgetType":"tf-image-slider"}],"isInner":true}],"isInner":false},{"id":"330fde1","elType":"container","settings":{"flex_direction":"row","boxed_width":{"unit":"px","size":1290,"sizes":[]},"flex_gap":{"column":"40","row":"30","isLinked":false,"unit":"px","size":40},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"72","right":"15","bottom":"0","left":"15","isLinked":false},"_element_id":"contact","padding_tablet":{"unit":"px","top":"0","right":"15","bottom":"0","left":"15","isLinked":false},"css_classes":"section-one-page"},"elements":[{"id":"58cb67d","elType":"container","settings":{"content_width":"full","width":{"unit":"%","size":100,"sizes":[]},"margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false}},"elements":[{"id":"ee9a568","elType":"widget","settings":{"heading":"Contact","description":"Lets","list":[{"animate_text":"Design","_id":"45c9966"},{"animate_text":"Design 1","_id":"a6255e0"}],"description2":"incredible work together","title-heding":"example@gmail.com","description-heding":"Based in San Francisco, CA ","icon_list":[{"_id":"c88750c","icon":{"value":"fab fa-linkedin","library":"fa-brands"}},{"icon":{"value":"fab fa-github","library":"fa-brands"},"_id":"97e640f"},{"icon":{"value":"fab fa-x-twitter","library":"fa-brands"},"_id":"27524c7"},{"_id":"d8ffb44","icon":{"value":"fab fa-dribbble","library":"fa-brands"}}],"cf7_shortcode":"[contact-form-7 id=\"8bed001\" title=\"Form Contact\"]","description_margin":{"unit":"px","top":"0","right":"0","bottom":"10","left":"0","isLinked":false}},"elements":[],"widgetType":"tf-form"}],"isInner":true}],"isInner":false}]]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_elementor_page_settings]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:4:{s:12:"style_footer";s:6:"style1";s:12:"style_header";s:14:"header-default";s:20:"main_content_padding";a:6:{s:4:"unit";s:2:"px";s:3:"top";s:0:"";s:5:"right";i:0;s:6:"bottom";s:0:"";s:4:"left";i:0;s:8:"isLinked";b:1;}s:14:"hide_actionbox";s:4:"none";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:2:{s:7:"scripts";a:6:{i:0;s:18:"elementor-frontend";i:1;s:12:"animate-text";i:2;s:8:"waypoint";i:3;s:10:"tf-counter";i:4;s:7:"tf-step";i:5;s:11:"tf-carousel";}s:6:"styles";a:3:{i:0;s:12:"animate-text";i:1;s:10:"tf-counter";i:2;s:7:"tf-step";}}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_elementor_element_cache]]></wp:meta_key>
+		<wp:meta_value><![CDATA[{"timeout":1755934281,"value":{"content":"<div class=\"elementor-element elementor-element-845afe2 section-one-page e-flex e-con-boxed e-con e-parent\" data-id=\"845afe2\" data-element_type=\"container\" id=\"about\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-28ffc67 e-con-full e-flex e-con e-child\" data-id=\"28ffc67\" data-element_type=\"container\">\n\t\t[elementor-element k=\"c010cd8ff4f965e048f9b6fbe35c07c1\" data=\"eyJpZCI6ImY5MzMyMTciLCJlbFR5cGUiOiJ3aWRnZXQiLCJzZXR0aW5ncyI6W10sImVsZW1lbnRzIjpbXSwid2lkZ2V0VHlwZSI6InRmLWF1dGhvciJ9\"]\t\t<\/div>\n\t\t<div class=\"elementor-element elementor-element-ab968a0 e-con-full e-flex e-con e-child\" data-id=\"ab968a0\" data-element_type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-9483b0a e-con-full e-flex e-con e-child\" data-id=\"9483b0a\" data-element_type=\"container\">\n\t\t[elementor-element k=\"c010cd8ff4f965e048f9b6fbe35c07c1\" data=\"eyJpZCI6IjNhYjg4OTMiLCJlbFR5cGUiOiJ3aWRnZXQiLCJzZXR0aW5ncyI6eyJoZWFkaW5nIjoiQWJvdXQiLCJsaXN0IjpbeyJhbmltYXRlX3RleHQiOiJBSSBEZXZlbG9wZXIiLCJfaWQiOiJiNmVjY2IyIn0seyJhbmltYXRlX3RleHQiOiJOYXJyYXRvciIsIl9pZCI6IjdjMDZiN2EifV0sImRlc2NyaXB0aW9uIjoiSGVsbG8hIEknbSAiLCJidXR0b25fdGV4dCI6IkNvbnRhY3QgVXMiLCJoZWFkaW5nX3JpZ2h0IjoiV0hBVCBJIEFNIERPSU5HIiwibGlzdDIiOlt7ImNvbnRlbnRfdGV4dCI6IlBob3RvZ3JhcGhlciIsIl9pZCI6Ijg2YzEwYzkifSx7ImNvbnRlbnRfdGV4dCI6IkxpZmVzdHlsZSBCbG9nZ2VyIiwiX2lkIjoiODIwMGYwZiJ9LHsiY29udGVudF90ZXh0IjoiQ29udGVudCBDcmVhdG9yIiwiX2lkIjoiZDRlNTA5YSJ9XSwiX21hcmdpbiI6eyJ1bml0IjoicHgiLCJ0b3AiOiIwIiwicmlnaHQiOiIwIiwiYm90dG9tIjoiMCIsImxlZnQiOiIwIiwiaXNMaW5rZWQiOmZhbHNlfSwiX3BhZGRpbmciOnsidW5pdCI6InB4IiwidG9wIjoiMCIsInJpZ2h0IjoiMCIsImJvdHRvbSI6IjAiLCJsZWZ0IjoiMCIsImlzTGlua2VkIjpmYWxzZX0sIlRpdGxlIjoiUmVzdW1lIiwic3R5bGUiOiJzdHlsZTIiLCJ0aXRsZS1oZWRpbmciOiJFbXBvd2VyIENvZGUgSW50ZWxsaWdlbmNlIiwiZGVzY3JpcHRpb24taGVkaW5nIjoiSGVsbG8hIEltIFplbkcsIGFuIEFJIERldmVsb3BlciB3aXRoIDEwIHllYXJzIG9mIGV4cGVyaWVuY2UgaW4gZGVzaWduaW5nIGFuZCBkZXZlbG9waW5nIGludGVsbGlnZW50IHN5c3RlbXMuIE15IGV4cGVydGlzZSBzcGFucyBtYWNoaW5lIGxlYXJuaW5nLCBuYXR1cmFsIGxhbmd1YWdlIHByb2Nlc3NpbmcsIGNvbXB1dGVyIHZpc2lvbiwgYW5kIGRhdGEgYW5hbHlzaXMuIERyaXZlbiBieSBjdXJpb3NpdHksIEkgdHJhbnNmb3JtIGNvbXBsZXggZGF0YSBpbnRvIHNtYXJ0IHNvbHV0aW9ucy4ifSwiZWxlbWVudHMiOltdLCJ3aWRnZXRUeXBlIjoidGYtY2FsbC10by1hY3Rpb24ifQ==\"][elementor-element k=\"c010cd8ff4f965e048f9b6fbe35c07c1\" data=\"eyJpZCI6Ijc1ZTg1YTIiLCJlbFR5cGUiOiJ3aWRnZXQiLCJzZXR0aW5ncyI6eyJsaXN0IjpbeyJhbmltYXRlX3RleHQiOiJBSSBEZXZlbG9wZXIiLCJfaWQiOiI5YmZlY2Y5In0seyJhbmltYXRlX3RleHQiOiJBSSBEZXZlbG9wZXIgMSIsIl9pZCI6IjYyM2EwNjkifV0sInN0YXJ0aW5nX251bWJlciI6W10sInRpdGxlIjoiU2F0aXNmaWVkXHRDbGllbnRzIiwiY291bnRlcnMiOlt7Im51bWJlciI6MTAsInN1ZmZpeCI6IisiLCJ0aXRsZSI6IlllYXJzIGluIEFJIERldmVsb3BtZW50IiwiX2lkIjoiYmRhZmExMyJ9LHsibnVtYmVyIjo1MDAsInN1ZmZpeCI6IisiLCJ0aXRsZSI6IlNhdGlzZmllZCBDbGllbnRzIiwiX2lkIjoiZGQ2YmUwNiJ9LHsibnVtYmVyIjoxLCJzdWZmaXgiOiJrKyIsInRpdGxlIjoiUHJvamVjdHMgQ29tcGxldGVkIiwiX2lkIjoiYTcwMGY5OCJ9XSwidGV4dF9hbGlnbiI6ImxlZnQiLCJfbWFyZ2luIjp7InVuaXQiOiJweCIsInRvcCI6IjAiLCJyaWdodCI6IjAiLCJib3R0b20iOiIwIiwibGVmdCI6IjAiLCJpc0xpbmtlZCI6ZmFsc2V9LCJfcGFkZGluZyI6eyJ1bml0IjoicHgiLCJ0b3AiOiIwIiwicmlnaHQiOiIwIiwiYm90dG9tIjoiMCIsImxlZnQiOiIwIiwiaXNMaW5rZWQiOmZhbHNlfX0sImVsZW1lbnRzIjpbXSwid2lkZ2V0VHlwZSI6InRmLWNvdW50ZXIifQ==\"]\t\t<\/div>\n\t\t<div class=\"elementor-element elementor-element-37af2a0 e-con-full section-one-page e-flex e-con e-child\" data-id=\"37af2a0\" data-element_type=\"container\" id=\"resume\">\n\t\t[elementor-element k=\"c010cd8ff4f965e048f9b6fbe35c07c1\" data=\"eyJpZCI6ImExNzkwZjkiLCJlbFR5cGUiOiJ3aWRnZXQiLCJzZXR0aW5ncyI6eyJoZWFkaW5nIjoiUmVzdW1lIiwibGlzdCI6W3siYW5pbWF0ZV90ZXh0IjoiU3Rvcnl0ZWxsZXIiLCJfaWQiOiJiNmVjY2IyIn0seyJhbmltYXRlX3RleHQiOiJOYXJyYXRvciIsIl9pZCI6IjdjMDZiN2EifV0sImRlc2NyaXB0aW9uIjoiRWR1Y2F0aW9uICYgRXhwZXJpZW5jZSIsImJ1dHRvbl90ZXh0IjoiQ29udGFjdCBVcyIsImhlYWRpbmdfcmlnaHQiOiJXSEFUIEkgQU0gRE9JTkciLCJsaXN0MiI6W3siY29udGVudF90ZXh0IjoiUGhvdG9ncmFwaGVyIiwiX2lkIjoiODZjMTBjOSJ9LHsiY29udGVudF90ZXh0IjoiTGlmZXN0eWxlIEJsb2dnZXIiLCJfaWQiOiI4MjAwZjBmIn0seyJjb250ZW50X3RleHQiOiJDb250ZW50IENyZWF0b3IiLCJfaWQiOiJkNGU1MDlhIn1dLCJfbWFyZ2luIjp7InVuaXQiOiJweCIsInRvcCI6IjAiLCJyaWdodCI6IjAiLCJib3R0b20iOiIwIiwibGVmdCI6IjAiLCJpc0xpbmtlZCI6ZmFsc2V9LCJfcGFkZGluZyI6eyJ1bml0IjoicHgiLCJ0b3AiOiIwIiwicmlnaHQiOiIwIiwiYm90dG9tIjoiMCIsImxlZnQiOiIwIiwiaXNMaW5rZWQiOmZhbHNlfSwiVGl0bGUiOiJSZXN1bWUiLCJ0aXRsZS1oZWRpbmciOiJFbXBvd2VyIENvZGUgSW50ZWxsaWdlbmNlIiwiZGVzY3JpcHRpb24taGVkaW5nIjoiSGVsbG8hIEltIFplbkcsIGFuIEFJIERldmVsb3BlciB3aXRoIDEwIHllYXJzIG9mIGV4cGVyaWVuY2UgaW4gZGVzaWduaW5nIGFuZCBkZXZlbG9waW5nIGludGVsbGlnZW50IHN5c3RlbXMuIE15IGV4cGVydGlzZSBzcGFucyBtYWNoaW5lIGxlYXJuaW5nLCBuYXR1cmFsIGxhbmd1YWdlIHByb2Nlc3NpbmcsIGNvbXB1dGVyIHZpc2lvbiwgYW5kIGRhdGEgYW5hbHlzaXMuIERyaXZlbiBieSBjdXJpb3NpdHksIEkgdHJhbnNmb3JtIGNvbXBsZXggZGF0YSBpbnRvIHNtYXJ0IHNvbHV0aW9ucy4ifSwiZWxlbWVudHMiOltdLCJ3aWRnZXRUeXBlIjoidGYtY2FsbC10by1hY3Rpb24ifQ==\"][elementor-element k=\"c010cd8ff4f965e048f9b6fbe35c07c1\" data=\"eyJpZCI6ImEwMDZlNTMiLCJlbFR5cGUiOiJ3aWRnZXQiLCJzZXR0aW5ncyI6eyJsaXN0IjpbeyJ0aXRsZSI6IkFJIERldmVsb3BlciIsImRlc2NyaXB0aW9uIjoiR29vZ2xlIEluYy4iLCJfaWQiOiJhMmMxNzg2IiwibnVtYmVyX3N0ZXAiOiIyMDIwIC0gUHJlc2VudCIsImltYWdlX3RodW1iIjp7InVybCI6Imh0dHBzOlwvXC96ZW5nLmF1dG9kZWFsd29yZHByZXNzLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDZcL3NtYWxsLWNvbWV0LndlYnAiLCJpZCI6MTEwNiwic2l6ZSI6IiIsImFsdCI6IiIsInNvdXJjZSI6ImxpYnJhcnkifX0seyJ0aXRsZSI6Ik1hY2hpbmUgTGVhcm5pbmcgRW5naW5lZXIiLCJkZXNjcmlwdGlvbiI6Ik1pY3Jvc29mdCBJbmMuIiwibnVtYmVyX3N0ZXAiOiIyMDE4IC0gMjAyMCIsImltYWdlX3RodW1iIjp7InVybCI6Imh0dHBzOlwvXC96ZW5nLmF1dG9kZWFsd29yZHByZXNzLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDZcL3NtYWxsLWNvbWV0LndlYnAiLCJpZCI6MTEwNiwic2l6ZSI6IiIsImFsdCI6IiIsInNvdXJjZSI6ImxpYnJhcnkifSwiX2lkIjoiM2M0OGVhYyJ9LHsidGl0bGUiOiJEYXRhIFNjaWVudGlzdCIsImRlc2NyaXB0aW9uIjoiSUJNIEluYy4iLCJudW1iZXJfc3RlcCI6IjIwMTQgLSAyMDE4IiwiaW1hZ2VfdGh1bWIiOnsidXJsIjoiaHR0cHM6XC9cL3plbmcuYXV0b2RlYWx3b3JkcHJlc3MuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI1XC8wNlwvc21hbGwtY29tZXQud2VicCIsImlkIjoxMTA2LCJzaXplIjoiIiwiYWx0IjoiIiwic291cmNlIjoibGlicmFyeSJ9LCJfaWQiOiI1ZjcyYjUxIn0seyJ0aXRsZSI6Ik0uU2MuIGluIENvbXB1dGVyIFNjaWVuY2UiLCJkZXNjcmlwdGlvbiI6IlN0YW5mb3JkIFVuaXZlcnNpdHkiLCJudW1iZXJfc3RlcCI6IjIwMTMgLSAyMDE0IiwiaW1hZ2VfdGh1bWIiOnsidXJsIjoiaHR0cHM6XC9cL3plbmcuYXV0b2RlYWx3b3JkcHJlc3MuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI1XC8wNlwvc21hbGwtY29tZXQud2VicCIsImlkIjoxMTA2LCJzaXplIjoiIiwiYWx0IjoiIiwic291cmNlIjoibGlicmFyeSJ9LCJfaWQiOiI4ZDMyYTFkIn0seyJ0aXRsZSI6IkIuU2MuIGluIEluZm9ybWF0aW9uIFRlY2hub2xvbCIsImRlc2NyaXB0aW9uIjoiTWFzc2FjaHVzZXR0cyBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSIsIm51bWJlcl9zdGVwIjoiMjAwOCAtIDIwMTMiLCJpbWFnZV90aHVtYiI6eyJ1cmwiOiJodHRwczpcL1wvemVuZy5hdXRvZGVhbHdvcmRwcmVzcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjVcLzA2XC9zbWFsbC1jb21ldC53ZWJwIiwiaWQiOjExMDYsInNpemUiOiIiLCJhbHQiOiIiLCJzb3VyY2UiOiJsaWJyYXJ5In0sIl9pZCI6Ijk2NWE5NjgifV19LCJlbGVtZW50cyI6W10sIndpZGdldFR5cGUiOiJ0Zi1saXN0LXN0ZXAifQ==\"]\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t<div class=\"elementor-element elementor-element-15bc3db section-one-page e-flex e-con-boxed e-con e-parent\" data-id=\"15bc3db\" data-element_type=\"container\" id=\"services\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t[elementor-element k=\"c010cd8ff4f965e048f9b6fbe35c07c1\" data=\"eyJpZCI6Ijg0MDUxYjkiLCJlbFR5cGUiOiJ3aWRnZXQiLCJzZXR0aW5ncyI6eyJoZWFkaW5nIjoiU2VydmljZXMiLCJsaXN0IjpbeyJhbmltYXRlX3RleHQiOiJTdG9yeXRlbGxlciIsIl9pZCI6ImI2ZWNjYjIifSx7ImFuaW1hdGVfdGV4dCI6Ik5hcnJhdG9yIiwiX2lkIjoiN2MwNmI3YSJ9XSwiZGVzY3JpcHRpb24iOiJBSSBTb2x1dGlvbnMgVGhhdCBNYXR0ZXIiLCJidXR0b25fdGV4dCI6IkNvbnRhY3QgVXMiLCJoZWFkaW5nX3JpZ2h0IjoiV0hBVCBJIEFNIERPSU5HIiwibGlzdDIiOlt7ImNvbnRlbnRfdGV4dCI6IlBob3RvZ3JhcGhlciIsIl9pZCI6Ijg2YzEwYzkifSx7ImNvbnRlbnRfdGV4dCI6IkxpZmVzdHlsZSBCbG9nZ2VyIiwiX2lkIjoiODIwMGYwZiJ9LHsiY29udGVudF90ZXh0IjoiQ29udGVudCBDcmVhdG9yIiwiX2lkIjoiZDRlNTA5YSJ9XSwiX21hcmdpbiI6eyJ1bml0IjoicHgiLCJ0b3AiOiIwIiwicmlnaHQiOiIwIiwiYm90dG9tIjoiMCIsImxlZnQiOiIwIiwiaXNMaW5rZWQiOmZhbHNlfSwiX3BhZGRpbmciOnsidW5pdCI6InB4IiwidG9wIjoiMCIsInJpZ2h0IjoiMCIsImJvdHRvbSI6IjAiLCJsZWZ0IjoiMCIsImlzTGlua2VkIjpmYWxzZX0sIlRpdGxlIjoiUmVzdW1lIiwidGl0bGUtaGVkaW5nIjoiRW1wb3dlciBDb2RlIEludGVsbGlnZW5jZSIsImRlc2NyaXB0aW9uLWhlZGluZyI6IkhlbGxvISBJbSBaZW5HLCBhbiBBSSBEZXZlbG9wZXIgd2l0aCAxMCB5ZWFycyBvZiBleHBlcmllbmNlIGluIGRlc2lnbmluZyBhbmQgZGV2ZWxvcGluZyBpbnRlbGxpZ2VudCBzeXN0ZW1zLiBNeSBleHBlcnRpc2Ugc3BhbnMgbWFjaGluZSBsZWFybmluZywgbmF0dXJhbCBsYW5ndWFnZSBwcm9jZXNzaW5nLCBjb21wdXRlciB2aXNpb24sIGFuZCBkYXRhIGFuYWx5c2lzLiBEcml2ZW4gYnkgY3VyaW9zaXR5LCBJIHRyYW5zZm9ybSBjb21wbGV4IGRhdGEgaW50byBzbWFydCBzb2x1dGlvbnMuIiwiY29udGVudF9tYXJnaW4iOnsidW5pdCI6InB4IiwidG9wIjoiMCIsInJpZ2h0IjoiMCIsImJvdHRvbSI6IjQxIiwibGVmdCI6IjAiLCJpc0xpbmtlZCI6ZmFsc2V9fSwiZWxlbWVudHMiOltdLCJ3aWRnZXRUeXBlIjoidGYtY2FsbC10by1hY3Rpb24ifQ==\"][elementor-element k=\"c010cd8ff4f965e048f9b6fbe35c07c1\" data=\"eyJpZCI6Ijg0OThhMTQiLCJlbFR5cGUiOiJ3aWRnZXQiLCJzZXR0aW5ncyI6eyJsaXN0IjpbeyJ0aXRsZSI6IkN1c3RvbSBBSSBTb2x1dGlvbnMiLCJfaWQiOiIwNWRiMzUzIiwiaW1hZ2VfdGh1bWIiOnsidXJsIjoiaHR0cHM6XC9cL3plbmcuYXV0b2RlYWx3b3JkcHJlc3MuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI1XC8wNlwvc2VydmljZS1pdGVtLTEud2VicCIsImlkIjoxMTI5LCJzaXplIjoiIiwiYWx0IjoiIiwic291cmNlIjoibGlicmFyeSJ9fSx7InRpdGxlIjoiRGF0YSBBbmFseXNpcyAmYW1wOyBWaXN1YWxpemF0aW9uIiwiX2lkIjoiNjcwY2NiNiIsImltYWdlX3RodW1iIjp7InVybCI6Imh0dHBzOlwvXC96ZW5nLmF1dG9kZWFsd29yZHByZXNzLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDZcL3NlcnZpY2UtaXRlbS0yLndlYnAiLCJpZCI6MTEzMCwic2l6ZSI6IiIsImFsdCI6IiIsInNvdXJjZSI6ImxpYnJhcnkifX0seyJ0aXRsZSI6Ik1hY2hpbmUgTGVhcm5pbmcgQXV0b21hdGlvbiIsIl9pZCI6Ijc0ZDI0NjIiLCJpbWFnZV90aHVtYiI6eyJ1cmwiOiJodHRwczpcL1wvemVuZy5hdXRvZGVhbHdvcmRwcmVzcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjVcLzA2XC9zZXJ2aWNlLWl0ZW0tMy53ZWJwIiwiaWQiOjExMzEsInNpemUiOiIiLCJhbHQiOiIiLCJzb3VyY2UiOiJsaWJyYXJ5In19LHsidGl0bGUiOiJBSSBDb25zdWx0aW5nICZhbXA7IFRyYWluaW5nIiwiX2lkIjoiNTI4ZDgwOCIsImltYWdlX3RodW1iIjp7InVybCI6Imh0dHBzOlwvXC96ZW5nLmF1dG9kZWFsd29yZHByZXNzLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDZcL3NlcnZpY2UtaXRlbS00LndlYnAiLCJpZCI6MTEzMiwic2l6ZSI6IiIsImFsdCI6IiIsInNvdXJjZSI6ImxpYnJhcnkifX1dfSwiZWxlbWVudHMiOltdLCJ3aWRnZXRUeXBlIjoidGYtc2VydmljZSJ9\"]\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t<div class=\"elementor-element elementor-element-4b584f0 section-one-page e-flex e-con-boxed e-con e-parent\" data-id=\"4b584f0\" data-element_type=\"container\" id=\"portfolio\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t[elementor-element k=\"c010cd8ff4f965e048f9b6fbe35c07c1\" data=\"eyJpZCI6ImM0NzQ4MTgiLCJlbFR5cGUiOiJ3aWRnZXQiLCJzZXR0aW5ncyI6eyJoZWFkaW5nIjoiUG9ydGZvbGlvIiwibGlzdCI6W3siYW5pbWF0ZV90ZXh0IjoiU3Rvcnl0ZWxsZXIiLCJfaWQiOiJiNmVjY2IyIn0seyJhbmltYXRlX3RleHQiOiJOYXJyYXRvciIsIl9pZCI6IjdjMDZiN2EifV0sImRlc2NyaXB0aW9uIjoiRmVhdHVyZWQgUHJvamVjdHMiLCJidXR0b25fdGV4dCI6IkNvbnRhY3QgVXMiLCJoZWFkaW5nX3JpZ2h0IjoiV0hBVCBJIEFNIERPSU5HIiwibGlzdDIiOlt7ImNvbnRlbnRfdGV4dCI6IlBob3RvZ3JhcGhlciIsIl9pZCI6Ijg2YzEwYzkifSx7ImNvbnRlbnRfdGV4dCI6IkxpZmVzdHlsZSBCbG9nZ2VyIiwiX2lkIjoiODIwMGYwZiJ9LHsiY29udGVudF90ZXh0IjoiQ29udGVudCBDcmVhdG9yIiwiX2lkIjoiZDRlNTA5YSJ9XSwiX21hcmdpbiI6eyJ1bml0IjoicHgiLCJ0b3AiOiIwIiwicmlnaHQiOiIwIiwiYm90dG9tIjoiMCIsImxlZnQiOiIwIiwiaXNMaW5rZWQiOmZhbHNlfSwiX3BhZGRpbmciOnsidW5pdCI6InB4IiwidG9wIjoiMCIsInJpZ2h0IjoiMCIsImJvdHRvbSI6IjAiLCJsZWZ0IjoiMCIsImlzTGlua2VkIjpmYWxzZX0sIlRpdGxlIjoiUmVzdW1lIiwidGl0bGUtaGVkaW5nIjoiRW1wb3dlciBDb2RlIEludGVsbGlnZW5jZSIsImRlc2NyaXB0aW9uLWhlZGluZyI6IkhlbGxvISBJbSBaZW5HLCBhbiBBSSBEZXZlbG9wZXIgd2l0aCAxMCB5ZWFycyBvZiBleHBlcmllbmNlIGluIGRlc2lnbmluZyBhbmQgZGV2ZWxvcGluZyBpbnRlbGxpZ2VudCBzeXN0ZW1zLiBNeSBleHBlcnRpc2Ugc3BhbnMgbWFjaGluZSBsZWFybmluZywgbmF0dXJhbCBsYW5ndWFnZSBwcm9jZXNzaW5nLCBjb21wdXRlciB2aXNpb24sIGFuZCBkYXRhIGFuYWx5c2lzLiBEcml2ZW4gYnkgY3VyaW9zaXR5LCBJIHRyYW5zZm9ybSBjb21wbGV4IGRhdGEgaW50byBzbWFydCBzb2x1dGlvbnMuIn0sImVsZW1lbnRzIjpbXSwid2lkZ2V0VHlwZSI6InRmLWNhbGwtdG8tYWN0aW9uIn0=\"][elementor-element k=\"c010cd8ff4f965e048f9b6fbe35c07c1\" data=\"eyJpZCI6IjVkNjc3N2MiLCJlbFR5cGUiOiJ3aWRnZXQiLCJzZXR0aW5ncyI6eyJsaXN0IjpbeyJ0aXRsZSI6IkFJLVBvd2VyZWQgQ2hhdGJvdCIsImRlc2NyaXB0aW9uIjoiU2FhcyBEYXNoYm9hcmQiLCJfaWQiOiI3YmYxMTQwIiwiaW1hZ2VfdGh1bWIiOnsidXJsIjoiaHR0cHM6XC9cL3plbmcuYXV0b2RlYWx3b3JkcHJlc3MuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI1XC8wNlwvcG9ydGZvbGlvLWl0ZW0tMS0xLndlYnAiLCJpZCI6MTE0OSwic2l6ZSI6IiIsImFsdCI6IiIsInNvdXJjZSI6ImxpYnJhcnkifSwibnVtYmVyX3N0ZXAiOiIyMDAwIn0seyJ0aXRsZSI6IkFJLVBvd2VyZWQgQ2hhdGJvdCIsImRlc2NyaXB0aW9uIjoiQ29udmVyc2F0aW9uYWwgQUkiLCJpbWFnZV90aHVtYiI6eyJ1cmwiOiJodHRwczpcL1wvemVuZy5hdXRvZGVhbHdvcmRwcmVzcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjVcLzA3XC9wb3J0Zm9saW8taXRlbS0zLTEud2VicCIsImlkIjoxNzUxLCJzaXplIjoiIiwiYWx0IjoiIiwic291cmNlIjoibGlicmFyeSJ9LCJudW1iZXJfc3RlcCI6IjIwMDAiLCJfaWQiOiI5NzY1YzYyIn0seyJ0aXRsZSI6IlJlYWwtVGltZSBPYmplY3QgRGV0ZWN0aW9uIiwiZGVzY3JpcHRpb24iOiJBcHAgQUkiLCJpbWFnZV90aHVtYiI6eyJ1cmwiOiJodHRwczpcL1wvemVuZy5hdXRvZGVhbHdvcmRwcmVzcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjVcLzA3XC9wb3J0Zm9saW8taXRlbS0yLTEud2VicCIsImlkIjoxNzUwLCJzaXplIjoiIiwiYWx0IjoiIiwic291cmNlIjoibGlicmFyeSJ9LCJudW1iZXJfc3RlcCI6IjIwMDAiLCJfaWQiOiI1MmJkYTU1In0seyJ0aXRsZSI6IlJlc3VtZSBaZW5HIHBybyIsImRlc2NyaXB0aW9uIjoiUmVzdW1lIFBybyIsImltYWdlX3RodW1iIjp7InVybCI6Imh0dHBzOlwvXC96ZW5nLmF1dG9kZWFsd29yZHByZXNzLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDdcL3BvcnRmb2xpby1pdGVtLTQtMS53ZWJwIiwiaWQiOjE3NTIsInNpemUiOiIiLCJhbHQiOiIiLCJzb3VyY2UiOiJsaWJyYXJ5In0sIm51bWJlcl9zdGVwIjoiMjAwMCIsIl9pZCI6IjEzYTk3OWEifV19LCJlbGVtZW50cyI6W10sIndpZGdldFR5cGUiOiJ0Zi1wcm9qZWN0In0=\"]\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t<div class=\"elementor-element elementor-element-185d7a1 section-one-page e-flex e-con-boxed e-con e-parent\" data-id=\"185d7a1\" data-element_type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t[elementor-element k=\"c010cd8ff4f965e048f9b6fbe35c07c1\" data=\"eyJpZCI6IjMzYzY0N2MiLCJlbFR5cGUiOiJ3aWRnZXQiLCJzZXR0aW5ncyI6eyJoZWFkaW5nIjoidGVzdGltb25pYWxzIiwibGlzdCI6W3siYW5pbWF0ZV90ZXh0IjoiU3Rvcnl0ZWxsZXIiLCJfaWQiOiJiNmVjY2IyIn0seyJhbmltYXRlX3RleHQiOiJOYXJyYXRvciIsIl9pZCI6IjdjMDZiN2EifV0sImRlc2NyaXB0aW9uIjoiVHJ1c3RlZCBieSBDbGllbnRzIiwiYnV0dG9uX3RleHQiOiJDb250YWN0IFVzIiwiaGVhZGluZ19yaWdodCI6IldIQVQgSSBBTSBET0lORyIsImxpc3QyIjpbeyJjb250ZW50X3RleHQiOiJQaG90b2dyYXBoZXIiLCJfaWQiOiI4NmMxMGM5In0seyJjb250ZW50X3RleHQiOiJMaWZlc3R5bGUgQmxvZ2dlciIsIl9pZCI6IjgyMDBmMGYifSx7ImNvbnRlbnRfdGV4dCI6IkNvbnRlbnQgQ3JlYXRvciIsIl9pZCI6ImQ0ZTUwOWEifV0sIl9tYXJnaW4iOnsidW5pdCI6InB4IiwidG9wIjoiMCIsInJpZ2h0IjoiMCIsImJvdHRvbSI6IjAiLCJsZWZ0IjoiMCIsImlzTGlua2VkIjpmYWxzZX0sIl9wYWRkaW5nIjp7InVuaXQiOiJweCIsInRvcCI6IjAiLCJyaWdodCI6IjAiLCJib3R0b20iOiIwIiwibGVmdCI6IjAiLCJpc0xpbmtlZCI6ZmFsc2V9LCJUaXRsZSI6IlJlc3VtZSIsInRpdGxlLWhlZGluZyI6IkVtcG93ZXIgQ29kZSBJbnRlbGxpZ2VuY2UiLCJkZXNjcmlwdGlvbi1oZWRpbmciOiJIZWxsbyEgSW0gWmVuRywgYW4gQUkgRGV2ZWxvcGVyIHdpdGggMTAgeWVhcnMgb2YgZXhwZXJpZW5jZSBpbiBkZXNpZ25pbmcgYW5kIGRldmVsb3BpbmcgaW50ZWxsaWdlbnQgc3lzdGVtcy4gTXkgZXhwZXJ0aXNlIHNwYW5zIG1hY2hpbmUgbGVhcm5pbmcsIG5hdHVyYWwgbGFuZ3VhZ2UgcHJvY2Vzc2luZywgY29tcHV0ZXIgdmlzaW9uLCBhbmQgZGF0YSBhbmFseXNpcy4gRHJpdmVuIGJ5IGN1cmlvc2l0eSwgSSB0cmFuc2Zvcm0gY29tcGxleCBkYXRhIGludG8gc21hcnQgc29sdXRpb25zLiIsImNvbnRlbnRfbWFyZ2luIjp7InVuaXQiOiJweCIsInRvcCI6IjAiLCJyaWdodCI6IjAiLCJib3R0b20iOiIwIiwibGVmdCI6IjAiLCJpc0xpbmtlZCI6dHJ1ZX0sImhlYWRpbmdfbWFyZ2luIjp7InVuaXQiOiJweCIsInRvcCI6IjAiLCJyaWdodCI6IjAiLCJib3R0b20iOiIzNCIsImxlZnQiOiIwIiwiaXNMaW5rZWQiOmZhbHNlfX0sImVsZW1lbnRzIjpbXSwid2lkZ2V0VHlwZSI6InRmLWNhbGwtdG8tYWN0aW9uIn0=\"][elementor-element k=\"c010cd8ff4f965e048f9b6fbe35c07c1\" data=\"eyJpZCI6ImFlY2RhZjkiLCJlbFR5cGUiOiJ3aWRnZXQiLCJzZXR0aW5ncyI6eyJsaXN0IjpbeyJuYW1lIjoiTGluY29sbiBQcmVzcyIsInBvc2l0aW9uIjoiQ0VPIEF2aXRleCIsImRlc2NyaXB0aW9uIjoiWmVuRyBpcyBvbmUgb2YgdGhlIG1vc3QgcmVsaWFibGUgZGV2ZWxvcGVycyBJJ3ZlIGV2ZXIgd29ya2VkIHdpdGguIEhlXHUyMDE5cyBkZXRhaWwtb3JpZW50ZWQsIHJlc3BvbnNpdmUsIGFuZCBhbHdheXMgZGVsaXZlcnMgY2xlYW4sIHNjYWxhYmxlIGNvZGUuIEhpZ2hseSByZWNvbW1lbmRlZCFcIiIsIl9pZCI6ImU2MzUxYWIifSx7Im5hbWUiOiJDaGV5ZW5uZSBNYW5nbyIsInBvc2l0aW9uIjoiQ1RPIGF0IE1la28gQXBwIiwiZGVzY3JpcHRpb24iOiJaZW5HIG1hbmFnZWQgb3VyIHByb2plY3Qgd2l0aCBpbXByZXNzaXZlIGVmZmljaWVuY3kgYW5kIGNsYXJpdHkuIERlYWRsaW5lcyB3ZXJlIG1ldCwgY29tbXVuaWNhdGlvbiB3YXMgc21vb3RoLCBhbmQgdGhlIG91dGNvbWUgd2FzIGV4YWN0bHkgd2hhdCB3ZSBob3BlZCBmb3IuXCIiLCJfaWQiOiIzMjBlNTZjIn0seyJuYW1lIjoiTGluY29sbiBQcmVzcyIsInBvc2l0aW9uIjoiQ0VPIEF2aXRleCIsImRlc2NyaXB0aW9uIjoiWmVuRyBpcyBvbmUgb2YgdGhlIG1vc3QgcmVsaWFibGUgZGV2ZWxvcGVycyBJJ3ZlIGV2ZXIgd29ya2VkIHdpdGguIEhlXHUyMDE5cyBkZXRhaWwtb3JpZW50ZWQsIHJlc3BvbnNpdmUsIGFuZCBhbHdheXMgZGVsaXZlcnMgY2xlYW4sIHNjYWxhYmxlIGNvZGUuIEhpZ2hseSByZWNvbW1lbmRlZCFcIiIsIl9pZCI6IjI3MjBhN2UifSx7Im5hbWUiOiJDaGV5ZW5uZSBNYW5nbyIsInBvc2l0aW9uIjoiQ1RPIGF0IE1la28gQXBwIiwiZGVzY3JpcHRpb24iOiJaZW5HIG1hbmFnZWQgb3VyIHByb2plY3Qgd2l0aCBpbXByZXNzaXZlIGVmZmljaWVuY3kgYW5kIGNsYXJpdHkuIERlYWRsaW5lcyB3ZXJlIG1ldCwgY29tbXVuaWNhdGlvbiB3YXMgc21vb3RoLCBhbmQgdGhlIG91dGNvbWUgd2FzIGV4YWN0bHkgd2hhdCB3ZSBob3BlZCBmb3IuXCIiLCJfaWQiOiI1NjU5Y2M0In1dLCJfZWxlbWVudF9jdXN0b21fd2lkdGgiOnsidW5pdCI6InB4Iiwic2l6ZSI6NzcwLCJzaXplcyI6W119LCJzcGFjZV9iZXR3ZWVuIjo0NCwic3BhY2VfYmV0d2Vlbl90YWJsZXQiOjIyLCJzcGFjZV9iZXR3ZWVuX21vYmlsZSI6MTEsIl9jc3NfY2xhc3NlcyI6InN0eWxlMSJ9LCJlbGVtZW50cyI6W10sIndpZGdldFR5cGUiOiJ0Zi10ZXN0aW1vbmlhbCJ9\"]\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t<div class=\"elementor-element elementor-element-00bd2fa section-one-page e-flex e-con-boxed e-con e-parent\" data-id=\"00bd2fa\" data-element_type=\"container\" id=\"pricing\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t[elementor-element k=\"c010cd8ff4f965e048f9b6fbe35c07c1\" data=\"eyJpZCI6IjJjMjRhOWMiLCJlbFR5cGUiOiJ3aWRnZXQiLCJzZXR0aW5ncyI6eyJoZWFkaW5nIjoiUHJpY2luZyIsImxpc3QiOlt7ImFuaW1hdGVfdGV4dCI6IlN0b3J5dGVsbGVyIiwiX2lkIjoiYjZlY2NiMiJ9LHsiYW5pbWF0ZV90ZXh0IjoiTmFycmF0b3IiLCJfaWQiOiI3YzA2YjdhIn1dLCJkZXNjcmlwdGlvbiI6Ik15IFByaWNpbmciLCJidXR0b25fdGV4dCI6IkNvbnRhY3QgVXMiLCJoZWFkaW5nX3JpZ2h0IjoiV0hBVCBJIEFNIERPSU5HIiwibGlzdDIiOlt7ImNvbnRlbnRfdGV4dCI6IlBob3RvZ3JhcGhlciIsIl9pZCI6Ijg2YzEwYzkifSx7ImNvbnRlbnRfdGV4dCI6IkxpZmVzdHlsZSBCbG9nZ2VyIiwiX2lkIjoiODIwMGYwZiJ9LHsiY29udGVudF90ZXh0IjoiQ29udGVudCBDcmVhdG9yIiwiX2lkIjoiZDRlNTA5YSJ9XSwiX21hcmdpbiI6eyJ1bml0IjoicHgiLCJ0b3AiOiIwIiwicmlnaHQiOiIwIiwiYm90dG9tIjoiMCIsImxlZnQiOiIwIiwiaXNMaW5rZWQiOmZhbHNlfSwiX3BhZGRpbmciOnsidW5pdCI6InB4IiwidG9wIjoiMCIsInJpZ2h0IjoiMCIsImJvdHRvbSI6IjAiLCJsZWZ0IjoiMCIsImlzTGlua2VkIjpmYWxzZX0sIlRpdGxlIjoiUmVzdW1lIiwidGl0bGUtaGVkaW5nIjoiRW1wb3dlciBDb2RlIEludGVsbGlnZW5jZSIsImRlc2NyaXB0aW9uLWhlZGluZyI6IkhlbGxvISBJbSBaZW5HLCBhbiBBSSBEZXZlbG9wZXIgd2l0aCAxMCB5ZWFycyBvZiBleHBlcmllbmNlIGluIGRlc2lnbmluZyBhbmQgZGV2ZWxvcGluZyBpbnRlbGxpZ2VudCBzeXN0ZW1zLiBNeSBleHBlcnRpc2Ugc3BhbnMgbWFjaGluZSBsZWFybmluZywgbmF0dXJhbCBsYW5ndWFnZSBwcm9jZXNzaW5nLCBjb21wdXRlciB2aXNpb24sIGFuZCBkYXRhIGFuYWx5c2lzLiBEcml2ZW4gYnkgY3VyaW9zaXR5LCBJIHRyYW5zZm9ybSBjb21wbGV4IGRhdGEgaW50byBzbWFydCBzb2x1dGlvbnMuIiwiY29udGVudF9tYXJnaW4iOnsidW5pdCI6InB4IiwidG9wIjoiMCIsInJpZ2h0IjoiMCIsImJvdHRvbSI6IjQ0IiwibGVmdCI6IjAiLCJpc0xpbmtlZCI6ZmFsc2V9fSwiZWxlbWVudHMiOltdLCJ3aWRnZXRUeXBlIjoidGYtY2FsbC10by1hY3Rpb24ifQ==\"][elementor-element k=\"c010cd8ff4f965e048f9b6fbe35c07c1\" data=\"eyJpZCI6IjA2NGEyYmUiLCJlbFR5cGUiOiJ3aWRnZXQiLCJzZXR0aW5ncyI6eyJ0YWJfbGlzdCI6W3siX2lkIjoiODkzOWE3MiIsImxpc3RfdGl0bGUiOiJTdGFuZGFyZCBQbGFuIiwiZGVzY3JpcHRpb24iOiI8dWw+PGxpPjYwIGtleXdvcmRzPFwvbGk+PGxpPjYsMDAwIG1vbnRobHkgd2Vic2l0ZSB2aXNpdG9yczxcL2xpPjxsaT44IGJsb2dzIFwvIG1vbnRoPFwvbGk+PGxpPjEwIHF1YWxpdHkgYmFja2xpbmtzIFwvIG1vbnRoPFwvbGk+PFwvdWw+IiwibGlzdF9wcmljZSI6IiQyOSIsImxpc3RfcGVyIjoiXC9wZXIgaG91ciIsInRpdGxlLWJ0biI6IkdldCBTdGFydGVkISJ9LHsibGlzdF90aXRsZSI6IlByZW1pdW0gUGxhbiIsImRlc2NyaXB0aW9uIjoiPHVsPjxsaT45MCBrZXl3b3JkczxcL2xpPjxsaT45LDAwMCBtb250aGx5IHdlYnNpdGUgdmlzaXRvcnM8XC9saT48bGk+OSBibG9ncyBcLyBtb250aDxcL2xpPjxsaT45OSBxdWFsaXR5IGJhY2tsaW5rcyBcLyBtb250aDxcL2xpPjxcL3VsPiIsImxpc3RfcHJpY2UiOiIkOTkiLCJsaXN0X3BlciI6IlwvcGVyIGhvdXIiLCJ0aXRsZS1idG4iOiJHZXQgU3RhcnRlZCEiLCJfaWQiOiIxM2UwMjVlIn1dfSwiZWxlbWVudHMiOltdLCJ3aWRnZXRUeXBlIjoidGZ0YWJzIn0=\"]\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t<div class=\"elementor-element elementor-element-8d5042c e-flex e-con-boxed e-con e-parent\" data-id=\"8d5042c\" data-element_type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-350dcc9 e-con-full e-flex e-con e-child\" data-id=\"350dcc9\" data-element_type=\"container\">\n\t\t[elementor-element k=\"c010cd8ff4f965e048f9b6fbe35c07c1\" data=\"eyJpZCI6IjJmYTU2N2MiLCJlbFR5cGUiOiJ3aWRnZXQiLCJzZXR0aW5ncyI6eyJoZWFkaW5nIjoiUGFydG5lciIsImxpc3QiOlt7ImFuaW1hdGVfdGV4dCI6IlN0b3J5dGVsbGVyIiwiX2lkIjoiYjZlY2NiMiJ9LHsiYW5pbWF0ZV90ZXh0IjoiTmFycmF0b3IiLCJfaWQiOiI3YzA2YjdhIn1dLCJkZXNjcmlwdGlvbiI6IlRydXN0ZWQgYnkgMTAwKyBCcmFuZHMgV29ybGR3aWRlIiwiYnV0dG9uX3RleHQiOiJDb250YWN0IFVzIiwiaGVhZGluZ19yaWdodCI6IldIQVQgSSBBTSBET0lORyIsImxpc3QyIjpbeyJjb250ZW50X3RleHQiOiJQaG90b2dyYXBoZXIiLCJfaWQiOiI4NmMxMGM5In0seyJjb250ZW50X3RleHQiOiJMaWZlc3R5bGUgQmxvZ2dlciIsIl9pZCI6IjgyMDBmMGYifSx7ImNvbnRlbnRfdGV4dCI6IkNvbnRlbnQgQ3JlYXRvciIsIl9pZCI6ImQ0ZTUwOWEifV0sIl9tYXJnaW4iOnsidW5pdCI6InB4IiwidG9wIjoiMTciLCJyaWdodCI6IjAiLCJib3R0b20iOiIwIiwibGVmdCI6IjAiLCJpc0xpbmtlZCI6ZmFsc2V9LCJfcGFkZGluZyI6eyJ1bml0IjoicHgiLCJ0b3AiOiIwIiwicmlnaHQiOiIwIiwiYm90dG9tIjoiMCIsImxlZnQiOiIwIiwiaXNMaW5rZWQiOmZhbHNlfSwiVGl0bGUiOiJSZXN1bWUiLCJ0aXRsZS1oZWRpbmciOiJFbXBvd2VyIENvZGUgSW50ZWxsaWdlbmNlIiwiZGVzY3JpcHRpb24taGVkaW5nIjoiSGVsbG8hIEltIFplbkcsIGFuIEFJIERldmVsb3BlciB3aXRoIDEwIHllYXJzIG9mIGV4cGVyaWVuY2UgaW4gZGVzaWduaW5nIGFuZCBkZXZlbG9waW5nIGludGVsbGlnZW50IHN5c3RlbXMuIE15IGV4cGVydGlzZSBzcGFucyBtYWNoaW5lIGxlYXJuaW5nLCBuYXR1cmFsIGxhbmd1YWdlIHByb2Nlc3NpbmcsIGNvbXB1dGVyIHZpc2lvbiwgYW5kIGRhdGEgYW5hbHlzaXMuIERyaXZlbiBieSBjdXJpb3NpdHksIEkgdHJhbnNmb3JtIGNvbXBsZXggZGF0YSBpbnRvIHNtYXJ0IHNvbHV0aW9ucy4iLCJjb250ZW50X21hcmdpbiI6eyJ1bml0IjoicHgiLCJ0b3AiOiIwIiwicmlnaHQiOiIwIiwiYm90dG9tIjoiMCIsImxlZnQiOiIwIiwiaXNMaW5rZWQiOmZhbHNlfSwiZGVzY3JpcHRpb25fbWFyZ2luIjp7InVuaXQiOiJweCIsInRvcCI6IjAiLCJyaWdodCI6IjAiLCJib3R0b20iOiIwIiwibGVmdCI6IjAiLCJpc0xpbmtlZCI6ZmFsc2V9fSwiZWxlbWVudHMiOltdLCJ3aWRnZXRUeXBlIjoidGYtY2FsbC10by1hY3Rpb24ifQ==\"]\t\t<\/div>\n\t\t<div class=\"elementor-element elementor-element-fd61acd e-con-full e-flex e-con e-child\" data-id=\"fd61acd\" data-element_type=\"container\">\n\t\t[elementor-element k=\"c010cd8ff4f965e048f9b6fbe35c07c1\" data=\"eyJpZCI6ImNkNGY5MjEiLCJlbFR5cGUiOiJ3aWRnZXQiLCJzZXR0aW5ncyI6eyJwYXJ0bmVyX2xpc3QiOlt7ImltYWdlIjp7InVybCI6Imh0dHBzOlwvXC96ZW5nLmF1dG9kZWFsd29yZHByZXNzLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDZcL3BhcnRuZXItMS5wbmciLCJpZCI6MTM0MCwic2l6ZSI6IiIsImFsdCI6IiIsInNvdXJjZSI6ImxpYnJhcnkifSwic2Nyb2xsX2VmZmVjdCI6InNjcm9sbGluZy1lZmZlY3QgZWZmZWN0Wm9vbUluIiwiZGVsYXkiOiIwLjMiLCJsaW5rIjp7InVybCI6IiMiLCJpc19leHRlcm5hbCI6IiIsIm5vZm9sbG93IjoiIiwiY3VzdG9tX2F0dHJpYnV0ZXMiOiIifSwiX2lkIjoiNmE1OTc0NyJ9LHsiaW1hZ2UiOnsidXJsIjoiaHR0cHM6XC9cL3plbmcuYXV0b2RlYWx3b3JkcHJlc3MuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI1XC8wNlwvcGFydG5lci0zLnBuZyIsImlkIjoxMzQyLCJzaXplIjoiIiwiYWx0IjoiIiwic291cmNlIjoibGlicmFyeSJ9LCJzaXplX2NsYXNzIjoic3otODAiLCJzY3JvbGxfZWZmZWN0Ijoic2Nyb2xsaW5nLWVmZmVjdCBlZmZlY3Rab29tSW4iLCJkZWxheSI6IjAuMyIsImxpbmsiOnsidXJsIjoiIyIsImlzX2V4dGVybmFsIjoiIiwibm9mb2xsb3ciOiIiLCJjdXN0b21fYXR0cmlidXRlcyI6IiJ9LCJfaWQiOiIxNjY2YzQ5In0seyJpbWFnZSI6eyJ1cmwiOiJodHRwczpcL1wvemVuZy5hdXRvZGVhbHdvcmRwcmVzcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjVcLzA2XC9wYXJ0bmVyLTIucG5nIiwiaWQiOjEzNDEsInNpemUiOiIiLCJhbHQiOiIiLCJzb3VyY2UiOiJsaWJyYXJ5In0sInNpemVfY2xhc3MiOiJzei04MCIsInNjcm9sbF9lZmZlY3QiOiJzY3JvbGxpbmctZWZmZWN0IGVmZmVjdFpvb21JbiIsImRlbGF5IjoiMC4zIiwibGluayI6eyJ1cmwiOiIjIiwiaXNfZXh0ZXJuYWwiOiIiLCJub2ZvbGxvdyI6IiIsImN1c3RvbV9hdHRyaWJ1dGVzIjoiIn0sIl9pZCI6IjIxMzNlOTQifSx7ImltYWdlIjp7InVybCI6Imh0dHBzOlwvXC96ZW5nLmF1dG9kZWFsd29yZHByZXNzLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDZcL3BhcnRuZXItNS5wbmciLCJpZCI6MTM0NCwic2l6ZSI6IiIsImFsdCI6IiIsInNvdXJjZSI6ImxpYnJhcnkifSwic2l6ZV9jbGFzcyI6InN6LTYwIiwic2Nyb2xsX2VmZmVjdCI6InNjcm9sbGluZy1lZmZlY3QgZWZmZWN0Wm9vbUluIiwiZGVsYXkiOiIwLjMiLCJsaW5rIjp7InVybCI6IiMiLCJpc19leHRlcm5hbCI6IiIsIm5vZm9sbG93IjoiIiwiY3VzdG9tX2F0dHJpYnV0ZXMiOiIifSwiX2lkIjoiODEwODJmYyJ9LHsiaW1hZ2UiOnsidXJsIjoiaHR0cHM6XC9cL3plbmcuYXV0b2RlYWx3b3JkcHJlc3MuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI1XC8wNlwvcGFydG5lci04LnBuZyIsImlkIjoxMzQ3LCJzaXplIjoiIiwiYWx0IjoiIiwic291cmNlIjoibGlicmFyeSJ9LCJzaXplX2NsYXNzIjoic3otNjAiLCJzY3JvbGxfZWZmZWN0Ijoic2Nyb2xsaW5nLWVmZmVjdCBlZmZlY3Rab29tSW4iLCJkZWxheSI6IjAuMyIsImxpbmsiOnsidXJsIjoiIyIsImlzX2V4dGVybmFsIjoiIiwibm9mb2xsb3ciOiIiLCJjdXN0b21fYXR0cmlidXRlcyI6IiJ9LCJfaWQiOiJiYzhjZDAzIn0seyJpbWFnZSI6eyJ1cmwiOiJodHRwczpcL1wvemVuZy5hdXRvZGVhbHdvcmRwcmVzcy5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjVcLzA2XC9wYXJ0bmVyLTYucG5nIiwiaWQiOjEzNDUsInNpemUiOiIiLCJhbHQiOiIiLCJzb3VyY2UiOiJsaWJyYXJ5In0sInNjcm9sbF9lZmZlY3QiOiJzY3JvbGxpbmctZWZmZWN0IGVmZmVjdFpvb21JbiIsImRlbGF5IjoiMC4zIiwibGluayI6eyJ1cmwiOiIjIiwiaXNfZXh0ZXJuYWwiOiIiLCJub2ZvbGxvdyI6IiIsImN1c3RvbV9hdHRyaWJ1dGVzIjoiIn0sIl9pZCI6IjdlYzVmNzgifSx7ImltYWdlIjp7InVybCI6Imh0dHBzOlwvXC96ZW5nLmF1dG9kZWFsd29yZHByZXNzLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDZcL3BhcnRuZXItOS5wbmciLCJpZCI6MTM0OCwic2l6ZSI6IiIsImFsdCI6IiIsInNvdXJjZSI6ImxpYnJhcnkifSwic2l6ZV9jbGFzcyI6InN6LTIwMCIsInNjcm9sbF9lZmZlY3QiOiJzY3JvbGxpbmctZWZmZWN0IGVmZmVjdFpvb21JbiIsImRlbGF5IjoiMC4zIiwibGluayI6eyJ1cmwiOiIjIiwiaXNfZXh0ZXJuYWwiOiIiLCJub2ZvbGxvdyI6IiIsImN1c3RvbV9hdHRyaWJ1dGVzIjoiIn0sIl9pZCI6IjlkZmE0ZDkifSx7ImltYWdlIjp7InVybCI6Imh0dHBzOlwvXC96ZW5nLmF1dG9kZWFsd29yZHByZXNzLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDZcL3BhcnRuZXItNC5wbmciLCJpZCI6MTM0Mywic2l6ZSI6IiIsImFsdCI6IiIsInNvdXJjZSI6ImxpYnJhcnkifSwic2l6ZV9jbGFzcyI6InN6LTE2MCIsInNjcm9sbF9lZmZlY3QiOiJzY3JvbGxpbmctZWZmZWN0IGVmZmVjdFpvb21JbiIsImRlbGF5IjoiMC4zIiwibGluayI6eyJ1cmwiOiIjIiwiaXNfZXh0ZXJuYWwiOiIiLCJub2ZvbGxvdyI6IiIsImN1c3RvbV9hdHRyaWJ1dGVzIjoiIn0sIl9pZCI6IjcwZWJlMzcifSx7ImltYWdlIjp7InVybCI6Imh0dHBzOlwvXC96ZW5nLmF1dG9kZWFsd29yZHByZXNzLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDZcL3BhcnRuZXItNy5wbmciLCJpZCI6MTM0Niwic2l6ZSI6IiIsImFsdCI6IiIsInNvdXJjZSI6ImxpYnJhcnkifSwic2l6ZV9jbGFzcyI6InN6LTEyMCIsInNjcm9sbF9lZmZlY3QiOiJzY3JvbGxpbmctZWZmZWN0IGVmZmVjdFpvb21JbiIsImRlbGF5IjoiMC4zIiwibGluayI6eyJ1cmwiOiIjIiwiaXNfZXh0ZXJuYWwiOiIiLCJub2ZvbGxvdyI6IiIsImN1c3RvbV9hdHRyaWJ1dGVzIjoiIn0sIl9pZCI6IjQyMmU3N2EifSx7ImltYWdlIjp7InVybCI6Imh0dHBzOlwvXC96ZW5nLmF1dG9kZWFsd29yZHByZXNzLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDZcL3BhcnRuZXItNy5wbmciLCJpZCI6MTM0Niwic2l6ZSI6IiIsImFsdCI6IiIsInNvdXJjZSI6ImxpYnJhcnkifSwic2l6ZV9jbGFzcyI6InN6LTEyMCIsInNjcm9sbF9lZmZlY3QiOiJzY3JvbGxpbmctZWZmZWN0IGVmZmVjdFpvb21JbiIsImRlbGF5IjoiMC4zIiwibGluayI6eyJ1cmwiOiIjIiwiaXNfZXh0ZXJuYWwiOiIiLCJub2ZvbGxvdyI6IiIsImN1c3RvbV9hdHRyaWJ1dGVzIjoiIn0sIl9pZCI6Ijc4YzczMjMifSx7ImltYWdlIjp7InVybCI6Imh0dHBzOlwvXC96ZW5nLmF1dG9kZWFsd29yZHByZXNzLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDZcL3BhcnRuZXItNi5wbmciLCJpZCI6MTM0NSwic2l6ZSI6IiIsImFsdCI6IiIsInNvdXJjZSI6ImxpYnJhcnkifSwic2Nyb2xsX2VmZmVjdCI6InNjcm9sbGluZy1lZmZlY3QgZWZmZWN0Wm9vbUluIiwiZGVsYXkiOiIwLjMiLCJsaW5rIjp7InVybCI6IiMiLCJpc19leHRlcm5hbCI6IiIsIm5vZm9sbG93IjoiIiwiY3VzdG9tX2F0dHJpYnV0ZXMiOiIifSwiX2lkIjoiYTdmY2NjNSJ9LHsiaW1hZ2UiOnsidXJsIjoiaHR0cHM6XC9cL3plbmcuYXV0b2RlYWx3b3JkcHJlc3MuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI1XC8wNlwvcGFydG5lci0zLnBuZyIsImlkIjoxMzQyLCJzaXplIjoiIiwiYWx0IjoiIiwic291cmNlIjoibGlicmFyeSJ9LCJzaXplX2NsYXNzIjoic3otODAiLCJzY3JvbGxfZWZmZWN0Ijoic2Nyb2xsaW5nLWVmZmVjdCBlZmZlY3Rab29tSW4iLCJkZWxheSI6IjAuMyIsImxpbmsiOnsidXJsIjoiIyIsImlzX2V4dGVybmFsIjoiIiwibm9mb2xsb3ciOiIiLCJjdXN0b21fYXR0cmlidXRlcyI6IiJ9LCJfaWQiOiIwZDMxZWM5In1dLCJfZWxlbWVudF9jdXN0b21fd2lkdGhfdGFibGV0Ijp7InVuaXQiOiIlIiwic2l6ZSI6IiIsInNpemVzIjpbXX0sIl9lbGVtZW50X2N1c3RvbV93aWR0aF9tb2JpbGUiOnsidW5pdCI6IiUiLCJzaXplIjoiIiwic2l6ZXMiOltdfX0sImVsZW1lbnRzIjpbXSwid2lkZ2V0VHlwZSI6InRmLWltYWdlLXNsaWRlciJ9\"]\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t<div class=\"elementor-element elementor-element-330fde1 section-one-page e-flex e-con-boxed e-con e-parent\" data-id=\"330fde1\" data-element_type=\"container\" id=\"contact\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-58cb67d e-con-full e-flex e-con e-child\" data-id=\"58cb67d\" data-element_type=\"container\">\n\t\t[elementor-element k=\"c010cd8ff4f965e048f9b6fbe35c07c1\" data=\"eyJpZCI6ImVlOWE1NjgiLCJlbFR5cGUiOiJ3aWRnZXQiLCJzZXR0aW5ncyI6eyJoZWFkaW5nIjoiQ29udGFjdCIsImRlc2NyaXB0aW9uIjoiTGV0cyIsImxpc3QiOlt7ImFuaW1hdGVfdGV4dCI6IkRlc2lnbiIsIl9pZCI6IjQ1Yzk5NjYifSx7ImFuaW1hdGVfdGV4dCI6IkRlc2lnbiAxIiwiX2lkIjoiYTYyNTVlMCJ9XSwiZGVzY3JpcHRpb24yIjoiaW5jcmVkaWJsZSB3b3JrIHRvZ2V0aGVyIiwidGl0bGUtaGVkaW5nIjoiZXhhbXBsZUBnbWFpbC5jb20iLCJkZXNjcmlwdGlvbi1oZWRpbmciOiJCYXNlZCBpbiBTYW4gRnJhbmNpc2NvLCBDQSAiLCJpY29uX2xpc3QiOlt7Il9pZCI6ImM4ODc1MGMiLCJpY29uIjp7InZhbHVlIjoiZmFiIGZhLWxpbmtlZGluIiwibGlicmFyeSI6ImZhLWJyYW5kcyJ9fSx7Imljb24iOnsidmFsdWUiOiJmYWIgZmEtZ2l0aHViIiwibGlicmFyeSI6ImZhLWJyYW5kcyJ9LCJfaWQiOiI5N2U2NDBmIn0seyJpY29uIjp7InZhbHVlIjoiZmFiIGZhLXgtdHdpdHRlciIsImxpYnJhcnkiOiJmYS1icmFuZHMifSwiX2lkIjoiMjc1MjRjNyJ9LHsiX2lkIjoiZDhmZmI0NCIsImljb24iOnsidmFsdWUiOiJmYWIgZmEtZHJpYmJibGUiLCJsaWJyYXJ5IjoiZmEtYnJhbmRzIn19XSwiY2Y3X3Nob3J0Y29kZSI6Iltjb250YWN0LWZvcm0tNyBpZD1cIjhiZWQwMDFcIiB0aXRsZT1cIkZvcm0gQ29udGFjdFwiXSIsImRlc2NyaXB0aW9uX21hcmdpbiI6eyJ1bml0IjoicHgiLCJ0b3AiOiIwIiwicmlnaHQiOiIwIiwiYm90dG9tIjoiMTAiLCJsZWZ0IjoiMCIsImlzTGlua2VkIjpmYWxzZX19LCJlbGVtZW50cyI6W10sIndpZGdldFR5cGUiOiJ0Zi1mb3JtIn0=\"]\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t","scripts":[],"styles":[]}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -4789,6 +4909,878 @@
 		</wp:postmeta>
 							</item>
 					<item>
+		<title><![CDATA[]]></title>
+		<link>https://zeng.autodealwordpress.com/2190/</link>
+		<pubDate>Fri, 01 Aug 2025 08:08:42 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2190</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2190</wp:post_id>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[2190]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2183]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1571]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>https://zeng.autodealwordpress.com/2191/</link>
+		<pubDate>Fri, 01 Aug 2025 08:08:42 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2191</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2191</wp:post_id>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[2191]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2183]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1565]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Home Looping Particle Animation]]></title>
+		<link>https://zeng.autodealwordpress.com/home-looping-particle-animation/</link>
+		<pubDate>Fri, 01 Aug 2025 08:08:42 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2192</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2192</wp:post_id>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-looping-particle-animation]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>16</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2494]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1971]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Home Particle Wave Form]]></title>
+		<link>https://zeng.autodealwordpress.com/home-particle-wave-form/</link>
+		<pubDate>Fri, 01 Aug 2025 08:08:42 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2193</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2193</wp:post_id>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-particle-wave-form]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>11</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2494]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1970]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Home Seamless Particle Glow]]></title>
+		<link>https://zeng.autodealwordpress.com/home-seamless-particle-glow/</link>
+		<pubDate>Fri, 01 Aug 2025 08:08:42 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2194</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2194</wp:post_id>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-seamless-particle-glow]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>12</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2494]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1972]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Home Slow-Motion Particle Wave]]></title>
+		<link>https://zeng.autodealwordpress.com/home-slow-motion-particle-wave/</link>
+		<pubDate>Fri, 01 Aug 2025 08:08:42 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2195</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2195</wp:post_id>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-slow-motion-particle-wave]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>15</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2494]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1968]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Home Solid Color Background]]></title>
+		<link>https://zeng.autodealwordpress.com/home-solid-color-background/</link>
+		<pubDate>Fri, 01 Aug 2025 08:08:42 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2196</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2196</wp:post_id>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-solid-color-background]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>13</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2494]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1975]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Home Vibrant Particle Glow]]></title>
+		<link>https://zeng.autodealwordpress.com/home-vibrant-particle-glow/</link>
+		<pubDate>Fri, 01 Aug 2025 08:08:42 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2197</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2197</wp:post_id>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-vibrant-particle-glow]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>14</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2494]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1966]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-01]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>https://zeng.autodealwordpress.com/2486/</link>
+		<pubDate>Wed, 20 Aug 2025 02:24:09 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2486</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2486</wp:post_id>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-08-20 02:24:09]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[2486]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>23</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1563]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
+		<wp:meta_value><![CDATA[icon-poll-h-solid]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-08-20]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Home Video Background]]></title>
+		<link>https://zeng.autodealwordpress.com/home-video-background/</link>
+		<pubDate>Fri, 22 Aug 2025 01:18:57 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2494</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2494</wp:post_id>
+		<wp:post_date><![CDATA[2025-08-22 01:18:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-22 01:18:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-22 01:18:57]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-video-background]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2183]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2494]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[#]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Future Trends in AI Development to Watch]]></title>
+		<link>https://zeng.autodealwordpress.com/future-trends-in-ai-development-to-watch/</link>
+		<pubDate>Fri, 30 May 2025 01:49:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://drozy.vithemes.com/?p=62</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Artificial Intelligence (AI) is no longer just a buzzword it’s shaping industries, transforming how we work, and creating entirely new career opportunities. For those aiming to become an AI Developer, the path is both challenging and rewarding. Here’s a structured guide to help you navigate your journey.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":2350,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://zeng.autodealwordpress.com/wp-content/uploads/2025/05/image-21312-1.jpg" alt="" class="wp-image-2350"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">1. Essential Skills for an AI Developer</h4>
+<!-- /wp:heading -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>To succeed as an AI Developer, you need a blend of technical and analytical skills.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Programming Languages: Python is the top choice, but R, Java, and C++ are also useful.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Mathematics &amp; Statistics: A strong foundation in linear algebra, calculus, and probability is critical.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Machine Learning Knowledge: Understanding algorithms, data preprocessing, and model evaluation is essential.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Problem-Solving Mindset: AI development often involves tackling complex, open-ended challenges.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:group -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">2. Tools and Frameworks You Should Know</h4>
+<!-- /wp:heading -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>An AI Developer’s efficiency comes from knowing the right tools.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>TensorFlow &amp; PyTorch: Popular deep learning frameworks for building and training models.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Scikit-learn: Great for classical machine learning algorithms.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Keras: User-friendly interface for deep learning projects.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>OpenAI API: For natural language processing and conversational AI.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Jupyter Notebook: An interactive environment for coding and data visualization.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:group -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">3. Building Your AI Career Path</h4>
+<!-- /wp:heading -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>Breaking into the AI field requires strategic planning.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Start Small: Begin with personal or open-source projects to build your portfolio.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Join Competitions: Platforms like Kaggle help you test your skills against global talent.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Network: Attend AI meetups, conferences, and online forums to connect with industry experts.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Keep Learning: AI evolves rapidly, so continuous upskilling is non-negotiable.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:group -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>“ An AI developer’s work goes beyond coding. it’s about designing systems that can learn, adapt, and solve problems in ways that push the boundaries of what technology can achieve. “</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Pixel Horizon</h5>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":6} -->
+<h6 class="wp-block-heading">ZenG</h6>
+<!-- /wp:heading --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:image {"id":2346,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://zeng.autodealwordpress.com/wp-content/uploads/2025/05/image-21308-1.jpg" alt="" class="wp-image-2346"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Final Thought:</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Becoming an AI Developer means committing to lifelong learning, mastering the right tools, and actively building a network in the tech community. With the right mix of skills and persistence, you can position yourself at the forefront of one of the most exciting fields in technology.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>62</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-30 01:49:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-30 01:49:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-08-15 07:27:02]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-08-15 07:27:02]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[future-trends-in-ai-development-to-watch]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="ai-applications"><![CDATA[AI Applications]]></category>
+		<category domain="post_tag" nicename="ai-development"><![CDATA[AI Development]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2347]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[post_views]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[10-simple-habits-to-build-a-more-joyful-and-fulfilling-life]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_youtube_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Navigation]]></title>
+		<link>https://zeng.autodealwordpress.com/navigation-2/</link>
+		<pubDate>Wed, 28 May 2025 01:32:48 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://drozy.vithemes.com/2025/05/28/navigation/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>994</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-28 01:32:48]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-28 01:32:48]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 01:32:48]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 01:32:48]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[navigation-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
 		<title><![CDATA[Futuristic Cyber Matrix]]></title>
 		<link>https://zeng.autodealwordpress.com/futuristic-cyber-matrix/</link>
 		<pubDate>Sat, 26 Jul 2025 06:37:57 +0000</pubDate>
@@ -5322,839 +6314,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_elementor_page_settings]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:4:{s:11:"hide_Footer";s:4:"none";s:16:"video_background";s:7:"video-9";s:16:"style_background";s:5:"video";s:14:"hide_actionbox";s:4:"none";}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[]]></title>
-		<link>https://zeng.autodealwordpress.com/2190/</link>
-		<pubDate>Fri, 01 Aug 2025 08:08:42 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2190</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2190</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[2190]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>3</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2183]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1571]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[]]></title>
-		<link>https://zeng.autodealwordpress.com/2191/</link>
-		<pubDate>Fri, 01 Aug 2025 08:08:42 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2191</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2191</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[2191]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2183]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1565]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Home Looping Particle Animation]]></title>
-		<link>https://zeng.autodealwordpress.com/home-looping-particle-animation/</link>
-		<pubDate>Fri, 01 Aug 2025 08:08:42 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2192</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2192</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[home-looping-particle-animation]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>15</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2183]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1971]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Home Particle Wave Form]]></title>
-		<link>https://zeng.autodealwordpress.com/home-particle-wave-form/</link>
-		<pubDate>Fri, 01 Aug 2025 08:08:42 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2193</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2193</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[home-particle-wave-form]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>10</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2183]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1970]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Home Seamless Particle Glow]]></title>
-		<link>https://zeng.autodealwordpress.com/home-seamless-particle-glow/</link>
-		<pubDate>Fri, 01 Aug 2025 08:08:42 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2194</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2194</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[home-seamless-particle-glow]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>11</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2183]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1972]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Home Slow-Motion Particle Wave]]></title>
-		<link>https://zeng.autodealwordpress.com/home-slow-motion-particle-wave/</link>
-		<pubDate>Fri, 01 Aug 2025 08:08:42 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2195</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2195</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[home-slow-motion-particle-wave]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>14</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2183]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1968]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Home Solid Color Background]]></title>
-		<link>https://zeng.autodealwordpress.com/home-solid-color-background/</link>
-		<pubDate>Fri, 01 Aug 2025 08:08:42 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2196</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2196</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[home-solid-color-background]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>12</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2183]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1975]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Home Vibrant Particle Glow]]></title>
-		<link>https://zeng.autodealwordpress.com/home-vibrant-particle-glow/</link>
-		<pubDate>Fri, 01 Aug 2025 08:08:42 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?p=2197</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2197</wp:post_id>
-		<wp:post_date><![CDATA[2025-08-01 08:13:04]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-08-01 08:08:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-01 08:13:04]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-01 08:13:04]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[home-vibrant-particle-glow]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>13</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="main-menu"><![CDATA[main-menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2183]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1966]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_icon]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Navigation]]></title>
-		<link>https://zeng.autodealwordpress.com/navigation/</link>
-		<pubDate>Tue, 24 Jun 2025 01:28:21 +0000</pubDate>
-		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://zeng.autodealwordpress.com/2025/06/24/navigation/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>4</wp:post_id>
-		<wp:post_date><![CDATA[2025-06-24 01:28:21]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-06-24 01:28:21]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-06-24 01:28:21]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-06-24 01:28:21]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[navigation]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Future Trends in AI Development to Watch]]></title>
-		<link>https://zeng.autodealwordpress.com/future-trends-in-ai-development-to-watch/</link>
-		<pubDate>Fri, 30 May 2025 01:49:44 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://drozy.vithemes.com/?p=62</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Artificial Intelligence (AI) is no longer just a buzzword it’s shaping industries, transforming how we work, and creating entirely new career opportunities. For those aiming to become an AI Developer, the path is both challenging and rewarding. Here’s a structured guide to help you navigate your journey.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":2350,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://zeng.autodealwordpress.com/wp-content/uploads/2025/05/image-21312-1.jpg" alt="" class="wp-image-2350"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">1. Essential Skills for an AI Developer</h4>
-<!-- /wp:heading -->
-
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:paragraph -->
-<p>To succeed as an AI Developer, you need a blend of technical and analytical skills.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
-<li>Programming Languages: Python is the top choice, but R, Java, and C++ are also useful.</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Mathematics &amp; Statistics: A strong foundation in linear algebra, calculus, and probability is critical.</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Machine Learning Knowledge: Understanding algorithms, data preprocessing, and model evaluation is essential.</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Problem-Solving Mindset: AI development often involves tackling complex, open-ended challenges.</li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list --></div>
-<!-- /wp:group -->
-
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">2. Tools and Frameworks You Should Know</h4>
-<!-- /wp:heading -->
-
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:paragraph -->
-<p>An AI Developer’s efficiency comes from knowing the right tools.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
-<li>TensorFlow &amp; PyTorch: Popular deep learning frameworks for building and training models.</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Scikit-learn: Great for classical machine learning algorithms.</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Keras: User-friendly interface for deep learning projects.</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>OpenAI API: For natural language processing and conversational AI.</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Jupyter Notebook: An interactive environment for coding and data visualization.</li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list --></div>
-<!-- /wp:group -->
-
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">3. Building Your AI Career Path</h4>
-<!-- /wp:heading -->
-
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:paragraph -->
-<p>Breaking into the AI field requires strategic planning.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
-<li>Start Small: Begin with personal or open-source projects to build your portfolio.</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Join Competitions: Platforms like Kaggle help you test your skills against global talent.</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Network: Attend AI meetups, conferences, and online forums to connect with industry experts.</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>Keep Learning: AI evolves rapidly, so continuous upskilling is non-negotiable.</li>
-<!-- /wp:list-item --></ul>
-<!-- /wp:list --></div>
-<!-- /wp:group -->
-
-<!-- wp:quote -->
-<blockquote class="wp-block-quote"><!-- wp:paragraph -->
-<p>“ An AI developer’s work goes beyond coding. it’s about designing systems that can learn, adapt, and solve problems in ways that push the boundaries of what technology can achieve. “</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">Pixel Horizon</h5>
-<!-- /wp:heading -->
-
-<!-- wp:heading {"level":6} -->
-<h6 class="wp-block-heading">ZenG</h6>
-<!-- /wp:heading --></blockquote>
-<!-- /wp:quote -->
-
-<!-- wp:image {"id":2346,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://zeng.autodealwordpress.com/wp-content/uploads/2025/05/image-21308-1.jpg" alt="" class="wp-image-2346"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">Final Thought:</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Becoming an AI Developer means committing to lifelong learning, mastering the right tools, and actively building a network in the tech community. With the right mix of skills and persistence, you can position yourself at the forefront of one of the most exciting fields in technology.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>62</wp:post_id>
-		<wp:post_date><![CDATA[2025-05-30 01:49:44]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-05-30 01:49:44]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-08-15 07:27:02]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-08-15 07:27:02]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[future-trends-in-ai-development-to-watch]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="ai-applications"><![CDATA[AI Applications]]></category>
-		<category domain="post_tag" nicename="ai-development"><![CDATA[AI Development]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2347]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[post_views]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[10-simple-habits-to-build-a-more-joyful-and-fulfilling-life]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_youtube_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Navigation]]></title>
-		<link>https://zeng.autodealwordpress.com/navigation-2/</link>
-		<pubDate>Wed, 28 May 2025 01:32:48 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://drozy.vithemes.com/2025/05/28/navigation/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>994</wp:post_id>
-		<wp:post_date><![CDATA[2025-05-28 01:32:48]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-05-28 01:32:48]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-05-28 01:32:48]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-05-28 01:32:48]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[navigation-2]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Contact form 1]]></title>
-		<link>https://zeng.autodealwordpress.com/?post_type=wpcf7_contact_form&#038;p=1450</link>
-		<pubDate>Mon, 14 Jul 2025 02:48:43 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?post_type=wpcf7_contact_form&#038;p=1450</guid>
-		<description></description>
-		<content:encoded><![CDATA[<label> Your name
-    [text* your-name autocomplete:name] </label>
-
-<label> Your email
-    [email* your-email autocomplete:email] </label>
-
-<label> Subject
-    [text* your-subject] </label>
-
-<label> Your message (optional)
-    [textarea your-message] </label>
-
-[submit "Submit"]
-[_site_title] "[your-subject]"
-[_site_title] <themesflatc10@gmail.com>
-From: [your-name] [your-email]
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This is a notification that a contact form was submitted on your website ([_site_title] [_site_url]).
-[_site_admin_email]
-Reply-To: [your-email]
-
-0
-0
-
-[_site_title] "[your-subject]"
-[_site_title] <themesflatc10@gmail.com>
-Message Body:
-[your-message]
-
--- 
-This email is a receipt for your contact form submission on our website ([_site_title] [_site_url]) in which your email address was used. If that was not you, please ignore this message.
-[your-email]
-Reply-To: [_site_admin_email]
-
-0
-0
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-Please fill out this field.
-This field has a too long input.
-This field has a too short input.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The uploaded file is too large.
-There was an error uploading the file.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1450</wp:post_id>
-		<wp:post_date><![CDATA[2025-07-14 02:48:43]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-07-14 02:48:43]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-07-14 02:48:43]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-07-14 02:48:43]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[contact-form-1]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<label> Your name
-    [text* your-name autocomplete:name] </label>
-
-<label> Your email
-    [email* your-email autocomplete:email] </label>
-
-<label> Subject
-    [text* your-subject] </label>
-
-<label> Your message (optional)
-    [textarea your-message] </label>
-
-[submit "Submit"]]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:8:{s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:39:"[_site_title] <themesflatc10@gmail.com>";s:4:"body";s:191:"From: [your-name] [your-email]
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This is a notification that a contact form was submitted on your website ([_site_title] [_site_url]).";s:9:"recipient";s:19:"[_site_admin_email]";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:39:"[_site_title] <themesflatc10@gmail.com>";s:4:"body";s:220:"Message Body:
-[your-message]
-
--- 
-This email is a receipt for your contact form submission on our website ([_site_title] [_site_url]) in which your email address was used. If that was not you, please ignore this message.";s:9:"recipient";s:12:"[your-email]";s:18:"additional_headers";s:29:"Reply-To: [_site_admin_email]";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:12:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:27:"Please fill out this field.";s:16:"invalid_too_long";s:32:"This field has a too long input.";s:17:"invalid_too_short";s:33:"This field has a too short input.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:31:"The uploaded file is too large.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
-		<wp:meta_value><![CDATA[af0d1eab524b329c16f7aeeec71dcf6806c4b23e2f117d02f07c99cc03caba85]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -9483,6 +9642,157 @@ This email is a receipt for your contact form submission on our website ([_site_
 			<wp:comment_user_id>1</wp:comment_user_id>
 							</wp:comment>
 					</item>
+					<item>
+		<title><![CDATA[Navigation]]></title>
+		<link>https://zeng.autodealwordpress.com/navigation/</link>
+		<pubDate>Tue, 24 Jun 2025 01:28:21 +0000</pubDate>
+		<dc:creator><![CDATA[]]></dc:creator>
+		<guid isPermaLink="false">https://zeng.autodealwordpress.com/2025/06/24/navigation/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:page-list /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>4</wp:post_id>
+		<wp:post_date><![CDATA[2025-06-24 01:28:21]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-06-24 01:28:21]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-06-24 01:28:21]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-06-24 01:28:21]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[navigation]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Contact form 1]]></title>
+		<link>https://zeng.autodealwordpress.com/?post_type=wpcf7_contact_form&#038;p=1450</link>
+		<pubDate>Mon, 14 Jul 2025 02:48:43 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://zeng.autodealwordpress.com/?post_type=wpcf7_contact_form&#038;p=1450</guid>
+		<description></description>
+		<content:encoded><![CDATA[<label> Your name
+    [text* your-name autocomplete:name] </label>
+
+<label> Your email
+    [email* your-email autocomplete:email] </label>
+
+<label> Subject
+    [text* your-subject] </label>
+
+<label> Your message (optional)
+    [textarea your-message] </label>
+
+[submit "Submit"]
+[_site_title] "[your-subject]"
+[_site_title] <themesflatc10@gmail.com>
+From: [your-name] [your-email]
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This is a notification that a contact form was submitted on your website ([_site_title] [_site_url]).
+[_site_admin_email]
+Reply-To: [your-email]
+
+0
+0
+
+[_site_title] "[your-subject]"
+[_site_title] <themesflatc10@gmail.com>
+Message Body:
+[your-message]
+
+-- 
+This email is a receipt for your contact form submission on our website ([_site_title] [_site_url]) in which your email address was used. If that was not you, please ignore this message.
+[your-email]
+Reply-To: [_site_admin_email]
+
+0
+0
+Thank you for your message. It has been sent.
+There was an error trying to send your message. Please try again later.
+One or more fields have an error. Please check and try again.
+There was an error trying to send your message. Please try again later.
+You must accept the terms and conditions before sending your message.
+Please fill out this field.
+This field has a too long input.
+This field has a too short input.
+There was an unknown error uploading the file.
+You are not allowed to upload files of this type.
+The uploaded file is too large.
+There was an error uploading the file.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1450</wp:post_id>
+		<wp:post_date><![CDATA[2025-07-14 02:48:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-07-14 02:48:43]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-07-14 02:48:43]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-07-14 02:48:43]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact-form-1]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<label> Your name
+    [text* your-name autocomplete:name] </label>
+
+<label> Your email
+    [email* your-email autocomplete:email] </label>
+
+<label> Subject
+    [text* your-subject] </label>
+
+<label> Your message (optional)
+    [textarea your-message] </label>
+
+[submit "Submit"]]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:8:{s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:39:"[_site_title] <themesflatc10@gmail.com>";s:4:"body";s:191:"From: [your-name] [your-email]
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This is a notification that a contact form was submitted on your website ([_site_title] [_site_url]).";s:9:"recipient";s:19:"[_site_admin_email]";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:39:"[_site_title] <themesflatc10@gmail.com>";s:4:"body";s:220:"Message Body:
+[your-message]
+
+-- 
+This email is a receipt for your contact form submission on our website ([_site_title] [_site_url]) in which your email address was used. If that was not you, please ignore this message.";s:9:"recipient";s:12:"[your-email]";s:18:"additional_headers";s:29:"Reply-To: [_site_admin_email]";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:12:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:27:"Please fill out this field.";s:16:"invalid_too_long";s:32:"This field has a too long input.";s:17:"invalid_too_short";s:33:"This field has a too short input.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:31:"The uploaded file is too large.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
+		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
+		<wp:meta_value><![CDATA[af0d1eab524b329c16f7aeeec71dcf6806c4b23e2f117d02f07c99cc03caba85]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
 					<item>
 		<title><![CDATA[Form Contact]]></title>
 		<link>https://zeng.autodealwordpress.com/?post_type=wpcf7_contact_form&#038;p=1451</link>

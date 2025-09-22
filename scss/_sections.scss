@@ -1,5 +1,7 @@
 @use "./abstracts/index" as *;
-
+.home .main-content {
+   padding-top: 0px;
+}
 .main-content {
   padding-top: 50px;
   min-height: 100vh;
