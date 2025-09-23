@@ -1512,12 +1512,22 @@ img.aligncenter {
   font-size: 16px;
 }
 
-.comment_meta {
-  padding-left: 60px;
-}
-
 .comment-list-wrap {
   margin-bottom: 30px;
+}
+
+.comment_text p {
+  margin-bottom: 10px;
+}
+
+.comments-area ul.children {
+    list-style: none;
+    padding-left: 40px;
+}
+
+.comment-list .comment_content {
+    padding-bottom: 30px;
+    width: 100%;
 }
 
 .comment-form-cookies-consent {
@@ -5636,6 +5646,11 @@ article footer {
 .wrap-content-post-single .post-social-share .social li a:hover {
   background-color: var(--Primary);
   color: var(--Black);
+}
+
+.comment_wrap .comment-wrap {
+  display: flex;
+  gap: 20px;
 }
 
 .share-bar ul {
