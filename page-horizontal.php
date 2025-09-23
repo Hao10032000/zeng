@@ -251,15 +251,21 @@ $header_button_url = themesflat_get_opt('header_button_url');
 
                     </div>
                 </div>
-                <div class="right-bar style-1 d-flex flex-column align-items-center">
-                    <ul class="list-icon menu-option d-flex flex-column gap_8">
-                        <li><a href="#" class="link-no-action show-sidebar"><i class="icon-CirclesFour"></i></a>
-                        </li>
-                        <li>
-                            <div class="toggle-switch-mode"><i class="icon-Sun"></i></div>
-                        </li>
-                    </ul>
-                </div>
+
+                
+                <?php if (themesflat_get_opt('button_navigation') == 1 || themesflat_get_opt('button_dark_mode') == 1):?>
+                    <div class="right-bar style-1 d-flex flex-column align-items-center">
+                        <ul class="list-icon menu-option d-flex flex-column gap_8">
+                            <?php if (themesflat_get_opt('button_navigation') == 1):?>
+                                <li><a href="#" class="link-no-action show-sidebar"><i class="icon-CirclesFour"></i></a></li>
+                            <?php endif; ?>
+                            <?php if (themesflat_get_opt('button_dark_mode') == 1):?>
+                                <li><div class="toggle-switch-mode"><i class="icon-Sun"></i></div></li>
+                            <?php endif; ?>
+                        </ul>
+                    </div>
+                <?php endif; ?>
+
             </div>
 
 

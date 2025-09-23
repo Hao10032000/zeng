@@ -14,7 +14,7 @@ function themesflat_customize_default($key) {
 
 		'social_header' => 1,
 
-		'style_background' => '',
+		'style_background' => 'page-background',
 		'video_background' => 'video-1',
 		'image_background' =>  THEMESFLAT_LINK . 'images/background.svg',
 
@@ -58,6 +58,10 @@ function themesflat_customize_default($key) {
 		'primary_color'=>'#40E377',
 		'body_text_color'=>'#A6A7AE',
 		'border_color'=>'#e9e9e9',
+
+		'button_navigation' => 0,		
+		'button_dark_mode' => 0,		
+
 		
 		
 		'body_background_color' => '',
@@ -115,6 +119,11 @@ function themesflat_customize_default($key) {
 		'page_sidebar_list'	=> 'blog-sidebar',	
 		'heading_related' => 'Related Post',
 		'blog_single_style' => 'default',
+		'blog_single_meta' => 0,
+		'blog_single_share_sidebar' => 0,
+		'blog_single_share_bottom' => 0,
+		'blog_single_navigation' => 0,
+		'post_content_layout' => 'list',
 
 		'footer_background_color'	=> '#24283E',
 		'footer_title_widget_color' => '#fff',
@@ -148,14 +157,14 @@ function themesflat_customize_default($key) {
 		'page_title_styles' => 'default',
 		'page_title_alignment' => 'left',
 		'typography_body' => array(
-			'family' => 'Inter',
+			'family' => '',
 			'style'  => '400',
 			'size'   => '16',
 			'line_height'=>'28px',
 			'letter_spacing' => '',
 		),
 		'typography_headings'	=> array(
-			'family' => 'Inter',
+			'family' => '',
 			'style'  => '500',
 			'line_height'=>'1.333',
 			'letter_spacing' => '0px'		
@@ -168,7 +177,7 @@ function themesflat_customize_default($key) {
 			'letter_spacing' => '',
 		), 
 		'typography_sub_menu' => array(
-			'family' => 'Inter',
+			'family' => '',
 			'style'  => '',
 			'size'   => '',
 			'line_height'=>'',

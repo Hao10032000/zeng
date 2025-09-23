@@ -21,7 +21,7 @@ $blog_layout_sidebar = isset($_GET['sidebar_layout']) ? $_GET['sidebar_layout'] 
 					<div id="primary" class="content-area">
 						<main id="main" class="post-wrap" role="main">
 							<?php if ( have_posts() ) : ?>
-							<div class="wrap-blog-article has-post-content">
+							<div class="wrap-blog-article has-post-content <?php echo esc_attr(themesflat_get_opt('post_content_layout')); ?>"">
 								<?php while ( have_posts() ) : the_post(); ?>
 
 									<?php

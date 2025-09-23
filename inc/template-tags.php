@@ -39,14 +39,15 @@ function themesflat_entry_footer() {
 	}
 	 ?>
 
-    <div class="entry-footer">
-	
-    <?php
-	 printf($tags_links); 
+    <?php if (themesflat_get_opt('blog_single_share_bottom') == 1):?>
+    	<div class="entry-footer">
+			<?php
+			printf($tags_links); 
 
-	themesflat_social_single();
-	?>
-     </div>
+			themesflat_social_single();
+			?>
+     	</div>
+    <?php endif; ?>
 <?php
 
 }

@@ -10,8 +10,13 @@
 ?>
 
 <?php 
-$template_action_box_id = themesflat_get_opt( 'template_action_box' );
-echo do_shortcode('[my_elementor_template id='. $template_action_box_id .']'); ?>
+$template_action_box_id = themesflat_get_opt('template_action_box');
+
+if ( !empty($template_action_box_id) ) {
+    echo do_shortcode('[my_elementor_template id="'. esc_attr($template_action_box_id) .'"]');
+}
+?>
+
 
 </div><!-- #main-content -->
 

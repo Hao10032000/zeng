@@ -340,6 +340,7 @@
           data: {
             action: "zeng_load_post_popup",
             post_id: post_id,
+            security: zeng_ajax.nonce,
           },
           beforeSend: function () {
             $("#post-popup .popup-content").html("<p>Loading...</p>");
@@ -354,6 +355,7 @@
             );
           },
         });
+
       });
 
       $(document).on("click", ".close-popup", function () {

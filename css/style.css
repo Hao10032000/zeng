@@ -314,6 +314,7 @@ p {
   font-size: 16px;
   line-height: 28px;
   color: var(--Text-muted);
+  margin-bottom: 30px;
 }
 
 strong,
@@ -381,6 +382,8 @@ pre {
   hyphens: none;
   border-radius: 0;
   height: auto;
+      color: #6f6767;
+
 }
 
 svg,
@@ -5097,6 +5100,22 @@ footer {
   grid-gap: 40px 30px;
 }
 
+.wrap-blog-article.list {
+  grid-template-columns: unset !important;
+}
+
+.has-pale-cyan-blue-background-color ,
+.has-pale-pink-background-color {
+  padding: 20px;
+}
+
+.has-light-green-cyan-background-color p,
+.has-pale-cyan-blue-background-color p,
+.has-pale-pink-background-color p,
+.wp-block-group.has-background p {
+  color: #000;
+}
+
 .wrap-blog-article .blog-post:first-child {
   grid-column: 1/-1;
 }
@@ -5147,7 +5166,9 @@ footer {
 }
 
 .featured-post a img {
-  width: 100%;
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
 }
 
 .blog-post .title {
@@ -5157,6 +5178,7 @@ footer {
   line-height: 40px;
   text-transform: capitalize;
   margin-bottom: 13px;
+  word-break: break-word;
 }
 
 .blog-post .post-content {
@@ -5317,7 +5339,7 @@ footer {
   font-family: "Sora", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 1.6666666666666667em;
 }
 
 .wp-block-list {
@@ -5327,7 +5349,8 @@ footer {
   font-family: "Sora", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 1.6666666666666667em;
+
   position: relative;
   color: var(--Text-muted);
 }
@@ -5352,9 +5375,20 @@ footer {
 }
 
 .single-post .main-content blockquote {
+  padding: 20px;
   backdrop-filter: blur(12px);
   padding-left: 40px;
   border-left: 2px solid var(--Primary);
+  background: #fff;
+  color: #000;
+}
+
+.wp-block-preformatted {
+      color: #6f6767;
+}
+
+.single-post .main-content blockquote p {
+  color: #000;
 }
 
 .single-post .main-content blockquote p:not(:first-child) {
@@ -5383,6 +5417,7 @@ footer {
   font-size: 44px;
   line-height: 60px;
   font-family: "Sora", sans-serif;
+      word-break: break-word;
 }
 
 .form-submit .tf-btn {
@@ -5506,6 +5541,11 @@ article footer {
   border-radius: 16px;
   overflow: hidden;
 }
+
+.sidebar .infor-siderbar .infor-header .avata img {
+  width: 100%;
+  height: 100%;
+}
 .sidebar .infor-siderbar .infor-header .content h5 {
   font-family: "Epilogue", sans-serif;
 }
@@ -5621,6 +5661,13 @@ article footer {
 .meta-category {
   margin-bottom: 16px;
 }
+.blog-detail_heading .meta-category {
+    display: flex
+;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 .meta-category .cat-badge {
   display: inline-block;
   background: var(--Primary);

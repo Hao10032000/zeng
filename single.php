@@ -21,38 +21,41 @@ get_header(); ?>
             </div>
 
             <div class="wrap-content-post-single">
-                <div class="post-social-share">
-                    <ul class="social">
-                        <li>
-                            <a href="mailto:?subject=<?php the_title(); ?>&body=<?php the_permalink(); ?>"
-                                target="_blank">
-                                <i class="icon-EnvelopeSimple"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/intent/tweet?url=<?php the_permalink(); ?>&text=<?php the_title(); ?>"
-                                target="_blank">
-                                <i class="icon-X"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/sharing/share-offsite/?url=<?php the_permalink(); ?>"
-                                target="_blank">
-                                <i class="icon-LinkedIn"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://dribbble.com/" target="_blank">
-                                <i class="icon-dribbble"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/" target="_blank">
-                                <i class="icon-GitHub"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+
+                <?php if (themesflat_get_opt('blog_single_share_sidebar') == 1):?>
+                    <div class="post-social-share">
+                        <ul class="social">
+                            <li>
+                                <a href="mailto:?subject=<?php the_title(); ?>&body=<?php the_permalink(); ?>"
+                                    target="_blank">
+                                    <i class="icon-EnvelopeSimple"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/intent/tweet?url=<?php the_permalink(); ?>&text=<?php the_title(); ?>"
+                                    target="_blank">
+                                    <i class="icon-X"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/sharing/share-offsite/?url=<?php the_permalink(); ?>"
+                                    target="_blank">
+                                    <i class="icon-LinkedIn"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://dribbble.com/" target="_blank">
+                                    <i class="icon-dribbble"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/" target="_blank">
+                                    <i class="icon-GitHub"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                <?php endif; ?>
 
                 <div class="blog-detail_heading">
                     <?php
@@ -67,6 +70,7 @@ get_header(); ?>
             }
             ?>
                     <h3 class="title_detail text-linear"><?php the_title(); ?></h3>
+                <?php if (themesflat_get_opt('blog_single_meta') == 1):?>
                     <?php
             echo '<ul class="meta-feature">';
                 $author_id = get_post_field('post_author', get_the_ID());
@@ -80,14 +84,18 @@ get_header(); ?>
                 echo '</li>';
             echo '</ul>';
             ?>
+                <?php endif; ?>
+
                 </div>
 
                 <div class="popup-post-content">
                     <?php the_content(); ?>
                     
-                    <?php themesflat_entry_footer(); 
-                        themesflat_post_navigation();
-                    ?>
+                    <?php if (themesflat_get_opt('blog_single_navigation') == 1):?>
+                        <?php themesflat_entry_footer(); 
+                            themesflat_post_navigation();
+                        ?>
+                    <?php endif; ?>
 
                     <?php
                         if (comments_open() || get_comments_number()) :

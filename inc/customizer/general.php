@@ -132,3 +132,39 @@ $wp_customize->add_setting(
           'priority' => 4,
       ))
   );
+
+  // Enable Header Sticky
+$wp_customize->add_setting(
+  'button_navigation',
+    array(
+        'sanitize_callback' => 'themesflat_sanitize_checkbox',
+        'default' => themesflat_customize_default('button_navigation'),     
+    )   
+);
+$wp_customize->add_control( new themesflat_Checkbox( $wp_customize,
+    'button_navigation',
+    array(
+        'type' => 'checkbox',
+        'label' => esc_html__('Button Header Bottom ( OFF | ON )', 'zeng'),
+        'section' => 'general_panel',
+        'priority' => 3,
+    ))
+);  
+
+  // Enable Header Sticky
+$wp_customize->add_setting(
+  'button_dark_mode',
+    array(
+        'sanitize_callback' => 'themesflat_sanitize_checkbox',
+        'default' => themesflat_customize_default('button_dark_mode'),     
+    )   
+);
+$wp_customize->add_control( new themesflat_Checkbox( $wp_customize,
+    'button_dark_mode',
+    array(
+        'type' => 'checkbox',
+        'label' => esc_html__('Button Dark Mode ( OFF | ON )', 'zeng'),
+        'section' => 'general_panel',
+        'priority' => 3,
+    ))
+);  

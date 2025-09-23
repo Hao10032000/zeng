@@ -262,6 +262,10 @@ footer {
   grid-gap: 40px 30px;
 }
 
+.wrap-blog-article.list {
+  grid-template-columns: unset !important;
+}
+
 .wrap-blog-article .blog-post:first-child {
   grid-column: 1 / -1;
 }

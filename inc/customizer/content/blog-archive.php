@@ -2,6 +2,29 @@
 
 // Entry Content Elements
 $wp_customize->add_setting (
+    'post_content_layout',
+    array (
+        'sanitize_callback' => 'themesflat_sanitize_text',
+        'default' => themesflat_customize_default('post_content_layout'),     
+    )
+);
+$wp_customize->add_control( 
+    'post_content_layout',
+    array (
+        'type'      => 'select',           
+        'section'   => 'section_content_blog_archive',
+        'priority'  => 1,
+        'label'         => esc_html__('Post Content Layout', 'zeng'),
+        'default'           => 'sidebar-right',
+        'choices'   => array (
+            'list'            => esc_html__( 'List', 'zeng' ),
+            'grid'           => esc_html__( 'Grid', 'zeng' ),
+        ),
+    )
+);
+
+// Entry Content Elements
+$wp_customize->add_setting (
     'post_content_elements',
     array (
         'sanitize_callback' => 'themesflat_sanitize_text',

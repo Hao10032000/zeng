@@ -5,6 +5,8 @@
  * @package zeng
  */
 
+// remove_theme_mods();
+
 // Constants
 define( 'THEMESFLAT_DIR', trailingslashit( get_template_directory() ));
 define( 'THEMESFLAT_LINK', trailingslashit( get_template_directory_uri() ));
